@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "LandScapeHO",
+			"Path": "D:\\Work\\IEPROJ\\AgilaUnrealRepo\\LandscapeHO\\LandScapeHO\\Source\\LandScapeHO.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "LandScapeHOEditor",
+			"Path": "D:\\Work\\IEPROJ\\AgilaUnrealRepo\\LandscapeHO\\LandScapeHO\\Source\\LandScapeHOEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

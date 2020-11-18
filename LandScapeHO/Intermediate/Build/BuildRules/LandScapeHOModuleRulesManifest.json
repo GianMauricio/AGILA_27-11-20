@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Work\\IEPROJ\\AgilaUnrealRepo\\LandscapeHO\\LandScapeHO\\Source\\LandScapeHO\\LandScapeHO.Build.cs",
+		"D:\\Work\\IEPROJ\\AgilaUnrealRepo\\LandscapeHO\\LandScapeHO\\Source\\LandScapeHO.Target.cs",
+		"D:\\Work\\IEPROJ\\AgilaUnrealRepo\\LandscapeHO\\LandScapeHO\\Source\\LandScapeHOEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.3"
+}

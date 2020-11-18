@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\LandScapeHO.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{514B6FD6-2096-45B8-A665-C2FEA073DC43}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LandScapeHO.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LandScapeHOEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{B0FCE3C1-4CAE-40BA-BD0E-7B102CCA62D1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\LandScapeHO">
+      <UniqueIdentifier>{DB9F037C-02CC-4CAC-A7AB-D406F24B4CD4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LandScapeHO\LandScapeHO.Build.cs">
+      <Filter>Source\LandScapeHO</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\LandScapeHO\LandScapeHO.cpp">
+      <Filter>Source\LandScapeHO</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LandScapeHO\LandScapeHO.h">
+      <Filter>Source\LandScapeHO</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LandScapeHO\LandScapeHOGameModeBase.cpp">
+      <Filter>Source\LandScapeHO</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LandScapeHO\LandScapeHOGameModeBase.h">
+      <Filter>Source\LandScapeHO</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
