@@ -73,7 +73,20 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
+#Stuff inside the imported folder
+AGILA/Content/Imported
 
 #Temp Files
 AGILA/Saved
-*.uasset
+AGILA/Content/Collections
+AGILA/Content/Developers
+AGILA/Content/StarterContent/Architecture
+AGILA/Content/StarterContent/Audio
+AGILA/Content/StarterContent/Blueprints
+AGILA/Content/StarterContent/HDRI
+AGILA/Content/StarterContent/Images
+AGILA/Content/StarterContent/Maps
+AGILA/Content/StarterContent/Materials
+AGILA/Content/StarterContent/Particles
+AGILA/Content/StarterContent/Props
+AGILA/Content/StarterContent/Shapes
