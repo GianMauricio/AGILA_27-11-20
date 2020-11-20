@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "AGILA",
+			"Path": "C:\\Users\\janca\\Documents\\GDENG-1\\AGILA\\Source\\AGILA.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "AGILAEditor",
+			"Path": "C:\\Users\\janca\\Documents\\GDENG-1\\AGILA\\Source\\AGILAEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

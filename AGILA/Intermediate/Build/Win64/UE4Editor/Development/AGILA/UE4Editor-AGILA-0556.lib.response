@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-AGILA-0556.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\janca\Documents\Unreal Projects\AGILA\Intermediate\Build\Win64\AGILAEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\janca\Documents\Unreal Projects\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\AGILA.cpp.obj"
+"C:\Users\janca\Documents\Unreal Projects\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\AGILAGameModeBase.cpp.obj"
+"C:\Users\janca\Documents\Unreal Projects\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\i_am_a_fuckin_camera_PAWN.cpp.obj"
+"C:\Users\janca\Documents\Unreal Projects\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\AGILA.init.gen.cpp.obj"
+"C:\Users\janca\Documents\Unreal Projects\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\AGILAGameModeBase.gen.cpp.obj"
+"C:\Users\janca\Documents\Unreal Projects\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\i_am_a_fuckin_camera_PAWN.gen.cpp.obj"
+"C:\Users\janca\Documents\Unreal Projects\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\Default.rc2.res"
+/OUT:"C:\Users\janca\Documents\Unreal Projects\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\UE4Editor-AGILA-0556.lib"
+/INCLUDE:IMPLEMENT_MODULE_AGILA
