@@ -75,7 +75,4 @@ DerivedDataCache/*
 
 #Stuff that needs to stay local
 AGILA/Content/Imported
-
-#Temp Ignores
 AGILA/Saved
-AGILA/Content/Collections
