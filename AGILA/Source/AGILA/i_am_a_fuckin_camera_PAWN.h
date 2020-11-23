@@ -54,6 +54,10 @@ public:
 	bool moveForward;
 	bool moveNothing;
 	float currentVelocity = 0;
+	
+	UPROPERTY(EditAnywhere)
+		float speedMultiplyer = 1;
+	
 	FVector previousPosition;
 	FVector nowPosition;
 
