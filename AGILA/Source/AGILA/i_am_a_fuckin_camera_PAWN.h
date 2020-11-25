@@ -51,7 +51,15 @@ public:
 	UPROPERTY(EditAnywhere)
 		float MIN_MAX[2];
 
-
+	bool moveForward;
+	bool moveNothing;
+	float currentVelocity = 0;
+	
+	UPROPERTY(EditAnywhere)
+		float speedMultiplyer = 1;
+	
+	FVector previousPosition;
+	FVector nowPosition;
 
 public:
 	// Sets default values for this pawn's properties
@@ -72,6 +80,7 @@ public:
 	void MouseYaw(float axis);
 	void MousePitch(float axis);
 	void MoveForward();
+	void doNothing();
 
 
 };
