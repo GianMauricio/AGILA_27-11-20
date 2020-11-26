@@ -1,5 +1,5 @@
-C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\Definitions.AGILA.h
-C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Source\AGILA\i_am_a_fuckin_camera_PAWN.h
+D:\Work\IEPROJ\AgilaUnrealRepo\LandscapeHO\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\Definitions.AGILA.h
+D:\Work\IEPROJ\AgilaUnrealRepo\LandscapeHO\AGILA\Source\AGILA\i_am_a_fuckin_camera_PAWN.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
@@ -8,4 +8,4 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Compone
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ArrowComponent.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/StaticMeshActor.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMeshActor.generated.h
-C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Inc\AGILA\i_am_a_fuckin_camera_PAWN.generated.h
+D:\Work\IEPROJ\AgilaUnrealRepo\LandscapeHO\AGILA\Intermediate\Build\Win64\UE4Editor\Inc\AGILA\i_am_a_fuckin_camera_PAWN.generated.h
