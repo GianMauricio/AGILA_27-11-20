@@ -30,7 +30,7 @@ Ai_am_a_fuckin_camera_PAWN::Ai_am_a_fuckin_camera_PAWN()
 
 	//Attach the stuff
 	springArm->SetupAttachment(RootComponent);
-	springArm->TargetArmLength = 350.f; //3.5 meters
+	springArm->TargetArmLength = 10.f; //3.5 meters //350.f
 	//springArm->TargetOffset = RootComponent->GetForwardVector().BackwardVector * 100.f;
 	springArm->SetWorldRotation(FRotator(0.0f, 0.0f, 0.0f));//FRotator pitch yaw roll in degrees
 								//this attaches the camera to the end of the springArm
@@ -136,7 +136,7 @@ void Ai_am_a_fuckin_camera_PAWN::Tick(float DeltaTime)
 		*/
 
 		FVector actorLoc = actorReference->GetActorLocation();
-		actorReference->SetActorLocation(actorLoc + (arrowLocation->GetForwardVector() * currentVelocity * DeltaTime) + (downVector.DownVector * (9.8 * 50) * DeltaTime));
+		actorReference->SetActorLocation(actorLoc + (arrowLocation->GetForwardVector() * (currentVelocity * speedMultiplyer) * DeltaTime) + (downVector.DownVector * (9.8 * 50) * DeltaTime));
 		RootComponent->SetWorldLocation((actorReference->GetActorLocation() + offset));
 		actorReference->SetActorRotation(arrowLocation->GetComponentRotation() + finalOffset);
 
@@ -197,12 +197,12 @@ void Ai_am_a_fuckin_camera_PAWN::MoveForward() {
 	}*/
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("FOWARD"));
 	moveForward = true;
-	currentVelocity = 3000;
-	/*currentVelocity += 500;
+	//currentVelocity = 3000;
+	currentVelocity += 50;
 	if(currentVelocity > 3000)
 	{
-		currentVelocity = 300;
-	}*/
+		currentVelocity = 3000;
+	}
 	
 }
 void Ai_am_a_fuckin_camera_PAWN::doNothing()

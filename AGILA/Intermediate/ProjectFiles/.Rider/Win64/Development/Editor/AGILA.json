@@ -2,8 +2,8 @@
 	"Name": "AGILAEditor",
 	"Configuration": "Development",
 	"Platform": "Win64",
-	"TargetFile": "C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA\\Source\\AGILAEditor.Target.cs",
-	"ProjectFile": "C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA\\AGILA.uproject",
+	"TargetFile": "C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA_GIT_2\\AGILA\\Source\\AGILAEditor.Target.cs",
+	"ProjectFile": "C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA_GIT_2\\AGILA\\AGILA.uproject",
 	"EnvironmentIncludePaths": [
 		"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source",
 		"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.27.29110\\INCLUDE",
@@ -1327,7 +1327,7 @@
 			]
 		},
 		{
-			"File": "C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA\\Binaries\\Win64\\UE4Editor-AGILA.dll",
+			"File": "C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA_GIT_2\\AGILA\\Binaries\\Win64\\UE4Editor-AGILA.dll",
 			"Type": "DynamicLinkLibrary",
 			"Modules": [
 				"AGILA"
@@ -12357,7 +12357,7 @@
 			"ShouldAddLegacyPublicIncludePaths": false,
 			"RuntimeDependencies": [
 				{
-					"Path": "C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA/Config/SteamVRBindings/...",
+					"Path": "C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA_GIT_2\\AGILA/Config/SteamVRBindings/...",
 					"Type": "NonUFS"
 				}
 			],
@@ -12878,8 +12878,8 @@
 		"AGILA": 
 		{
 			"Name": "AGILA",
-			"Directory": "C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA\\Source\\AGILA",
-			"Rules": "C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA\\Source\\AGILA\\AGILA.Build.cs",
+			"Directory": "C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA_GIT_2\\AGILA\\Source\\AGILA",
+			"Rules": "C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA_GIT_2\\AGILA\\Source\\AGILA\\AGILA.Build.cs",
 			"PCHUsage": "UseExplicitOrSharedPCHs",
 			"PublicDependencyModules": [
 				"Core",
@@ -12891,10 +12891,10 @@
 				"Engine"
 			],
 			"PublicIncludePaths": [
-				"C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA\\Source"
+				"C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA_GIT_2\\AGILA\\Source"
 			],
 			"LegacyPublicIncludePaths": [
-				"C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA\\Source\\AGILA"
+				"C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA_GIT_2\\AGILA\\Source\\AGILA"
 			],
 			"PublicDelayLoadDLLs": [
 				"d3d12.dll"
@@ -12907,7 +12907,7 @@
 				"AGILA_API="
 			],
 			"ShouldAddLegacyPublicIncludePaths": false,
-			"GeneratedCodeDirectory": "C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\AGILA",
+			"GeneratedCodeDirectory": "C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA_GIT_2\\AGILA\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\AGILA",
 			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Engine\\Public\\EngineSharedPCH.h"
 		},
 		"BuildSettings": 
@@ -13370,11 +13370,11 @@
 					"Type": "DebugNonUFS"
 				},
 				{
-					"Path": "C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA/Content/Slate/...",
+					"Path": "C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA_GIT_2\\AGILA/Content/Slate/...",
 					"Type": "UFS"
 				},
 				{
-					"Path": "C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA/Content/SlateDebug/...",
+					"Path": "C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA_GIT_2\\AGILA/Content/SlateDebug/...",
 					"Type": "DebugNonUFS"
 				}
 			],
