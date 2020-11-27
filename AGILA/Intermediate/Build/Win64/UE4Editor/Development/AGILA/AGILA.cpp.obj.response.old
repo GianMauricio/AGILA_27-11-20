@@ -230,8 +230,8 @@
 /I Runtime\Experimental\GeometryCollectionSimulationCore\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I "C:\Users\janca\Documents\Unreal Projects\AGILA\Intermediate\Build\Win64\UE4Editor\Inc\AGILA"
-/I "C:\Users\janca\Documents\Unreal Projects\AGILA\Source"
+/I "C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Inc\AGILA"
+/I "C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Source"
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -261,12 +261,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\janca\Documents\Unreal Projects\AGILA\Intermediate\Build\Win64\AGILAEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\janca\Documents\Unreal Projects\AGILA\Intermediate\Build\Win64\AGILAEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\janca\Documents\Unreal Projects\AGILA\Intermediate\Build\Win64\AGILAEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\janca\Documents\Unreal Projects\AGILA\Source\AGILA\AGILA.cpp"
-/FI"C:\Users\janca\Documents\Unreal Projects\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\Definitions.AGILA.h"
-/Fo"C:\Users\janca\Documents\Unreal Projects\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\AGILA.cpp.obj"
+/FI"C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\AGILAEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\AGILAEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\AGILAEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Source\AGILA\AGILA.cpp"
+/FI"C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\Definitions.AGILA.h"
+/Fo"C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\AGILA.cpp.obj"
 /TP
 /GR-
 /W4
