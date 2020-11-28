@@ -7,6 +7,8 @@
 
 #include "i_am_a_fuckin_camera_PAWN.h"
 
+#include <string>
+
 
 // Sets default values
 Ai_am_a_fuckin_camera_PAWN::Ai_am_a_fuckin_camera_PAWN()
@@ -44,6 +46,7 @@ Ai_am_a_fuckin_camera_PAWN::Ai_am_a_fuckin_camera_PAWN()
 
 	//reference to the actor static mesh
 	//actorReference->GetComponents<UStaticMeshComponent>(StaticComps);
+
 	
 }
 
@@ -53,6 +56,9 @@ void Ai_am_a_fuckin_camera_PAWN::BeginPlay()
 	Super::BeginPlay();
 
 	UE_LOG(LogTemp, Warning, TEXT("HEllo"));
+
+	nowPosition = actorReference->GetActorLocation();
+	previousPosition = actorReference->GetActorLocation();
 	
 }
 
@@ -106,7 +112,14 @@ void Ai_am_a_fuckin_camera_PAWN::Tick(float DeltaTime)
 
 
 
-
+	if(moveForward)
+	{
+		currentVelocity = FMath::FInterpTo(currentVelocity, 3000.f, DeltaTime, 6);
+	}
+	else if(!moveForward)
+	{
+		currentVelocity = FMath::FInterpTo(currentVelocity, 0, DeltaTime, 8.f);
+	}
 
 	//physics
 	if (!moveForward || moveForward)
@@ -116,15 +129,20 @@ void Ai_am_a_fuckin_camera_PAWN::Tick(float DeltaTime)
 		
 		//FString velocityString = FString::SanitizeFloat(currentVelocity);
 		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, velocityString);
-		
-		currentVelocity -= 10;
-		if (currentVelocity <= 0)
-		{
-			currentVelocity = 0;
-		}
 
-		nowPosition = RootComponent->GetComponentLocation();
+
+		
+		//get change in position
+		
 		FVector deltaPosition = nowPosition - previousPosition;
+		FVector deltaVelocity = deltaPosition / DeltaTime;
+		previousPosition = nowPosition;
+		
+		//FString someString = FString::SanitizeFloat(currentVelocity);
+		FString someString = deltaPosition.ToString();
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, someString);
+		
+		
 
 		/*
 		RootComponent->SetWorldLocation(location + (arrowLocation->GetForwardVector() * currentVelocity * DeltaTime) + (downVector.DownVector * (9.8*50) * DeltaTime));
@@ -135,11 +153,12 @@ void Ai_am_a_fuckin_camera_PAWN::Tick(float DeltaTime)
 		actorReference->SetActorRotation(arrowLocation->GetComponentRotation() + finalOffset);
 		*/
 
+		
 		FVector actorLoc = actorReference->GetActorLocation();
 		actorReference->SetActorLocation(actorLoc + (arrowLocation->GetForwardVector() * (currentVelocity * speedMultiplyer) * DeltaTime) + (downVector.DownVector * (9.8 * 50) * DeltaTime));
 		RootComponent->SetWorldLocation((actorReference->GetActorLocation() + offset));
 		actorReference->SetActorRotation(arrowLocation->GetComponentRotation() + finalOffset);
-
+		nowPosition = actorReference->GetActorLocation();
 
 
 
@@ -189,20 +208,27 @@ void Ai_am_a_fuckin_camera_PAWN::MousePitch(float axis) {
 }
 
 void Ai_am_a_fuckin_camera_PAWN::MoveForward() {
-	/*UStaticMeshComponent* meshComp = Cast<UStaticMeshComponent>(actorReference->GetRootComponent());
-	if (meshComp) {
-		//float speed = 100.f;
-		//meshComp->AddImpulse(actorReference->GetActorForwardVector() * 15000.f * meshComp->GetMass());
+	/*
+	UStaticMeshComponent* meshComp = Cast<UStaticMeshComponent>(actorReference->GetRootComponent());
+	FVector maxVelocity = FVector(500.f, 500.f, 500.f);
+	if (meshComp /* && meshComp->GetComponentVelocity() <= maxVelocity) {
+		float speed = 100.f;
+		meshComp->AddImpulse(actorReference->GetActorForwardVector() * 15000.f * meshComp->GetMass());
 		//actorReference->SetActorLocation(actorReference->GetActorLocation().ForwardVector + speed * )
-	}*/
+	}
+	*/
+	
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("FOWARD"));
 	moveForward = true;
 	//currentVelocity = 3000;
-	currentVelocity += 50;
-	if(currentVelocity > 3000)
+	//currentVelocity += 50;
+	//currentVelocity = FMath::FInterpTo(currentVelocity, 3000.f, );
+	/*if(currentVelocity > 3000)
 	{
 		currentVelocity = 3000;
-	}
+	}*/
+
+	
 	
 }
 void Ai_am_a_fuckin_camera_PAWN::doNothing()
