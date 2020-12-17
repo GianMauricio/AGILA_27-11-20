@@ -1,7 +1,4 @@
 
-
-
-
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
@@ -22,31 +19,26 @@ Ai_am_a_fuckin_camera_PAWN::Ai_am_a_fuckin_camera_PAWN()
 	arrowLocation = CreateDefaultSubobject<UArrowComponent>(TEXT("Arrow"));
 	//Debug purposes lang
 	mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
-//	UStaticMeshComponent* meshComp = Cast<UStaticMeshComponent>(actorReference->GetRootComponent());
-
-
+	mesh->SetSimulatePhysics(true);
+	
 	
 	//To position some stuff
 	//pivot point to rotate around this actor //rootcomponent defines the transform of this actor in the world
+	//RootComponent = primitive;//mesh
 	RootComponent = mesh;
-
 	//Attach the stuff
+	
 	springArm->SetupAttachment(RootComponent);
-	springArm->TargetArmLength = 10.f; //3.5 meters //350.f
-	//springArm->TargetOffset = RootComponent->GetForwardVector().BackwardVector * 100.f;
+	springArm->TargetArmLength = 70.f; //3.5 meters //350.f
 	springArm->SetWorldRotation(FRotator(0.0f, 0.0f, 0.0f));//FRotator pitch yaw roll in degrees
 								//this attaches the camera to the end of the springArm
 	camera->SetupAttachment(springArm, USpringArmComponent::SocketName);
-	
 	arrowLocation->SetupAttachment(RootComponent);//Attach to birb later
-	//arrowLocation->AttachTo(springArm, USpringArmComponent::SocketName, EAttachLocation::KeepWorldPosition);
+	
+	
 
 	//enable this pawn to receive player inputs from player controller 0
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
-
-	//reference to the actor static mesh
-	//actorReference->GetComponents<UStaticMeshComponent>(StaticComps);
-
 	
 }
 
@@ -57,9 +49,10 @@ void Ai_am_a_fuckin_camera_PAWN::BeginPlay()
 
 	UE_LOG(LogTemp, Warning, TEXT("HEllo"));
 
+	/*
 	nowPosition = actorReference->GetActorLocation();
 	previousPosition = actorReference->GetActorLocation();
-	
+	*/
 }
 
 // Called every frame
@@ -67,59 +60,63 @@ void Ai_am_a_fuckin_camera_PAWN::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	
 	//update camera rotation
+	
 	/////////////////////////////////////////////////////////////////
 	FRotator newYaw = GetActorRotation();
-	newYaw.Yaw += mouseInput.X;
-	SetActorRotation(newYaw);
+	newYaw.Yaw += (mouseInput.X * mouseSensitivity);
+	//SetActorRotation(newYaw);
 	FRotator newPitch = springArm->GetComponentRotation();
-	newPitch.Pitch = FMath::Clamp(newPitch.Pitch + mouseInput.Y, -80.f, 80.f); // MIN_MAX[0], MIN_MAX[1]
-	springArm->SetWorldRotation(newPitch);
+	newPitch.Pitch = FMath::Clamp(newPitch.Pitch + (mouseInput.Y * mouseSensitivity), -80.f, 80.f); // MIN_MAX[0], MIN_MAX[1]
+	//springArm->SetWorldRotation(newPitch);
+
+	
 	/////////////////////////////////////////////////////////////////
 
+	
 	//Rotate the arrow component
 	/////////////////////////////////////////////////////////////////
 	FRotator meshRotate;
 	meshRotate.Pitch = newPitch.Pitch;
 	meshRotate.Yaw = newYaw.Yaw;
-	arrowLocation->SetWorldRotation(meshRotate);
-	//RootComponent->SetWorldRotation(meshRotate);
+//	arrowLocation->SetWorldRotation(meshRotate);
+	//mesh->SetWorldRotation(meshRotate);
 	/////////////////////////////////////////////////////////////////
-	
+
+
+	//update rotations
+	FRotator cur = mesh->GetComponentRotation();
+//	FString velocityString = FString::SanitizeFloat(cur.Roll);
+//	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, velocityString);
 
 	arrowLocation->GetForwardVector();
 	FVector offset = arrowLocation->GetForwardVector() * -100.f;
 
 
 	//Actor Tilting
-	/////////////////////////////////////////////////////////////////
-	FRotator rollOffset;
-	rollOffset.Roll = FMath::Clamp(rollOffset.Pitch + mouseInput.X * 10, -35.f, 35.f);
+	FRotator rollOffset;						//pitch
+	rollOffset.Roll = FMath::Clamp(rollOffset.Roll + mouseInput.X * 40, -35.f, 35.f);
 	FRotator finalOffset;
 	if (mouseInput.X)
 	{
 		//this is a bad idea //find some damp function
-		finalOffset.Roll = FMath::FInterpTo(actorReference->GetActorRotation().Roll,
-		                                    actorReference->GetActorRotation().Roll + (rollOffset.Roll), DeltaTime,
-		                                    3.2f);
+		finalOffset.Roll = FMath::FInterpTo(mesh->GetComponentRotation().Roll,
+		                                   mesh->GetComponentRotation().Roll + (rollOffset.Roll), DeltaTime,
+		                                    1.2f);
+		mesh->SetWorldRotation(finalOffset);
 	}
-	else
+	//error correction
+	else if (cur.Roll != 0 && !mouseInput.X)
 	{
-		finalOffset.Roll = FMath::FInterpTo(actorReference->GetActorRotation().Roll,
-		                                    arrowLocation->GetComponentRotation().Roll, DeltaTime, 4.2f);
+		cur.Roll = FMath::FInterpTo(cur.Roll, 0, DeltaTime, 5);
+		mesh->SetWorldRotation(cur);//FString velocityString = FString::SanitizeFloat(currentVelocity);
+		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, velocityString);
+
 	}
 	/////////////////////////////////////////////////////////////////
-
-
-
-	if(moveForward)
-	{
-		currentVelocity = FMath::FInterpTo(currentVelocity, 3000.f, DeltaTime, 6);
-	}
-	else if(!moveForward)
-	{
-		currentVelocity = FMath::FInterpTo(currentVelocity, 0, DeltaTime, 8.f);
-	}
+	
+	
 
 	//physics
 	if (!moveForward || moveForward)
@@ -129,62 +126,66 @@ void Ai_am_a_fuckin_camera_PAWN::Tick(float DeltaTime)
 		
 		//FString velocityString = FString::SanitizeFloat(currentVelocity);
 		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, velocityString);
-
-
 		
-		//get change in position
-		
+		//get change in position		
 		FVector deltaPosition = nowPosition - previousPosition;
+		deltaPosition.Normalize();
 		FVector deltaVelocity = deltaPosition / DeltaTime;
 		previousPosition = nowPosition;
+
 		
 		//FString someString = FString::SanitizeFloat(currentVelocity);
 		FString someString = deltaPosition.ToString();
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, someString);
 		
-		
 
-		/*
-		RootComponent->SetWorldLocation(location + (arrowLocation->GetForwardVector() * currentVelocity * DeltaTime) + (downVector.DownVector * (9.8*50) * DeltaTime));
-		//actorReference->SetActorLocation(mesh->GetComponentLocation() + offset);
-		previousPosition = RootComponent->GetComponentLocation();
+		if(moveForward)
+		{
+			//check if going up
+			if(deltaPosition.Z > 0.75)
+			{
+			//	currentVelocity = FMath::FInterpTo(currentVelocity, -3000.f, DeltaTime, 0.5f);//3000.f
+				moveForward = false;
+			}
+			else if(deltaPosition.Z < -0.5)
+			{
+				currentVelocity = FMath::FInterpTo(currentVelocity, 5000.f, DeltaTime, 0.6f);//3000.f
+			}
+			else
+			{
+				currentVelocity = FMath::FInterpTo(currentVelocity, 3000.f, DeltaTime, 0.5f);//3000.f
+			}
 
-		actorReference->SetActorRelativeLocation(RootComponent->GetComponentLocation() - offset);
-		actorReference->SetActorRotation(arrowLocation->GetComponentRotation() + finalOffset);
-		*/
+			if(moveForward)
+			{
+				mesh->SetAllPhysicsLinearVelocity(mesh->GetForwardVector() * currentVelocity * speedMultiplyer);
+			}
+			
+			
+		}
+		else if (!moveForward)
+		{
+			if(deltaPosition.Z < -0.5)
+			{
+				currentVelocity = FMath::FInterpTo(currentVelocity, 3000, DeltaTime, 0.4f);
+			}
+			else if(deltaPosition.Z > 0.75)
+			{
+				currentVelocity = FMath::FInterpTo(currentVelocity, -3000, DeltaTime, 0.4f);
+			}
+			else{
+				currentVelocity = FMath::FInterpTo(currentVelocity, 0, DeltaTime, 0.2f);
+			}
+			mesh->SetAllPhysicsLinearVelocity(mesh->GetForwardVector() * currentVelocity * speedMultiplyer);
+		}
+		if(brakes)
+		{
+			currentVelocity = FMath::FInterpTo(currentVelocity, 0, DeltaTime, 5.f);
+		}
 
-		
-		FVector actorLoc = actorReference->GetActorLocation();
-		actorReference->SetActorLocation(actorLoc + (arrowLocation->GetForwardVector() * (currentVelocity * speedMultiplyer) * DeltaTime) + (downVector.DownVector * (9.8 * 50) * DeltaTime));
-		RootComponent->SetWorldLocation((actorReference->GetActorLocation() + offset));
-		actorReference->SetActorRotation(arrowLocation->GetComponentRotation() + finalOffset);
-		nowPosition = actorReference->GetActorLocation();
 
-
-
-		
+		nowPosition = mesh->GetComponentLocation();
 	}
-
-	
-	if (actorReference != NULL)
-	{
-		//RootComponent->SetWorldLocation(actorReference->GetActorLocation() + offset);
-		//RootComponent->SetWorldLocation(actorReference->GetActorLocation() + offset); // this works
-
-		//actorReference->SetActorRotation(arrowLocation->GetComponentRotation() + finalOffset); // this works
-
-
-		//do not delete me bitch
-		/*
-		//actorMesh->SetWorldRotation(arrowLocation->GetComponentRotation() + finalOffset); //do not open this lmaooo
-		//
-		//
-		//actorReference->SetActorRotation(arrowLocation->GetComponentRotation());//+meshRotate
-		//actorReference->SetActorRotation(springArm->GetTargetRotation());//this works
-		//actorReference->SetActorRotation(camera->GetForwardVector().Rotation);
-		*/
-	}
-
 	
 }
 
@@ -197,38 +198,40 @@ void Ai_am_a_fuckin_camera_PAWN::SetupPlayerInputComponent(UInputComponent* Play
 	InputComponent->BindAxis("MousePitch", this, &Ai_am_a_fuckin_camera_PAWN::MousePitch);
 	InputComponent->BindAction("Flap", IE_Repeat, this, &Ai_am_a_fuckin_camera_PAWN::MoveForward);
 	InputComponent->BindAction("Flap", IE_Released, this, &Ai_am_a_fuckin_camera_PAWN::doNothing);
+	InputComponent->BindAction("Brakes", IE_Pressed, this, &Ai_am_a_fuckin_camera_PAWN::addBrakes);
+	InputComponent->BindAction("Brakes", IE_Released, this, &Ai_am_a_fuckin_camera_PAWN::removeBrakes);
 }
 
 void Ai_am_a_fuckin_camera_PAWN::MouseYaw(float axis) {
 	mouseInput.X = axis;
+	if(axis)
+	{
+		AddActorLocalRotation(FRotator(0, axis, 0));
+	}
+	
 }
 
 void Ai_am_a_fuckin_camera_PAWN::MousePitch(float axis) {
 	mouseInput.Y = axis;
+
+	//new code
+	if(axis)
+	{
+		float temp = springArm->GetRelativeRotation().Pitch + axis;
+		if(temp < 25 && temp > -65)
+		{
+			//springArm->AddLocalRotation(FRotator(axis, 0, 0));
+			//mesh->SetWorldRotation(FRotator(mouseInput.X,mouseInput.Y,0));
+			mesh->AddLocalRotation(FRotator(axis, 0, 0));
+		}
+	}
 }
 
 void Ai_am_a_fuckin_camera_PAWN::MoveForward() {
-	/*
-	UStaticMeshComponent* meshComp = Cast<UStaticMeshComponent>(actorReference->GetRootComponent());
-	FVector maxVelocity = FVector(500.f, 500.f, 500.f);
-	if (meshComp /* && meshComp->GetComponentVelocity() <= maxVelocity) {
-		float speed = 100.f;
-		meshComp->AddImpulse(actorReference->GetActorForwardVector() * 15000.f * meshComp->GetMass());
-		//actorReference->SetActorLocation(actorReference->GetActorLocation().ForwardVector + speed * )
-	}
-	*/
 	
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("FOWARD"));
 	moveForward = true;
-	//currentVelocity = 3000;
-	//currentVelocity += 50;
-	//currentVelocity = FMath::FInterpTo(currentVelocity, 3000.f, );
-	/*if(currentVelocity > 3000)
-	{
-		currentVelocity = 3000;
-	}*/
-
-	
+		
 	
 }
 void Ai_am_a_fuckin_camera_PAWN::doNothing()
@@ -237,5 +240,15 @@ void Ai_am_a_fuckin_camera_PAWN::doNothing()
 	moveForward = false;
 	
 	
+}
+
+void Ai_am_a_fuckin_camera_PAWN::addBrakes()
+{
+	brakes = true;
+}
+
+void Ai_am_a_fuckin_camera_PAWN::removeBrakes()
+{
+	brakes = false;
 }
 

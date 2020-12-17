@@ -2,10 +2,6 @@
 	"BuildId": "13144385",
 	"Modules": 
 	{
-<<<<<<< HEAD
-		"AGILA": "UE4Editor-AGILA-0023.dll"
-=======
-		"AGILA": "UE4Editor-AGILA-4867.dll"
->>>>>>> d8e1582e535638807bc975947dfb20b97613b7b8
+		"AGILA": "UE4Editor-AGILA-0082.dll"
 	}
 }
