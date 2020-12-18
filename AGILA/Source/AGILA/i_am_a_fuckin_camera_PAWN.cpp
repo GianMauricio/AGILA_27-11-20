@@ -135,8 +135,8 @@ void Ai_am_a_fuckin_camera_PAWN::Tick(float DeltaTime)
 
 		
 		//FString someString = FString::SanitizeFloat(currentVelocity);
-		FString someString = deltaPosition.ToString();
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, someString);
+		//FString someString = deltaPosition.ToString();
+		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, someString);
 		
 
 		if(moveForward)
