@@ -45,7 +45,7 @@ void UTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 		for(int i = 0; i< actors.Num() ; i++)
 		{
 			//testing only. add to inventory function here.
-			if(actors[i]->ActorHasTag(FName("Rock")))
+			if(actors[i]->ActorHasTag(FName("Item")))
 			{
 				//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("FOUND OBJECT"));
 				
