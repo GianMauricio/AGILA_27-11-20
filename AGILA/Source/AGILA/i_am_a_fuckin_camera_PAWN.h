@@ -8,7 +8,7 @@
 #include "Components/ArrowComponent.h"
 #include "Engine/StaticMeshActor.h"
 #include "Math/UnrealMathUtility.h"
-
+#include "PhysicsEngine/PhysicsHandleComponent.h"
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
@@ -34,25 +34,17 @@ public:
 		UStaticMeshComponent* mesh;
 
 	UPROPERTY(EditAnywhere)
-		//TSubclassOf<AActor> actor;
-		AActor* actorReference;
+		float mouseSensitivity = 1;
 
-	UPROPERTY(EditAnywhere)
-		UStaticMeshComponent* actorMesh;
-
-	UPROPERTY(EditAnywhere)
-		TArray<UStaticMeshComponent*> StaticComps;
-	
+	UPhysicsHandleComponent* phandle = nullptr;
 
 	//Pass the values from the mouse pitch and yaw input
 	FVector2D mouseInput; //x and y only
 
-	//SetValues for the minimum Pitch
-	UPROPERTY(EditAnywhere)
-		float MIN_MAX[2];
 
 	bool moveForward;
 	bool moveNothing;
+	bool brakes;
 	float currentVelocity = 0;
 	
 	UPROPERTY(EditAnywhere)
@@ -76,11 +68,14 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+
 	//Set identifiers
 	void MouseYaw(float axis);
 	void MousePitch(float axis);
 	void MoveForward();
 	void doNothing();
+	void addBrakes();
+	void removeBrakes();
 
 
 };

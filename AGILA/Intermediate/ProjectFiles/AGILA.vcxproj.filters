@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AGILA.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C3CEDD38-FEFC-49BF-A3DB-20FA3CE1A65E}</UniqueIdentifier>
+      <UniqueIdentifier>{D035026D-1541-4CB2-B743-7956B3EB7A6A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AGILA.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{21E2A6B4-825E-4FEB-B727-FED1A985FC48}</UniqueIdentifier>
+      <UniqueIdentifier>{7B0D41ED-404B-436A-B2AA-CBC718B89A85}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\AGILA">
-      <UniqueIdentifier>{D1788CED-2B96-43CE-9BDA-97BB8D62D956}</UniqueIdentifier>
+      <UniqueIdentifier>{7E6D4EE9-8144-4544-8824-A2136A575630}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AGILA\AGILA.Build.cs">
       <Filter>Source\AGILA</Filter>
@@ -42,6 +42,12 @@
       <Filter>Source\AGILA</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\AGILA\AGILAGameModeBase.h">
+      <Filter>Source\AGILA</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AGILA\Bird.cpp">
+      <Filter>Source\AGILA</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AGILA\Bird.h">
       <Filter>Source\AGILA</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\AGILA\i_am_a_fuckin_camera_PAWN.cpp">
