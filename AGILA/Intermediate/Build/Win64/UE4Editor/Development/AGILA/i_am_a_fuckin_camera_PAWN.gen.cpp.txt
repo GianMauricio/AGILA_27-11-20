@@ -1,7 +1,7 @@
-C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\Definitions.AGILA.h
+C:\Users\monet\Documents\GitHub\AGILA_27-11-20\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\Definitions.AGILA.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Source\AGILA/i_am_a_fuckin_camera_PAWN.h
+C:\Users\monet\Documents\GitHub\AGILA_27-11-20\AGILA\Source\AGILA/i_am_a_fuckin_camera_PAWN.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
@@ -12,4 +12,4 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMeshActor.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/PhysicsHandleComponent.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PhysicsHandleComponent.generated.h
-C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Inc\AGILA\i_am_a_fuckin_camera_PAWN.generated.h
+C:\Users\monet\Documents\GitHub\AGILA_27-11-20\AGILA\Intermediate\Build\Win64\UE4Editor\Inc\AGILA\i_am_a_fuckin_camera_PAWN.generated.h
