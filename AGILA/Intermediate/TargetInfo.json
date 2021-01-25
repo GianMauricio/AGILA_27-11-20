@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "AGILA",
-			"Path": "C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA_GIT_2\\AGILA\\Source\\AGILA.Target.cs",
+			"Path": "C:\\Users\\monet\\Documents\\GitHub\\AGILA_27-11-20\\AGILA\\Source\\AGILA.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "AGILAEditor",
-			"Path": "C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA_GIT_2\\AGILA\\Source\\AGILAEditor.Target.cs",
+			"Path": "C:\\Users\\monet\\Documents\\GitHub\\AGILA_27-11-20\\AGILA\\Source\\AGILAEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AGILA.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{0DEBCDA7-FFB2-43C3-9FFB-E8E69C94BFD1}</UniqueIdentifier>
+      <UniqueIdentifier>{AEBEDA43-F232-403C-A971-917CD05A9CCC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AGILA.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5ABA6EEB-C1F8-40BA-AB26-EE2F8E85A824}</UniqueIdentifier>
+      <UniqueIdentifier>{7EE3B3C0-9410-4B71-9886-ECA380586E24}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\AGILA">
-      <UniqueIdentifier>{F5369B76-BD6A-45B6-93A0-EA8A4AA80FC3}</UniqueIdentifier>
+      <UniqueIdentifier>{90C675FC-46A8-4062-97D0-68BFCC7AD090}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AGILA\AGILA.Build.cs">
       <Filter>Source\AGILA</Filter>
@@ -44,10 +44,22 @@
     <ClInclude Include="..\..\Source\AGILA\AGILAGameModeBase.h">
       <Filter>Source\AGILA</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\AGILA\AI_controller_Huntable.cpp">
+      <Filter>Source\AGILA</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AGILA\AI_controller_Huntable.h">
+      <Filter>Source\AGILA</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\AGILA\Bird.cpp">
       <Filter>Source\AGILA</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\AGILA\Bird.h">
+      <Filter>Source\AGILA</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AGILA\C_HuntablePawn.cpp">
+      <Filter>Source\AGILA</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AGILA\C_HuntablePawn.h">
       <Filter>Source\AGILA</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\AGILA\Eagle_Grab.cpp">
