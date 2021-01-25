@@ -5,7 +5,7 @@
 	"TargetFile": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\UE4Editor.Target.cs",
 	"EnvironmentIncludePaths": [
 		"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source",
-		"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.27.29110\\INCLUDE",
+		"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\INCLUDE",
 		"C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\include\\um",
 		"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\ucrt",
 		"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\shared",

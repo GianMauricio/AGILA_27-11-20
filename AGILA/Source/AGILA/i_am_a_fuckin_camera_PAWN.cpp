@@ -35,10 +35,10 @@ Ai_am_a_fuckin_camera_PAWN::Ai_am_a_fuckin_camera_PAWN()
 	camera->SetupAttachment(springArm, USpringArmComponent::SocketName);
 	arrowLocation->SetupAttachment(RootComponent);//Attach to birb later
 	
-	
+	grabComponent = CreateDefaultSubobject<UEagle_Grab>(TEXT("Grab"));
 
 	//enable this pawn to receive player inputs from player controller 0
-	AutoPossessPlayer = EAutoReceiveInput::Player0;
+	//AutoPossessPlayer = EAutoReceiveInput::Player0;
 	
 }
 
@@ -192,14 +192,17 @@ void Ai_am_a_fuckin_camera_PAWN::Tick(float DeltaTime)
 // Called to bind functionality to input
 void Ai_am_a_fuckin_camera_PAWN::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
+	
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	//bind listeners
+	/*
 	InputComponent->BindAxis("MouseYaw", this, &Ai_am_a_fuckin_camera_PAWN::MouseYaw);
 	InputComponent->BindAxis("MousePitch", this, &Ai_am_a_fuckin_camera_PAWN::MousePitch);
 	InputComponent->BindAction("Flap", IE_Repeat, this, &Ai_am_a_fuckin_camera_PAWN::MoveForward);
 	InputComponent->BindAction("Flap", IE_Released, this, &Ai_am_a_fuckin_camera_PAWN::doNothing);
 	InputComponent->BindAction("Brakes", IE_Pressed, this, &Ai_am_a_fuckin_camera_PAWN::addBrakes);
 	InputComponent->BindAction("Brakes", IE_Released, this, &Ai_am_a_fuckin_camera_PAWN::removeBrakes);
+	*/
 }
 
 void Ai_am_a_fuckin_camera_PAWN::MouseYaw(float axis) {
