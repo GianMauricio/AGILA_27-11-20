@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeC_HuntablePawn() {}
 	AGILA_API UClass* Z_Construct_UClass_AC_HuntablePawn();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_AGILA();
-	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 // End Cross Module References
 	void AC_HuntablePawn::StaticRegisterNativesAC_HuntablePawn()
 	{
@@ -58,7 +58,7 @@ void EmptyLinkFunctionForGeneratedCodeC_HuntablePawn() {}
 		{ "ModuleRelativePath", "C_HuntablePawn.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC_HuntablePawn_Statics::NewProp_HuntableBody = { "HuntableBody", nullptr, (EPropertyFlags)0x002008000008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC_HuntablePawn, HuntableBody), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC_HuntablePawn_Statics::NewProp_HuntableBody_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC_HuntablePawn_Statics::NewProp_HuntableBody_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC_HuntablePawn_Statics::NewProp_HuntableBody = { "HuntableBody", nullptr, (EPropertyFlags)0x002008000008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC_HuntablePawn, HuntableBody), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC_HuntablePawn_Statics::NewProp_HuntableBody_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC_HuntablePawn_Statics::NewProp_HuntableBody_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AC_HuntablePawn_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_HuntablePawn_Statics::NewProp_HuntableBody,
 	};
@@ -89,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeC_HuntablePawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC_HuntablePawn, 1003936089);
+	IMPLEMENT_CLASS(AC_HuntablePawn, 3022595947);
 	template<> AGILA_API UClass* StaticClass<AC_HuntablePawn>()
 	{
 		return AC_HuntablePawn::StaticClass();

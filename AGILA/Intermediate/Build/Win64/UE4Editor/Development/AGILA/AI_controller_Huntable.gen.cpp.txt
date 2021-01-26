@@ -41,4 +41,6 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\VisualLogger/VisualLoggerDebugSnapshotInterface.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\VisualLoggerDebugSnapshotInterface.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIController.generated.h
+C:\Users\monet\Documents\GitHub\AGILA_27-11-20\AGILA\Source\AGILA\C_HuntablePawn.h
+C:\Users\monet\Documents\GitHub\AGILA_27-11-20\AGILA\Intermediate\Build\Win64\UE4Editor\Inc\AGILA\C_HuntablePawn.generated.h
 C:\Users\monet\Documents\GitHub\AGILA_27-11-20\AGILA\Intermediate\Build\Win64\UE4Editor\Inc\AGILA\AI_controller_Huntable.generated.h

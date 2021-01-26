@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeAI_controller_Huntable() {}
 	AGILA_API UClass* Z_Construct_UClass_AAI_controller_Huntable();
 	AIMODULE_API UClass* Z_Construct_UClass_AAIController();
 	UPackage* Z_Construct_UPackage__Script_AGILA();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	void AAI_controller_Huntable::StaticRegisterNativesAAI_controller_Huntable()
 	{
@@ -31,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeAI_controller_Huntable() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_actorCopy_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_actorCopy;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -46,6 +52,16 @@ void EmptyLinkFunctionForGeneratedCodeAI_controller_Huntable() {}
 		{ "ModuleRelativePath", "AI_controller_Huntable.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAI_controller_Huntable_Statics::NewProp_actorCopy_MetaData[] = {
+		{ "Category", "AI_controller_Huntable" },
+		{ "ModuleRelativePath", "AI_controller_Huntable.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAI_controller_Huntable_Statics::NewProp_actorCopy = { "actorCopy", nullptr, (EPropertyFlags)0x0020080000000004, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAI_controller_Huntable, actorCopy), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAI_controller_Huntable_Statics::NewProp_actorCopy_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAI_controller_Huntable_Statics::NewProp_actorCopy_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAI_controller_Huntable_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAI_controller_Huntable_Statics::NewProp_actorCopy,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AAI_controller_Huntable_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AAI_controller_Huntable>::IsAbstract,
 	};
@@ -55,11 +71,11 @@ void EmptyLinkFunctionForGeneratedCodeAI_controller_Huntable() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AAI_controller_Huntable_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AAI_controller_Huntable_Statics::PropPointers),
 		0,
 		0x009002A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AAI_controller_Huntable_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AAI_controller_Huntable_Statics::Class_MetaDataParams))
@@ -73,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeAI_controller_Huntable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAI_controller_Huntable, 2308082544);
+	IMPLEMENT_CLASS(AAI_controller_Huntable, 1896178471);
 	template<> AGILA_API UClass* StaticClass<AAI_controller_Huntable>()
 	{
 		return AAI_controller_Huntable::StaticClass();

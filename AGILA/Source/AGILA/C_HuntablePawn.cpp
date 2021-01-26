@@ -32,13 +32,12 @@ void AC_HuntablePawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 
 }
 void AC_HuntablePawn::Move(float Speed) {
-	float speed = this->HuntableBody->GetMass() ;
-	FVector forceVector = this->GetActorForwardVector() * Speed * speed;
+	//float mass = this->HuntableBody->GetMass() * 50.0f; //disregard wrong formula change in future
+	FVector forceVector = this->GetActorForwardVector() * Speed ;
 	FVector bodyloc = this->HuntableBody->GetComponentLocation();
-	
 
 	this->HuntableBody->AddForceAtLocation(forceVector, bodyloc);
-
+	//UE_LOG(LogTemp, Display, TEXT("Text, %d %f %s"), intVar, floatVar, *fstringVar);
+	UE_LOG(LogTemp, Display, TEXT("Moving with vector %s, Speed of %f"), *forceVector.ToString(), ( Speed ));
 	
-	//UE_LOG(LogTemp, Display, TEXT("Moving with vector %s, Speed pf %f"), *forceVector.ToString(), (throttleSpeed * speed));
 }

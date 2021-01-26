@@ -15,11 +15,17 @@ UCLASS()
 class AGILA_API AAI_controller_Huntable : public AAIController
 {
 	GENERATED_BODY()
+	
 protected:
-	UPROPERTY(BlueprintReadWrite) AActor* actorCopy;
+	UPROPERTY(BlueprintReadWrite) AActor* actorCopy; //might be used for drops not too sure
 private:
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaSeconds) override;
 	AC_HuntablePawn* GetControlledHuntable() const;
-	//AC_HuntablePawn* GetPlayer() const; replace AC_HUntable with player pawn
+	void OnMove(float Speed);
+	//AC_HuntablePawn* GetPlayer() const; replace AC_HUntablePawn* with player pawn
+
+	float moveTicks = 0.0f;
+	float move_INTERVAL = 1.0f;
+	float moveSpeed = 2000.0f;
 };

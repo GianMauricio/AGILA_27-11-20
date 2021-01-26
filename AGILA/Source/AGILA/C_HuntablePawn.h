@@ -19,7 +19,8 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-	UPROPERTY(BlueprintReadWrite) UStaticMeshComponent* HuntableBody;
+	UPROPERTY(BlueprintReadWrite)  UPrimitiveComponent* HuntableBody;
+	
 
 public:	
 	// Called every frame

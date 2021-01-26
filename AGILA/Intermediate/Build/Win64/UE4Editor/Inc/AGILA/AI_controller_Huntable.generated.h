@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define AGILA_AI_controller_Huntable_generated_h
 
-#define AGILA_Source_AGILA_AI_controller_Huntable_h_15_SPARSE_DATA
-#define AGILA_Source_AGILA_AI_controller_Huntable_h_15_RPC_WRAPPERS
-#define AGILA_Source_AGILA_AI_controller_Huntable_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define AGILA_Source_AGILA_AI_controller_Huntable_h_15_INCLASS_NO_PURE_DECLS \
+#define AGILA_Source_AGILA_AI_controller_Huntable_h_17_SPARSE_DATA
+#define AGILA_Source_AGILA_AI_controller_Huntable_h_17_RPC_WRAPPERS
+#define AGILA_Source_AGILA_AI_controller_Huntable_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define AGILA_Source_AGILA_AI_controller_Huntable_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAI_controller_Huntable(); \
 	friend struct Z_Construct_UClass_AAI_controller_Huntable_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AAI_controller_Huntable)
 
 
-#define AGILA_Source_AGILA_AI_controller_Huntable_h_15_INCLASS \
+#define AGILA_Source_AGILA_AI_controller_Huntable_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesAAI_controller_Huntable(); \
 	friend struct Z_Construct_UClass_AAI_controller_Huntable_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AAI_controller_Huntable)
 
 
-#define AGILA_Source_AGILA_AI_controller_Huntable_h_15_STANDARD_CONSTRUCTORS \
+#define AGILA_Source_AGILA_AI_controller_Huntable_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAI_controller_Huntable(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAI_controller_Huntable) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define AGILA_Source_AGILA_AI_controller_Huntable_h_15_ENHANCED_CONSTRUCTORS \
+#define AGILA_Source_AGILA_AI_controller_Huntable_h_17_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAI_controller_Huntable(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,28 +60,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAI_controller_Huntable); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAI_controller_Huntable)
 
 
-#define AGILA_Source_AGILA_AI_controller_Huntable_h_15_PRIVATE_PROPERTY_OFFSET
-#define AGILA_Source_AGILA_AI_controller_Huntable_h_12_PROLOG
-#define AGILA_Source_AGILA_AI_controller_Huntable_h_15_GENERATED_BODY_LEGACY \
+#define AGILA_Source_AGILA_AI_controller_Huntable_h_17_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__actorCopy() { return STRUCT_OFFSET(AAI_controller_Huntable, actorCopy); }
+
+
+#define AGILA_Source_AGILA_AI_controller_Huntable_h_14_PROLOG
+#define AGILA_Source_AGILA_AI_controller_Huntable_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	AGILA_Source_AGILA_AI_controller_Huntable_h_15_PRIVATE_PROPERTY_OFFSET \
-	AGILA_Source_AGILA_AI_controller_Huntable_h_15_SPARSE_DATA \
-	AGILA_Source_AGILA_AI_controller_Huntable_h_15_RPC_WRAPPERS \
-	AGILA_Source_AGILA_AI_controller_Huntable_h_15_INCLASS \
-	AGILA_Source_AGILA_AI_controller_Huntable_h_15_STANDARD_CONSTRUCTORS \
+	AGILA_Source_AGILA_AI_controller_Huntable_h_17_PRIVATE_PROPERTY_OFFSET \
+	AGILA_Source_AGILA_AI_controller_Huntable_h_17_SPARSE_DATA \
+	AGILA_Source_AGILA_AI_controller_Huntable_h_17_RPC_WRAPPERS \
+	AGILA_Source_AGILA_AI_controller_Huntable_h_17_INCLASS \
+	AGILA_Source_AGILA_AI_controller_Huntable_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define AGILA_Source_AGILA_AI_controller_Huntable_h_15_GENERATED_BODY \
+#define AGILA_Source_AGILA_AI_controller_Huntable_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	AGILA_Source_AGILA_AI_controller_Huntable_h_15_PRIVATE_PROPERTY_OFFSET \
-	AGILA_Source_AGILA_AI_controller_Huntable_h_15_SPARSE_DATA \
-	AGILA_Source_AGILA_AI_controller_Huntable_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	AGILA_Source_AGILA_AI_controller_Huntable_h_15_INCLASS_NO_PURE_DECLS \
-	AGILA_Source_AGILA_AI_controller_Huntable_h_15_ENHANCED_CONSTRUCTORS \
+	AGILA_Source_AGILA_AI_controller_Huntable_h_17_PRIVATE_PROPERTY_OFFSET \
+	AGILA_Source_AGILA_AI_controller_Huntable_h_17_SPARSE_DATA \
+	AGILA_Source_AGILA_AI_controller_Huntable_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	AGILA_Source_AGILA_AI_controller_Huntable_h_17_INCLASS_NO_PURE_DECLS \
+	AGILA_Source_AGILA_AI_controller_Huntable_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
