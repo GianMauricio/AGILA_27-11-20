@@ -42,6 +42,7 @@ public:
 		UEagle_Grab* grabComponent;
 
 	
+	
 	UPhysicsHandleComponent* phandle = nullptr;
 
 	//Pass the values from the mouse pitch and yaw input
@@ -55,6 +56,10 @@ public:
 	
 	UPROPERTY(EditAnywhere)
 		float speedMultiplyer = 1;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int health = 10;
+	const int MAX_HEALTH = 10;
 	
 	FVector previousPosition;
 	FVector nowPosition;
@@ -83,5 +88,10 @@ public:
 	void addBrakes();
 	void removeBrakes();
 
-
+	//health
+	int getHealth();
+	void takeDamage(int damage);
+	void onDeath();
+	UFUNCTION(BlueprintCallable)
+		void increaseHealth(int increase);
 };

@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define AGILA_i_am_a_fuckin_camera_PAWN_generated_h
 
 #define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_SPARSE_DATA
-#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_RPC_WRAPPERS
-#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_RPC_WRAPPERS_NO_PURE_DECLS
+#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execincreaseHealth);
+
+
+#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execincreaseHealth);
+
+
 #define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAi_am_a_fuckin_camera_PAWN(); \

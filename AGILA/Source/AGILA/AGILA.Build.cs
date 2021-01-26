@@ -8,13 +8,15 @@ public class AGILA : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "Niagara"});//, "Niagara" , "NiagaraCore"
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
+//		PrivateIncludePathModuleNames.AddRange(new string[] {"C:\Program Files\Epic Games\UE_4.25\Engine\Plugins\FX\Niagara\Source\Niagara\Public\NiagaraFunctionLibrary.h"});//, "NiagaraCore" 
+
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
-		
+
 		// Uncomment if you are using online features
 		// PrivateDependencyModuleNames.Add("OnlineSubsystem");
 

@@ -255,3 +255,32 @@ void Ai_am_a_fuckin_camera_PAWN::removeBrakes()
 	brakes = false;
 }
 
+int Ai_am_a_fuckin_camera_PAWN::getHealth()
+{
+	return health;
+}
+
+void Ai_am_a_fuckin_camera_PAWN::takeDamage(int damage)
+{
+	health -= damage;
+	if(health <=0)
+	{
+		onDeath();
+	}
+}
+
+void Ai_am_a_fuckin_camera_PAWN::onDeath()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString("ded bird"));
+}
+
+void Ai_am_a_fuckin_camera_PAWN::increaseHealth(int increase)
+{
+	health += increase;
+	if(health > MAX_HEALTH)
+	{
+		health = MAX_HEALTH;
+	}
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString("got health!"));
+}
+

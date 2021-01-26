@@ -68,6 +68,223 @@
 			]
 		},
 		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithGLTFImporter\\Binaries\\Win64\\UE4Editor-DatasmithGLTFTranslator.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"DatasmithGLTFTranslator"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Binaries\\Win64\\UE4Editor-DatasmithImporter.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"DatasmithImporter",
+				"FreeImage"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Binaries\\Win64\\UE4Editor-DatasmithTranslator.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"DatasmithTranslator"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Binaries\\Win64\\UE4Editor-DatasmithNativeTranslator.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"DatasmithNativeTranslator"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Binaries\\Win64\\UE4Editor-DatasmithContent.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"DatasmithContent"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Binaries\\Win64\\UE4Editor-DatasmithContentEditor.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"DatasmithContentEditor"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Binaries\\Win64\\UE4Editor-VariantManagerContent.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"VariantManagerContent"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Binaries\\Win64\\UE4Editor-VariantManagerContentEditor.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"VariantManagerContentEditor"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\EditorScriptingUtilities\\Binaries\\Win64\\UE4Editor-EditorScriptingUtilities.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"EditorScriptingUtilities"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Binaries\\Win64\\UE4Editor-DataprepEditor.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"DataprepEditor"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Binaries\\Win64\\UE4Editor-DataprepCore.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"DataprepCore"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Binaries\\Win64\\UE4Editor-DataprepLibraries.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"DataprepLibraries"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Binaries\\Win64\\UE4Editor-DataprepEditorScriptingUtilities.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"DataprepEditorScriptingUtilities"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManager\\Binaries\\Win64\\UE4Editor-VariantManager.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"VariantManager"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\StaticMeshEditorExtension\\Binaries\\Win64\\UE4Editor-StaticMeshEditorExtension.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"StaticMeshEditorExtension"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\StaticMeshEditorExtension\\Binaries\\Win64\\UE4Editor-MeshProcessingLibrary.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"MeshProcessingLibrary"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\EditableMesh\\Binaries\\Win64\\UE4Editor-EditableMesh.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"EditableMesh"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\MeshEditor\\Binaries\\Win64\\UE4Editor-MeshEditor.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"MeshEditor"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\MeshEditor\\Binaries\\Win64\\UE4Editor-PolygonModeling.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"PolygonModeling"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Binaries\\Win64\\UE4Editor-BlastAuthoring.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"BlastAuthoring",
+				"Blast"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Binaries\\Win64\\UE4Editor-BlastCore.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"BlastCore",
+				"Blast"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Binaries\\Win64\\UE4Editor-GeometryCollectionEditor.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"GeometryCollectionEditor"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Binaries\\Win64\\UE4Editor-GeometryCollectionTracks.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"GeometryCollectionTracks"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Binaries\\Win64\\UE4Editor-GeometryCollectionSequencer.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"GeometryCollectionSequencer"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Binaries\\Win64\\UE4Editor-ProceduralMeshComponent.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"ProceduralMeshComponent"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Binaries\\Win64\\UE4Editor-ProceduralMeshComponentEditor.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"ProceduralMeshComponentEditor"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ChaosSolverPlugin\\Binaries\\Win64\\UE4Editor-ChaosSolverEditor.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"ChaosSolverEditor"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Binaries\\Win64\\UE4Editor-ProxyLODMeshReduction.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"ProxyLODMeshReduction",
+				"UVAtlas",
+				"DirectXMesh",
+				"OpenVDB",
+				"UEOpenExr"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\GLTFImporter\\Binaries\\Win64\\UE4Editor-GLTFCore.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"GLTFCore"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\GLTFImporter\\Binaries\\Win64\\UE4Editor-GLTFImporter.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"GLTFImporter"
+			]
+		},
+		{
 			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\2D\\Paper2D\\Binaries\\Win64\\UE4Editor-Paper2D.dll",
 			"Type": "DynamicLinkLibrary",
 			"Modules": [
@@ -337,34 +554,6 @@
 			]
 		},
 		{
-			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Binaries\\Win64\\UE4Editor-DatasmithContent.dll",
-			"Type": "DynamicLinkLibrary",
-			"Modules": [
-				"DatasmithContent"
-			]
-		},
-		{
-			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Binaries\\Win64\\UE4Editor-DatasmithContentEditor.dll",
-			"Type": "DynamicLinkLibrary",
-			"Modules": [
-				"DatasmithContentEditor"
-			]
-		},
-		{
-			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Binaries\\Win64\\UE4Editor-VariantManagerContent.dll",
-			"Type": "DynamicLinkLibrary",
-			"Modules": [
-				"VariantManagerContent"
-			]
-		},
-		{
-			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Binaries\\Win64\\UE4Editor-VariantManagerContentEditor.dll",
-			"Type": "DynamicLinkLibrary",
-			"Modules": [
-				"VariantManagerContentEditor"
-			]
-		},
-		{
 			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\AlembicImporter\\Binaries\\Win64\\UE4Editor-AlembicImporter.dll",
 			"Type": "DynamicLinkLibrary",
 			"Modules": [
@@ -507,55 +696,6 @@
 			]
 		},
 		{
-			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\EditableMesh\\Binaries\\Win64\\UE4Editor-EditableMesh.dll",
-			"Type": "DynamicLinkLibrary",
-			"Modules": [
-				"EditableMesh"
-			]
-		},
-		{
-			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Binaries\\Win64\\UE4Editor-GeometryCollectionEditor.dll",
-			"Type": "DynamicLinkLibrary",
-			"Modules": [
-				"GeometryCollectionEditor"
-			]
-		},
-		{
-			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Binaries\\Win64\\UE4Editor-GeometryCollectionTracks.dll",
-			"Type": "DynamicLinkLibrary",
-			"Modules": [
-				"GeometryCollectionTracks"
-			]
-		},
-		{
-			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Binaries\\Win64\\UE4Editor-GeometryCollectionSequencer.dll",
-			"Type": "DynamicLinkLibrary",
-			"Modules": [
-				"GeometryCollectionSequencer"
-			]
-		},
-		{
-			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Binaries\\Win64\\UE4Editor-ProceduralMeshComponent.dll",
-			"Type": "DynamicLinkLibrary",
-			"Modules": [
-				"ProceduralMeshComponent"
-			]
-		},
-		{
-			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Binaries\\Win64\\UE4Editor-ProceduralMeshComponentEditor.dll",
-			"Type": "DynamicLinkLibrary",
-			"Modules": [
-				"ProceduralMeshComponentEditor"
-			]
-		},
-		{
-			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ChaosSolverPlugin\\Binaries\\Win64\\UE4Editor-ChaosSolverEditor.dll",
-			"Type": "DynamicLinkLibrary",
-			"Modules": [
-				"ChaosSolverEditor"
-			]
-		},
-		{
 			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ChaosNiagara\\Binaries\\Win64\\UE4Editor-ChaosNiagara.dll",
 			"Type": "DynamicLinkLibrary",
 			"Modules": [
@@ -637,17 +777,6 @@
 			"Type": "DynamicLinkLibrary",
 			"Modules": [
 				"PlatformCryptoOpenSSL"
-			]
-		},
-		{
-			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Binaries\\Win64\\UE4Editor-ProxyLODMeshReduction.dll",
-			"Type": "DynamicLinkLibrary",
-			"Modules": [
-				"ProxyLODMeshReduction",
-				"UVAtlas",
-				"DirectXMesh",
-				"OpenVDB",
-				"UEOpenExr"
 			]
 		},
 		{
@@ -1013,13 +1142,6 @@
 			"Type": "DynamicLinkLibrary",
 			"Modules": [
 				"MovieRenderPipelineEditor"
-			]
-		},
-		{
-			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\EditorScriptingUtilities\\Binaries\\Win64\\UE4Editor-EditorScriptingUtilities.dll",
-			"Type": "DynamicLinkLibrary",
-			"Modules": [
-				"EditorScriptingUtilities"
 			]
 		},
 		{
@@ -3839,10 +3961,10 @@
 			]
 		},
 		{
-			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-TreeMap.dll",
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-DatasmithCore.dll",
 			"Type": "DynamicLinkLibrary",
 			"Modules": [
-				"TreeMap"
+				"DatasmithCore"
 			]
 		},
 		{
@@ -3881,6 +4003,13 @@
 			"Type": "DynamicLinkLibrary",
 			"Modules": [
 				"QuadricMeshReduction"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-TreeMap.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"TreeMap"
 			]
 		},
 		{
@@ -4028,6 +4157,1521 @@
 			],
 			"ShouldAddLegacyPublicIncludePaths": false,
 			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\Launch"
+		},
+		"DatasmithGLTFTranslator": 
+		{
+			"Name": "DatasmithGLTFTranslator",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithGLTFImporter\\Source\\DatasmithGLTFTranslator",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithGLTFImporter\\Source\\DatasmithGLTFTranslator\\DatasmithGLTFTranslator.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"DatasmithContent",
+				"DatasmithTranslator",
+				"GLTFCore"
+			],
+			"PrivateDependencyModules": [
+				"Analytics",
+				"Core",
+				"CoreUObject",
+				"DatasmithCore",
+				"Engine",
+				"Json",
+				"MeshDescription",
+				"RawMesh",
+				"Slate",
+				"SlateCore",
+				"MessageLog"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithGLTFImporter\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithGLTFImporter\\Source\\DatasmithGLTFTranslator\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithGLTFImporter\\Source\\DatasmithGLTFTranslator"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithGLTFImporter\\Source\\DatasmithGLTFTranslator\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"DATASMITHGLTFTRANSLATOR_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithGLTFImporter\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\DatasmithGLTFTranslator",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Engine\\Public\\EngineSharedPCH.h"
+		},
+		"DatasmithImporter": 
+		{
+			"Name": "DatasmithImporter",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source\\DatasmithImporter",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source\\DatasmithImporter\\DatasmithImporter.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"DataprepCore",
+				"DatasmithContent",
+				"DatasmithCore",
+				"DatasmithTranslator",
+				"DatasmithContentEditor"
+			],
+			"PrivateDependencyModules": [
+				"Analytics",
+				"ApplicationCore",
+				"CinematicCamera",
+				"ContentBrowser",
+				"Core",
+				"CoreUObject",
+				"DesktopPlatform",
+				"EditorStyle",
+				"EditorScriptingUtilities",
+				"Engine",
+				"Foliage",
+				"FreeImage",
+				"InputCore",
+				"Json",
+				"Landscape",
+				"LandscapeEditor",
+				"LandscapeEditorUtilities",
+				"LevelSequence",
+				"MainFrame",
+				"MaterialEditor",
+				"MeshDescription",
+				"MeshUtilities",
+				"MeshUtilitiesCommon",
+				"MessageLog",
+				"MovieScene",
+				"MovieSceneTracks",
+				"PropertyEditor",
+				"RHI",
+				"RawMesh",
+				"Slate",
+				"SlateCore",
+				"SourceControl",
+				"StaticMeshDescription",
+				"StaticMeshEditorExtension",
+				"ToolMenus",
+				"UnrealEd",
+				"VariantManager",
+				"VariantManagerContent"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source\\DatasmithImporter\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source\\DatasmithImporter",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source\\DatasmithImporter\\Public\\ObjectElements",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source\\DatasmithImporter\\Public\\UI",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source\\DatasmithImporter\\Public\\Utility"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source\\DatasmithImporter\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"DATASMITHIMPORTER_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\DatasmithImporter",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"FreeImage": 
+		{
+			"Name": "FreeImage",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\FreeImage",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\FreeImage\\FreeImage.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicSystemIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\FreeImage\\Source"
+			],
+			"PublicAdditionalLibraries": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\FreeImage\\lib\\Win64\\FreeImage.lib"
+			],
+			"PublicDelayLoadDLLs": [
+				"FreeImage.dll",
+				"d3d12.dll"
+			],
+			"PublicDefinitions": [
+				"WITH_FREEIMAGE_LIB=1",
+				"FREEIMAGE_LIB_FILENAME=\"FreeImage.dll\""
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"RuntimeDependencies": [
+				{
+					"Path": "../Binaries/ThirdParty/FreeImage\\Win64\\FreeImage.dll",
+					"Type": "NonUFS"
+				}
+			]
+		},
+		"DatasmithTranslator": 
+		{
+			"Name": "DatasmithTranslator",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source\\DatasmithTranslator",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source\\DatasmithTranslator\\DatasmithTranslator.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"DatasmithCore",
+				"DatasmithContent"
+			],
+			"PrivateDependencyModules": [
+				"Engine",
+				"MeshDescription",
+				"RawMesh",
+				"StaticMeshDescription"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source\\DatasmithTranslator\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source\\DatasmithTranslator",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source\\DatasmithTranslator\\Public\\MasterMaterials",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source\\DatasmithTranslator\\Public\\Utility"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source\\DatasmithTranslator\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"DATASMITHTRANSLATOR_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\DatasmithTranslator",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Engine\\Public\\EngineSharedPCH.h"
+		},
+		"DatasmithNativeTranslator": 
+		{
+			"Name": "DatasmithNativeTranslator",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source\\DatasmithNativeTranslator",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source\\DatasmithNativeTranslator\\DatasmithNativeTranslator.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"Core",
+				"CoreUObject"
+			],
+			"PrivateDependencyModules": [
+				"Engine",
+				"DatasmithCore",
+				"DatasmithTranslator",
+				"MeshDescription",
+				"RawMesh",
+				"StaticMeshDescription"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source\\DatasmithNativeTranslator\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source\\DatasmithNativeTranslator"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Source\\DatasmithNativeTranslator\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"DATASMITHNATIVETRANSLATOR_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\DatasmithNativeTranslator",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Engine\\Public\\EngineSharedPCH.h"
+		},
+		"DatasmithContent": 
+		{
+			"Name": "DatasmithContent",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source\\DatasmithContent",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source\\DatasmithContent\\DatasmithContent.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"CinematicCamera",
+				"Core",
+				"CoreUObject",
+				"Engine",
+				"RenderCore"
+			],
+			"PrivateDependencyModules": [
+				"Landscape",
+				"LevelSequence",
+				"MeshDescription",
+				"Projects",
+				"StaticMeshDescription",
+				"VariantManagerContent",
+				"UnrealEd"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source\\DatasmithContent\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source\\DatasmithContent",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source\\DatasmithContent\\Public\\ObjectTemplates"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source\\DatasmithContent\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"DATASMITHCONTENT_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\DatasmithContent",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"DatasmithContentEditor": 
+		{
+			"Name": "DatasmithContentEditor",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source\\DatasmithContentEditor",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source\\DatasmithContentEditor\\DatasmithContentEditor.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"DatasmithContent",
+				"DesktopPlatform",
+				"EditorStyle",
+				"Engine",
+				"Projects",
+				"UnrealEd"
+			],
+			"PrivateDependencyModules": [
+				"PropertyEditor",
+				"SlateCore",
+				"Slate"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source\\DatasmithContentEditor\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source\\DatasmithContentEditor"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source\\DatasmithContentEditor\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"DATASMITHCONTENTEDITOR_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\DatasmithContentEditor",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"VariantManagerContent": 
+		{
+			"Name": "VariantManagerContent",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source\\VariantManagerContent",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source\\VariantManagerContent\\VariantManagerContent.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"Engine",
+				"UnrealEd",
+				"BlueprintGraph"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source\\VariantManagerContent\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source\\VariantManagerContent"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source\\VariantManagerContent\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"VARIANTMANAGERCONTENT_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\VariantManagerContent",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"VariantManagerContentEditor": 
+		{
+			"Name": "VariantManagerContentEditor",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source\\VariantManagerContentEditor",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source\\VariantManagerContentEditor\\VariantManagerContentEditor.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"Engine"
+			],
+			"PrivateDependencyModules": [
+				"EditorStyle",
+				"InputCore",
+				"Slate",
+				"SlateCore",
+				"ToolMenus",
+				"UnrealEd",
+				"VariantManagerContent",
+				"WorkspaceMenuStructure"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source\\VariantManagerContentEditor\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source\\VariantManagerContentEditor"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source\\VariantManagerContentEditor\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"VARIANTMANAGERCONTENTEDITOR_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\VariantManagerContentEditor",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"EditorScriptingUtilities": 
+		{
+			"Name": "EditorScriptingUtilities",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\EditorScriptingUtilities\\Source\\EditorScriptingUtilities",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\EditorScriptingUtilities\\Source\\EditorScriptingUtilities\\EditorScriptingUtilities.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"AssetRegistry",
+				"Core",
+				"CoreUObject",
+				"Engine"
+			],
+			"PrivateDependencyModules": [
+				"AssetTools",
+				"EditorStyle",
+				"MainFrame",
+				"MeshDescription",
+				"RawMesh",
+				"Slate",
+				"SlateCore",
+				"StaticMeshDescription",
+				"UnrealEd",
+				"SkeletalMeshUtilitiesCommon",
+				"LevelEditor"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\EditorScriptingUtilities\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\EditorScriptingUtilities\\Source\\EditorScriptingUtilities\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\EditorScriptingUtilities\\Source\\EditorScriptingUtilities"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\EditorScriptingUtilities\\Source\\EditorScriptingUtilities\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"EDITORSCRIPTINGUTILITIES_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\EditorScriptingUtilities\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\EditorScriptingUtilities",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"DataprepEditor": 
+		{
+			"Name": "DataprepEditor",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepEditor",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepEditor\\DataprepEditor.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PrivateDependencyModules": [
+				"AdvancedPreviewScene",
+				"ApplicationCore",
+				"AssetRegistry",
+				"AssetTools",
+				"BlueprintGraph",
+				"Core",
+				"CoreUObject",
+				"DataprepCore",
+				"DesktopPlatform",
+				"EditorStyle",
+				"EditorWidgets",
+				"Engine",
+				"GraphEditor",
+				"InputCore",
+				"Kismet",
+				"KismetCompiler",
+				"KismetWidgets",
+				"MeshDescription",
+				"MeshUtilities",
+				"MeshUtilitiesCommon",
+				"MessageLog",
+				"Projects",
+				"PropertyEditor",
+				"RHI",
+				"SceneOutliner",
+				"Slate",
+				"SlateCore",
+				"StatsViewer",
+				"UnrealEd"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepEditor\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepEditor"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepEditor\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"DATAPREPEDITOR_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\DataprepEditor",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"DataprepCore": 
+		{
+			"Name": "DataprepCore",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepCore",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepCore\\DataprepCore.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PrivateDependencyModules": [
+				"AssetTools",
+				"BlueprintGraph",
+				"Core",
+				"CoreUObject",
+				"EditorScriptingUtilities",
+				"EditorStyle",
+				"EditorWidgets",
+				"Engine",
+				"GraphEditor",
+				"InputCore",
+				"KismetCompiler",
+				"LevelSequence",
+				"MeshDescription",
+				"MessageLog",
+				"PropertyEditor",
+				"RenderCore",
+				"Slate",
+				"SlateCore",
+				"StaticMeshDescription",
+				"UnrealEd",
+				"VariantManagerContent"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepCore\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepCore",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepCore\\Public\\Blueprint",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepCore\\Public\\Parameterization",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepCore\\Public\\SelectionSystem"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepCore\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"DATAPREPCORE_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\DataprepCore",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"DataprepLibraries": 
+		{
+			"Name": "DataprepLibraries",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepLibraries",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepLibraries\\DataprepLibraries.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PrivateDependencyModules": [
+				"BlueprintGraph",
+				"Core",
+				"CoreUObject",
+				"DataprepCore",
+				"DatasmithContent",
+				"EditorScriptingUtilities",
+				"EditorStyle",
+				"Engine",
+				"GraphEditor",
+				"InputCore",
+				"KismetCompiler",
+				"LevelSequence",
+				"MeshDescription",
+				"Slate",
+				"SlateCore",
+				"StaticMeshDescription",
+				"UnrealEd"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepLibraries\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepLibraries",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepLibraries\\Public\\Fetchers"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepLibraries\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"DATAPREPLIBRARIES_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\DataprepLibraries",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"DataprepEditorScriptingUtilities": 
+		{
+			"Name": "DataprepEditorScriptingUtilities",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepEditorScriptingUtilities",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepEditorScriptingUtilities\\DataprepEditorScriptingUtilities.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PrivateDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"DataprepCore",
+				"Engine",
+				"DataprepEditor"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepEditorScriptingUtilities\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepEditorScriptingUtilities"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Source\\DataprepEditorScriptingUtilities\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"DATAPREPEDITORSCRIPTINGUTILITIES_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\DataprepEditorScriptingUtilities",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Engine\\Public\\EngineSharedPCH.h"
+		},
+		"VariantManager": 
+		{
+			"Name": "VariantManager",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManager\\Source\\VariantManager",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManager\\Source\\VariantManager\\VariantManager.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"Engine",
+				"UnrealEd",
+				"PropertyPath",
+				"VariantManagerContent"
+			],
+			"PrivateDependencyModules": [
+				"AppFramework",
+				"BlueprintGraph",
+				"DesktopPlatform",
+				"EditorStyle",
+				"GraphEditor",
+				"InputCore",
+				"PropertyEditor",
+				"CinematicCamera",
+				"SceneOutliner",
+				"Slate",
+				"SlateCore",
+				"ToolMenus",
+				"VariantManagerContentEditor",
+				"WorkspaceMenuStructure"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManager\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManager\\Source\\VariantManager\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManager\\Source\\VariantManager"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManager\\Source\\VariantManager\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"VARIANTMANAGER_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManager\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\VariantManager",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"StaticMeshEditorExtension": 
+		{
+			"Name": "StaticMeshEditorExtension",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\StaticMeshEditorExtension\\Source\\StaticMeshEditorExtension",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\StaticMeshEditorExtension\\Source\\StaticMeshEditorExtension\\StaticMeshEditorExtension.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PrivateDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"EditableMesh",
+				"EditorStyle",
+				"Engine",
+				"InputCore",
+				"MainFrame",
+				"MeshDescription",
+				"MeshEditor",
+				"MeshProcessingLibrary",
+				"PolygonModeling",
+				"Projects",
+				"RawMesh",
+				"RenderCore",
+				"RHI",
+				"Slate",
+				"SlateCore",
+				"StaticMeshDescription",
+				"StaticMeshEditor",
+				"UnrealEd",
+				"ViewportInteraction",
+				"DataprepCore",
+				"MeshUtilitiesCommon"
+			],
+			"PrivateIncludePathModules": [
+				"ContentBrowser",
+				"MeshEditor",
+				"MeshDescription",
+				"StaticMeshEditor"
+			],
+			"DynamicallyLoadedModules": [
+				"ContentBrowser"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\StaticMeshEditorExtension\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\StaticMeshEditorExtension\\Source\\StaticMeshEditorExtension\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\StaticMeshEditorExtension\\Source\\StaticMeshEditorExtension",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\StaticMeshEditorExtension\\Source\\StaticMeshEditorExtension\\Public\\UVTools"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\StaticMeshEditorExtension\\Source\\StaticMeshEditorExtension\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"STATICMESHEDITOREXTENSION_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\StaticMeshEditorExtension\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\StaticMeshEditorExtension",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"MeshProcessingLibrary": 
+		{
+			"Name": "MeshProcessingLibrary",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\StaticMeshEditorExtension\\Source\\MeshProcessingLibrary",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\StaticMeshEditorExtension\\Source\\MeshProcessingLibrary\\MeshProcessingLibrary.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PrivateDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"EditorStyle",
+				"Engine",
+				"InputCore",
+				"MainFrame",
+				"MeshDescription",
+				"Slate",
+				"SlateCore",
+				"StaticMeshDescription",
+				"UnrealEd",
+				"ProxyLODMeshReduction"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\StaticMeshEditorExtension\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\StaticMeshEditorExtension\\Source\\MeshProcessingLibrary\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\StaticMeshEditorExtension\\Source\\MeshProcessingLibrary"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\StaticMeshEditorExtension\\Source\\MeshProcessingLibrary\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"PublicDefinitions": [
+				"WITH_MESH_SIMPLIFIER=0"
+			],
+			"PrivateDefinitions": [
+				"WITH_PROXYLOD=1"
+			],
+			"ApiDefinitions": [
+				"MESHPROCESSINGLIBRARY_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\StaticMeshEditorExtension\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\MeshProcessingLibrary",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"EditableMesh": 
+		{
+			"Name": "EditableMesh",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\EditableMesh\\Source\\EditableMesh",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\EditableMesh\\Source\\EditableMesh\\EditableMesh.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PrivateDependencyModules": [
+				"RHI",
+				"Core",
+				"CoreUObject",
+				"Engine",
+				"MeshDescription",
+				"StaticMeshDescription",
+				"GeometryCollectionCore",
+				"GeometryCollectionEngine",
+				"RenderCore"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\EditableMesh\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\EditableMesh\\Source\\EditableMesh\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\EditableMesh\\Source\\EditableMesh"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"EDITABLEMESH_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\EditableMesh\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\EditableMesh",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Engine\\Public\\EngineSharedPCH.h"
+		},
+		"MeshEditor": 
+		{
+			"Name": "MeshEditor",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\MeshEditor\\Source\\MeshEditor",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\MeshEditor\\Source\\MeshEditor\\MeshEditor.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PrivateDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"Engine",
+				"InputCore",
+				"Slate",
+				"SlateCore",
+				"EditorStyle",
+				"UnrealEd",
+				"SceneOutliner",
+				"RenderCore",
+				"EditableMesh",
+				"MeshDescription",
+				"StaticMeshDescription",
+				"ViewportInteraction",
+				"VREditor",
+				"Projects",
+				"RHI",
+				"LevelEditor",
+				"MeshBuilder",
+				"BlastAuthoring",
+				"GeometryCollectionCore",
+				"GeometryCollectionEngine"
+			],
+			"PrivateIncludePathModules": [
+				"ContentBrowser",
+				"LevelEditor",
+				"MeshDescription"
+			],
+			"DynamicallyLoadedModules": [
+				"ContentBrowser"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\MeshEditor\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\MeshEditor\\Source\\MeshEditor\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\MeshEditor\\Source\\MeshEditor"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"PublicDefinitions": [
+				"ENABLE_MESH_EDITOR=0"
+			],
+			"ApiDefinitions": [
+				"MESHEDITOR_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\MeshEditor\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\MeshEditor",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"PolygonModeling": 
+		{
+			"Name": "PolygonModeling",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\MeshEditor\\Source\\PolygonModeling",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\MeshEditor\\Source\\PolygonModeling\\PolygonModeling.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PrivateDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"Slate",
+				"Engine",
+				"InputCore",
+				"UnrealEd",
+				"SceneOutliner",
+				"EditableMesh",
+				"MeshEditor",
+				"MeshDescription",
+				"StaticMeshDescription",
+				"SlateCore",
+				"ViewportInteraction",
+				"BlastAuthoring",
+				"GeometryCollectionCore",
+				"GeometryCollectionEngine",
+				"GeometryCollectionEditor"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\MeshEditor\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\MeshEditor\\Source\\PolygonModeling\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\MeshEditor\\Source\\PolygonModeling"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"POLYGONMODELING_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\MeshEditor\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\PolygonModeling",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"BlastAuthoring": 
+		{
+			"Name": "BlastAuthoring",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source\\BlastAuthoring",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source\\BlastAuthoring\\BlastAuthoring.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"EditableMesh",
+				"MeshDescription",
+				"StaticMeshDescription",
+				"Blast",
+				"BlastCore",
+				"GeometryCollectionCore",
+				"GeometryCollectionEngine"
+			],
+			"PrivateDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"Engine",
+				"Blast",
+				"BlastCore"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source\\BlastAuthoring\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source\\BlastAuthoring"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source\\BlastAuthoring\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"BLASTAUTHORING_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\BlastAuthoring",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Engine\\Public\\EngineSharedPCH.h"
+		},
+		"Blast": 
+		{
+			"Name": "Blast",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source\\ThirdParty",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source\\ThirdParty\\Blast.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"PhysX"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source\\ThirdParty\\common",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source\\ThirdParty\\lowlevel\\include",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source\\ThirdParty\\globals\\include",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source\\ThirdParty\\extensions\\physx\\include",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source\\ThirdParty\\extensions\\authoring\\include"
+			],
+			"PublicAdditionalLibraries": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source\\ThirdParty/Lib/Win64/VS2015\\NvBlastPROFILE_x64.lib",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source\\ThirdParty/Lib/Win64/VS2015\\NvBlastGlobalsPROFILE_x64.lib",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source\\ThirdParty/Lib/Win64/VS2015\\NvBlastExtAuthoringPROFILE_x64.lib"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"RuntimeDependencies": [
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin/Binaries/Win64/NvBlastPROFILE_x64.dll",
+					"Type": "NonUFS"
+				},
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin/Binaries/Win64/NvBlastGlobalsPROFILE_x64.dll",
+					"Type": "NonUFS"
+				},
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin/Binaries/Win64/NvBlastExtAuthoringPROFILE_x64.dll",
+					"Type": "NonUFS"
+				}
+			]
+		},
+		"BlastCore": 
+		{
+			"Name": "BlastCore",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source\\BlastCore",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source\\BlastCore\\BlastCore.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"Blast"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source\\BlastCore\\Public",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source\\BlastCore",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source\\BlastCore\\Public\\Blast"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Source\\BlastCore\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"BLASTCORE_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\BlastCore",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\CoreUObject\\Public\\CoreUObjectSharedPCH.h"
+		},
+		"GeometryCollectionEditor": 
+		{
+			"Name": "GeometryCollectionEditor",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionEditor",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionEditor\\GeometryCollectionEditor.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"Slate",
+				"SlateCore",
+				"Engine",
+				"UnrealEd",
+				"PropertyEditor",
+				"RenderCore",
+				"RHI",
+				"GeometryCollectionCore",
+				"GeometryCollectionEngine",
+				"GeometryCollectionSimulationCore",
+				"RawMesh",
+				"AssetTools",
+				"AssetRegistry",
+				"SceneOutliner",
+				"FieldSystemCore",
+				"EditorStyle",
+				"ToolMenus"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionEditor\\Public",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionEditor",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionEditor\\Public\\GeometryCollection",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionEditor\\Public\\GeometryCollection\\DetailCustomizations"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionEditor\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"GEOMETRYCOLLECTIONEDITOR_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\GeometryCollectionEditor",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"GeometryCollectionTracks": 
+		{
+			"Name": "GeometryCollectionTracks",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionTracks",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionTracks\\GeometryCollectionTracks.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"Engine",
+				"MovieScene",
+				"MovieSceneTracks",
+				"GeometryCollectionCore",
+				"GeometryCollectionEngine",
+				"GeometryCollectionSimulationCore"
+			],
+			"PublicIncludePathModules": [
+				"TargetPlatform",
+				"GeometryCollectionSequencer"
+			],
+			"PrivateDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"Engine",
+				"AnimGraphRuntime",
+				"TimeManagement"
+			],
+			"DynamicallyLoadedModules": [
+				"GeometryCollectionSequencer"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionTracks\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionTracks"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionTracks\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"GEOMETRYCOLLECTIONTRACKS_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\GeometryCollectionTracks",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Engine\\Public\\EngineSharedPCH.h"
+		},
+		"GeometryCollectionSequencer": 
+		{
+			"Name": "GeometryCollectionSequencer",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionSequencer",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionSequencer\\GeometryCollectionSequencer.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicIncludePathModules": [
+				"Sequencer"
+			],
+			"PrivateDependencyModules": [
+				"AssetTools",
+				"Core",
+				"CoreUObject",
+				"EditorStyle",
+				"Engine",
+				"MovieScene",
+				"MovieSceneTools",
+				"MovieSceneTracks",
+				"RHI",
+				"Sequencer",
+				"Slate",
+				"SlateCore",
+				"TimeManagement",
+				"UnrealEd",
+				"GeometryCollectionTracks",
+				"GeometryCollectionCore",
+				"GeometryCollectionEngine",
+				"GeometryCollectionSimulationCore"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionSequencer\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionSequencer"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionSequencer\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"GEOMETRYCOLLECTIONSEQUENCER_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\GeometryCollectionSequencer",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"ProceduralMeshComponent": 
+		{
+			"Name": "ProceduralMeshComponent",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source\\ProceduralMeshComponent",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source\\ProceduralMeshComponent\\ProceduralMeshComponent.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"Engine",
+				"InteractiveToolsFramework",
+				"MeshDescription",
+				"RenderCore",
+				"RHI",
+				"StaticMeshDescription"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source\\ProceduralMeshComponent\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source\\ProceduralMeshComponent"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source\\ProceduralMeshComponent\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"PROCEDURALMESHCOMPONENT_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\ProceduralMeshComponent",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Engine\\Public\\EngineSharedPCH.h"
+		},
+		"ProceduralMeshComponentEditor": 
+		{
+			"Name": "ProceduralMeshComponentEditor",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source\\ProceduralMeshComponentEditor",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source\\ProceduralMeshComponentEditor\\ProceduralMeshComponentEditor.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"Slate",
+				"SlateCore",
+				"Engine",
+				"UnrealEd",
+				"PropertyEditor",
+				"RenderCore",
+				"RHI",
+				"ProceduralMeshComponent",
+				"MeshDescription",
+				"StaticMeshDescription",
+				"AssetTools",
+				"AssetRegistry"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source\\ProceduralMeshComponentEditor\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source\\ProceduralMeshComponentEditor"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source\\ProceduralMeshComponentEditor\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"PROCEDURALMESHCOMPONENTEDITOR_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\ProceduralMeshComponentEditor",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"ChaosSolverEditor": 
+		{
+			"Name": "ChaosSolverEditor",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ChaosSolverPlugin\\Source\\ChaosSolverEditor",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ChaosSolverPlugin\\Source\\ChaosSolverEditor\\ChaosSolverEditor.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"Slate",
+				"SlateCore",
+				"Engine",
+				"UnrealEd",
+				"PropertyEditor",
+				"EditorStyle",
+				"RenderCore",
+				"RHI",
+				"ChaosSolverEngine",
+				"RawMesh",
+				"AssetTools",
+				"AssetRegistry",
+				"ToolMenus"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ChaosSolverPlugin\\Source\\ChaosSolverEditor\\Public",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ChaosSolverPlugin\\Source"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ChaosSolverPlugin\\Source\\ChaosSolverEditor",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ChaosSolverPlugin\\Source\\ChaosSolverEditor\\Public\\Chaos"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ChaosSolverPlugin\\Source\\ChaosSolverEditor\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"CHAOSSOLVEREDITOR_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ChaosSolverPlugin\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\ChaosSolverEditor",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"ProxyLODMeshReduction": 
+		{
+			"Name": "ProxyLODMeshReduction",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ProxyLOD",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ProxyLOD\\ProxyLODMeshReduction.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"UVAtlas",
+				"DirectXMesh",
+				"OpenVDB",
+				"UEOpenExr",
+				"Core",
+				"CoreUObject",
+				"Engine",
+				"InputCore",
+				"UnrealEd",
+				"RawMesh",
+				"MeshDescription",
+				"StaticMeshDescription",
+				"MeshUtilities",
+				"MaterialUtilities",
+				"PropertyEditor",
+				"SlateCore",
+				"Slate",
+				"EditorStyle",
+				"RenderCore",
+				"RHI",
+				"QuadricMeshReduction"
+			],
+			"PrivateDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"Engine",
+				"UnrealEd"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ProxyLOD\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ProxyLOD"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ProxyLOD\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"PROXYLODMESHREDUCTION_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\ProxyLODMeshReduction",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"UVAtlas": 
+		{
+			"Name": "UVAtlas",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty\\UVAtlas.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty\\UVAtlasCode\\UVAtlas"
+			],
+			"PublicAdditionalLibraries": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty/Deploy/VS2015/lib/x64/Release/UVAtlas.lib"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ShouldAddLegacyPublicIncludePaths": false
+		},
+		"DirectXMesh": 
+		{
+			"Name": "DirectXMesh",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty\\DirectXMesh.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty\\DirectXMeshCode\\DirectXMesh"
+			],
+			"PublicAdditionalLibraries": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty/Deploy/VS2015/lib/x64/Release/DirectXMesh.lib"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ShouldAddLegacyPublicIncludePaths": false
+		},
+		"OpenVDB": 
+		{
+			"Name": "OpenVDB",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty\\OpenVDB.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty\\openvdb",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\IntelTBB\\IntelTBB-2019u8\\include"
+			],
+			"PublicAdditionalLibraries": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty/Deploy/VS2015/lib/x64/Release/OpenVDB.lib",
+				"ThirdParty/IntelTBB/IntelTBB-2019u8/lib/Win64/vc14\\tbb.lib",
+				"ThirdParty/zlib/zlib-1.2.5/Lib/Win64\\zlib_64.lib"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"PublicDefinitions": [
+				"OPENVDB_STATICLIB",
+				"OPENVDB_OPENEXR_STATICLIB",
+				"OPENVDB_2_ABI_COMPATIBLE"
+			],
+			"ShouldAddLegacyPublicIncludePaths": false
+		},
+		"UEOpenExr": 
+		{
+			"Name": "UEOpenExr",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\openexr",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\openexr\\UEOpenExr.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicSystemIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\openexr\\Deploy\\OpenEXR-2.3.0",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\openexr\\Deploy\\OpenEXR-2.3.0\\OpenEXR\\include"
+			],
+			"PublicAdditionalLibraries": [
+				"ThirdParty/openexr/Deploy/OpenEXR-2.3.0/OpenEXR//lib/VS2015//x64/StaticRelease/Half.lib",
+				"ThirdParty/openexr/Deploy/OpenEXR-2.3.0/OpenEXR//lib/VS2015//x64/StaticRelease/Iex.lib",
+				"ThirdParty/openexr/Deploy/OpenEXR-2.3.0/OpenEXR//lib/VS2015//x64/StaticRelease/IlmImf.lib",
+				"ThirdParty/openexr/Deploy/OpenEXR-2.3.0/OpenEXR//lib/VS2015//x64/StaticRelease/IlmThread.lib",
+				"ThirdParty/openexr/Deploy/OpenEXR-2.3.0/OpenEXR//lib/VS2015//x64/StaticRelease/Imath.lib",
+				"ThirdParty/openexr/Deploy/OpenEXR-2.3.0/OpenEXR//lib/VS2015//x64/StaticRelease/IexMath.lib",
+				"ThirdParty/openexr/Deploy/OpenEXR-2.3.0/OpenEXR//lib/VS2015//x64/StaticRelease/IlmImfUtil.lib"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ShouldAddLegacyPublicIncludePaths": false
+		},
+		"GLTFCore": 
+		{
+			"Name": "GLTFCore",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\GLTFImporter\\Source\\GLTFCore",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\GLTFImporter\\Source\\GLTFCore\\GLTFCore.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"Core",
+				"CoreUObject"
+			],
+			"PrivateDependencyModules": [
+				"Engine",
+				"MeshDescription",
+				"StaticMeshDescription",
+				"Json",
+				"RenderCore"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\GLTFImporter\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\GLTFImporter\\Source\\GLTFCore\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\GLTFImporter\\Source\\GLTFCore"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\GLTFImporter\\Source\\GLTFCore\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"GLTFCORE_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\GLTFImporter\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\GLTFCore",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Engine\\Public\\EngineSharedPCH.h"
+		},
+		"GLTFImporter": 
+		{
+			"Name": "GLTFImporter",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\GLTFImporter\\Source\\GLTFImporter",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\GLTFImporter\\Source\\GLTFImporter\\GLTFImporter.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PrivateDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"Engine",
+				"UnrealEd",
+				"MeshDescription",
+				"StaticMeshDescription",
+				"MeshUtilities",
+				"MessageLog",
+				"Json",
+				"MaterialEditor",
+				"Slate",
+				"SlateCore",
+				"MainFrame",
+				"InputCore",
+				"EditorStyle",
+				"GLTFCore"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\GLTFImporter\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\GLTFImporter\\Source\\GLTFImporter\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\GLTFImporter\\Source\\GLTFImporter"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\GLTFImporter\\Source\\GLTFImporter\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"GLTFIMPORTER_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\GLTFImporter\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\GLTFImporter",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
 		},
 		"Paper2D": 
 		{
@@ -6709,164 +8353,6 @@
 			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\SpeedTreeImporter\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\SpeedTreeImporter",
 			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
 		},
-		"DatasmithContent": 
-		{
-			"Name": "DatasmithContent",
-			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source\\DatasmithContent",
-			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source\\DatasmithContent\\DatasmithContent.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PublicDependencyModules": [
-				"CinematicCamera",
-				"Core",
-				"CoreUObject",
-				"Engine",
-				"RenderCore"
-			],
-			"PrivateDependencyModules": [
-				"Landscape",
-				"LevelSequence",
-				"MeshDescription",
-				"Projects",
-				"StaticMeshDescription",
-				"VariantManagerContent",
-				"UnrealEd"
-			],
-			"PublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source\\DatasmithContent\\Public"
-			],
-			"LegacyPublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source\\DatasmithContent",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source\\DatasmithContent\\Public\\ObjectTemplates"
-			],
-			"PrivateIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source\\DatasmithContent\\Private"
-			],
-			"PublicDelayLoadDLLs": [
-				"d3d12.dll"
-			],
-			"ApiDefinitions": [
-				"DATASMITHCONTENT_API="
-			],
-			"ShouldAddLegacyPublicIncludePaths": false,
-			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\DatasmithContent",
-			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
-		},
-		"DatasmithContentEditor": 
-		{
-			"Name": "DatasmithContentEditor",
-			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source\\DatasmithContentEditor",
-			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source\\DatasmithContentEditor\\DatasmithContentEditor.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PublicDependencyModules": [
-				"Core",
-				"CoreUObject",
-				"DatasmithContent",
-				"DesktopPlatform",
-				"EditorStyle",
-				"Engine",
-				"Projects",
-				"UnrealEd"
-			],
-			"PrivateDependencyModules": [
-				"PropertyEditor",
-				"SlateCore",
-				"Slate"
-			],
-			"PublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source\\DatasmithContentEditor\\Public"
-			],
-			"LegacyPublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source\\DatasmithContentEditor"
-			],
-			"PrivateIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Source\\DatasmithContentEditor\\Private"
-			],
-			"PublicDelayLoadDLLs": [
-				"d3d12.dll"
-			],
-			"ApiDefinitions": [
-				"DATASMITHCONTENTEDITOR_API="
-			],
-			"ShouldAddLegacyPublicIncludePaths": false,
-			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\DatasmithContentEditor",
-			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
-		},
-		"VariantManagerContent": 
-		{
-			"Name": "VariantManagerContent",
-			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source\\VariantManagerContent",
-			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source\\VariantManagerContent\\VariantManagerContent.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PublicDependencyModules": [
-				"Core",
-				"CoreUObject",
-				"Engine",
-				"UnrealEd",
-				"BlueprintGraph"
-			],
-			"PublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source\\VariantManagerContent\\Public"
-			],
-			"LegacyPublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source\\VariantManagerContent"
-			],
-			"PrivateIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source\\VariantManagerContent\\Private"
-			],
-			"PublicDelayLoadDLLs": [
-				"d3d12.dll"
-			],
-			"ApiDefinitions": [
-				"VARIANTMANAGERCONTENT_API="
-			],
-			"ShouldAddLegacyPublicIncludePaths": false,
-			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\VariantManagerContent",
-			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
-		},
-		"VariantManagerContentEditor": 
-		{
-			"Name": "VariantManagerContentEditor",
-			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source\\VariantManagerContentEditor",
-			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source\\VariantManagerContentEditor\\VariantManagerContentEditor.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PublicDependencyModules": [
-				"Core",
-				"CoreUObject",
-				"Engine"
-			],
-			"PrivateDependencyModules": [
-				"EditorStyle",
-				"InputCore",
-				"Slate",
-				"SlateCore",
-				"ToolMenus",
-				"UnrealEd",
-				"VariantManagerContent",
-				"WorkspaceMenuStructure"
-			],
-			"PublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source\\VariantManagerContentEditor\\Public"
-			],
-			"LegacyPublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source\\VariantManagerContentEditor"
-			],
-			"PrivateIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Source\\VariantManagerContentEditor\\Private"
-			],
-			"PublicDelayLoadDLLs": [
-				"d3d12.dll"
-			],
-			"ApiDefinitions": [
-				"VARIANTMANAGERCONTENTEDITOR_API="
-			],
-			"ShouldAddLegacyPublicIncludePaths": false,
-			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\VariantManagerContentEditor",
-			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
-		},
 		"AlembicImporter": 
 		{
 			"Name": "AlembicImporter",
@@ -7908,310 +9394,6 @@
 			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryProcessing\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\MeshSolverUtilities",
 			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\CoreUObject\\Public\\CoreUObjectSharedPCH.h"
 		},
-		"EditableMesh": 
-		{
-			"Name": "EditableMesh",
-			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\EditableMesh\\Source\\EditableMesh",
-			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\EditableMesh\\Source\\EditableMesh\\EditableMesh.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PrivateDependencyModules": [
-				"RHI",
-				"Core",
-				"CoreUObject",
-				"Engine",
-				"MeshDescription",
-				"StaticMeshDescription",
-				"GeometryCollectionCore",
-				"GeometryCollectionEngine",
-				"RenderCore"
-			],
-			"PublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\EditableMesh\\Source",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\EditableMesh\\Source\\EditableMesh\\Public"
-			],
-			"LegacyPublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\EditableMesh\\Source\\EditableMesh"
-			],
-			"PublicDelayLoadDLLs": [
-				"d3d12.dll"
-			],
-			"ApiDefinitions": [
-				"EDITABLEMESH_API="
-			],
-			"ShouldAddLegacyPublicIncludePaths": false,
-			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\EditableMesh\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\EditableMesh",
-			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Engine\\Public\\EngineSharedPCH.h"
-		},
-		"GeometryCollectionEditor": 
-		{
-			"Name": "GeometryCollectionEditor",
-			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionEditor",
-			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionEditor\\GeometryCollectionEditor.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PublicDependencyModules": [
-				"Core",
-				"CoreUObject",
-				"Slate",
-				"SlateCore",
-				"Engine",
-				"UnrealEd",
-				"PropertyEditor",
-				"RenderCore",
-				"RHI",
-				"GeometryCollectionCore",
-				"GeometryCollectionEngine",
-				"GeometryCollectionSimulationCore",
-				"RawMesh",
-				"AssetTools",
-				"AssetRegistry",
-				"SceneOutliner",
-				"FieldSystemCore",
-				"EditorStyle",
-				"ToolMenus"
-			],
-			"PublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionEditor\\Public",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source"
-			],
-			"LegacyPublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionEditor",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionEditor\\Public\\GeometryCollection",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionEditor\\Public\\GeometryCollection\\DetailCustomizations"
-			],
-			"PrivateIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionEditor\\Private"
-			],
-			"PublicDelayLoadDLLs": [
-				"d3d12.dll"
-			],
-			"ApiDefinitions": [
-				"GEOMETRYCOLLECTIONEDITOR_API="
-			],
-			"ShouldAddLegacyPublicIncludePaths": false,
-			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\GeometryCollectionEditor",
-			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
-		},
-		"GeometryCollectionTracks": 
-		{
-			"Name": "GeometryCollectionTracks",
-			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionTracks",
-			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionTracks\\GeometryCollectionTracks.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PublicDependencyModules": [
-				"Core",
-				"CoreUObject",
-				"Engine",
-				"MovieScene",
-				"MovieSceneTracks",
-				"GeometryCollectionCore",
-				"GeometryCollectionEngine",
-				"GeometryCollectionSimulationCore"
-			],
-			"PublicIncludePathModules": [
-				"TargetPlatform",
-				"GeometryCollectionSequencer"
-			],
-			"PrivateDependencyModules": [
-				"Core",
-				"CoreUObject",
-				"Engine",
-				"AnimGraphRuntime",
-				"TimeManagement"
-			],
-			"DynamicallyLoadedModules": [
-				"GeometryCollectionSequencer"
-			],
-			"PublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionTracks\\Public"
-			],
-			"LegacyPublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionTracks"
-			],
-			"PrivateIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionTracks\\Private"
-			],
-			"PublicDelayLoadDLLs": [
-				"d3d12.dll"
-			],
-			"ApiDefinitions": [
-				"GEOMETRYCOLLECTIONTRACKS_API="
-			],
-			"ShouldAddLegacyPublicIncludePaths": false,
-			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\GeometryCollectionTracks",
-			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Engine\\Public\\EngineSharedPCH.h"
-		},
-		"GeometryCollectionSequencer": 
-		{
-			"Name": "GeometryCollectionSequencer",
-			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionSequencer",
-			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionSequencer\\GeometryCollectionSequencer.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PublicIncludePathModules": [
-				"Sequencer"
-			],
-			"PrivateDependencyModules": [
-				"AssetTools",
-				"Core",
-				"CoreUObject",
-				"EditorStyle",
-				"Engine",
-				"MovieScene",
-				"MovieSceneTools",
-				"MovieSceneTracks",
-				"RHI",
-				"Sequencer",
-				"Slate",
-				"SlateCore",
-				"TimeManagement",
-				"UnrealEd",
-				"GeometryCollectionTracks",
-				"GeometryCollectionCore",
-				"GeometryCollectionEngine",
-				"GeometryCollectionSimulationCore"
-			],
-			"PublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionSequencer\\Public"
-			],
-			"LegacyPublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionSequencer"
-			],
-			"PrivateIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Source\\GeometryCollectionSequencer\\Private"
-			],
-			"PublicDelayLoadDLLs": [
-				"d3d12.dll"
-			],
-			"ApiDefinitions": [
-				"GEOMETRYCOLLECTIONSEQUENCER_API="
-			],
-			"ShouldAddLegacyPublicIncludePaths": false,
-			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\GeometryCollectionSequencer",
-			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
-		},
-		"ProceduralMeshComponent": 
-		{
-			"Name": "ProceduralMeshComponent",
-			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source\\ProceduralMeshComponent",
-			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source\\ProceduralMeshComponent\\ProceduralMeshComponent.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PublicDependencyModules": [
-				"Core",
-				"CoreUObject",
-				"Engine",
-				"InteractiveToolsFramework",
-				"MeshDescription",
-				"RenderCore",
-				"RHI",
-				"StaticMeshDescription"
-			],
-			"PublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source\\ProceduralMeshComponent\\Public"
-			],
-			"LegacyPublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source\\ProceduralMeshComponent"
-			],
-			"PrivateIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source\\ProceduralMeshComponent\\Private"
-			],
-			"PublicDelayLoadDLLs": [
-				"d3d12.dll"
-			],
-			"ApiDefinitions": [
-				"PROCEDURALMESHCOMPONENT_API="
-			],
-			"ShouldAddLegacyPublicIncludePaths": false,
-			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\ProceduralMeshComponent",
-			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Engine\\Public\\EngineSharedPCH.h"
-		},
-		"ProceduralMeshComponentEditor": 
-		{
-			"Name": "ProceduralMeshComponentEditor",
-			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source\\ProceduralMeshComponentEditor",
-			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source\\ProceduralMeshComponentEditor\\ProceduralMeshComponentEditor.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PublicDependencyModules": [
-				"Core",
-				"CoreUObject",
-				"Slate",
-				"SlateCore",
-				"Engine",
-				"UnrealEd",
-				"PropertyEditor",
-				"RenderCore",
-				"RHI",
-				"ProceduralMeshComponent",
-				"MeshDescription",
-				"StaticMeshDescription",
-				"AssetTools",
-				"AssetRegistry"
-			],
-			"PublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source\\ProceduralMeshComponentEditor\\Public"
-			],
-			"LegacyPublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source\\ProceduralMeshComponentEditor"
-			],
-			"PrivateIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Source\\ProceduralMeshComponentEditor\\Private"
-			],
-			"PublicDelayLoadDLLs": [
-				"d3d12.dll"
-			],
-			"ApiDefinitions": [
-				"PROCEDURALMESHCOMPONENTEDITOR_API="
-			],
-			"ShouldAddLegacyPublicIncludePaths": false,
-			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\ProceduralMeshComponentEditor",
-			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
-		},
-		"ChaosSolverEditor": 
-		{
-			"Name": "ChaosSolverEditor",
-			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ChaosSolverPlugin\\Source\\ChaosSolverEditor",
-			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ChaosSolverPlugin\\Source\\ChaosSolverEditor\\ChaosSolverEditor.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PublicDependencyModules": [
-				"Core",
-				"CoreUObject",
-				"Slate",
-				"SlateCore",
-				"Engine",
-				"UnrealEd",
-				"PropertyEditor",
-				"EditorStyle",
-				"RenderCore",
-				"RHI",
-				"ChaosSolverEngine",
-				"RawMesh",
-				"AssetTools",
-				"AssetRegistry",
-				"ToolMenus"
-			],
-			"PublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ChaosSolverPlugin\\Source\\ChaosSolverEditor\\Public",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ChaosSolverPlugin\\Source"
-			],
-			"LegacyPublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ChaosSolverPlugin\\Source\\ChaosSolverEditor",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ChaosSolverPlugin\\Source\\ChaosSolverEditor\\Public\\Chaos"
-			],
-			"PrivateIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ChaosSolverPlugin\\Source\\ChaosSolverEditor\\Private"
-			],
-			"PublicDelayLoadDLLs": [
-				"d3d12.dll"
-			],
-			"ApiDefinitions": [
-				"CHAOSSOLVEREDITOR_API="
-			],
-			"ShouldAddLegacyPublicIncludePaths": false,
-			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ChaosSolverPlugin\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\ChaosSolverEditor",
-			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
-		},
 		"ChaosNiagara": 
 		{
 			"Name": "ChaosNiagara",
@@ -8739,146 +9921,6 @@
 			"ShouldAddLegacyPublicIncludePaths": false,
 			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\PlatformCrypto\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\PlatformCryptoOpenSSL",
 			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Core\\Public\\CoreSharedPCH.h"
-		},
-		"ProxyLODMeshReduction": 
-		{
-			"Name": "ProxyLODMeshReduction",
-			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ProxyLOD",
-			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ProxyLOD\\ProxyLODMeshReduction.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PublicDependencyModules": [
-				"UVAtlas",
-				"DirectXMesh",
-				"OpenVDB",
-				"UEOpenExr",
-				"Core",
-				"CoreUObject",
-				"Engine",
-				"InputCore",
-				"UnrealEd",
-				"RawMesh",
-				"MeshDescription",
-				"StaticMeshDescription",
-				"MeshUtilities",
-				"MaterialUtilities",
-				"PropertyEditor",
-				"SlateCore",
-				"Slate",
-				"EditorStyle",
-				"RenderCore",
-				"RHI",
-				"QuadricMeshReduction"
-			],
-			"PrivateDependencyModules": [
-				"Core",
-				"CoreUObject",
-				"Engine",
-				"UnrealEd"
-			],
-			"PublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ProxyLOD\\Public"
-			],
-			"LegacyPublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ProxyLOD"
-			],
-			"PrivateIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ProxyLOD\\Private"
-			],
-			"PublicDelayLoadDLLs": [
-				"d3d12.dll"
-			],
-			"ApiDefinitions": [
-				"PROXYLODMESHREDUCTION_API="
-			],
-			"ShouldAddLegacyPublicIncludePaths": false,
-			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\ProxyLODMeshReduction",
-			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
-		},
-		"UVAtlas": 
-		{
-			"Name": "UVAtlas",
-			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty",
-			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty\\UVAtlas.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty\\UVAtlasCode\\UVAtlas"
-			],
-			"PublicAdditionalLibraries": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty/Deploy/VS2015/lib/x64/Release/UVAtlas.lib"
-			],
-			"PublicDelayLoadDLLs": [
-				"d3d12.dll"
-			],
-			"ShouldAddLegacyPublicIncludePaths": false
-		},
-		"DirectXMesh": 
-		{
-			"Name": "DirectXMesh",
-			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty",
-			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty\\DirectXMesh.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty\\DirectXMeshCode\\DirectXMesh"
-			],
-			"PublicAdditionalLibraries": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty/Deploy/VS2015/lib/x64/Release/DirectXMesh.lib"
-			],
-			"PublicDelayLoadDLLs": [
-				"d3d12.dll"
-			],
-			"ShouldAddLegacyPublicIncludePaths": false
-		},
-		"OpenVDB": 
-		{
-			"Name": "OpenVDB",
-			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty",
-			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty\\OpenVDB.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty\\openvdb",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\IntelTBB\\IntelTBB-2019u8\\include"
-			],
-			"PublicAdditionalLibraries": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\Source\\ThirdParty/Deploy/VS2015/lib/x64/Release/OpenVDB.lib",
-				"ThirdParty/IntelTBB/IntelTBB-2019u8/lib/Win64/vc14\\tbb.lib",
-				"ThirdParty/zlib/zlib-1.2.5/Lib/Win64\\zlib_64.lib"
-			],
-			"PublicDelayLoadDLLs": [
-				"d3d12.dll"
-			],
-			"PublicDefinitions": [
-				"OPENVDB_STATICLIB",
-				"OPENVDB_OPENEXR_STATICLIB",
-				"OPENVDB_2_ABI_COMPATIBLE"
-			],
-			"ShouldAddLegacyPublicIncludePaths": false
-		},
-		"UEOpenExr": 
-		{
-			"Name": "UEOpenExr",
-			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\openexr",
-			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\openexr\\UEOpenExr.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PublicSystemIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\openexr\\Deploy\\OpenEXR-2.3.0",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\openexr\\Deploy\\OpenEXR-2.3.0\\OpenEXR\\include"
-			],
-			"PublicAdditionalLibraries": [
-				"ThirdParty/openexr/Deploy/OpenEXR-2.3.0/OpenEXR//lib/VS2015//x64/StaticRelease/Half.lib",
-				"ThirdParty/openexr/Deploy/OpenEXR-2.3.0/OpenEXR//lib/VS2015//x64/StaticRelease/Iex.lib",
-				"ThirdParty/openexr/Deploy/OpenEXR-2.3.0/OpenEXR//lib/VS2015//x64/StaticRelease/IlmImf.lib",
-				"ThirdParty/openexr/Deploy/OpenEXR-2.3.0/OpenEXR//lib/VS2015//x64/StaticRelease/IlmThread.lib",
-				"ThirdParty/openexr/Deploy/OpenEXR-2.3.0/OpenEXR//lib/VS2015//x64/StaticRelease/Imath.lib",
-				"ThirdParty/openexr/Deploy/OpenEXR-2.3.0/OpenEXR//lib/VS2015//x64/StaticRelease/IexMath.lib",
-				"ThirdParty/openexr/Deploy/OpenEXR-2.3.0/OpenEXR//lib/VS2015//x64/StaticRelease/IlmImfUtil.lib"
-			],
-			"PublicDelayLoadDLLs": [
-				"d3d12.dll"
-			],
-			"ShouldAddLegacyPublicIncludePaths": false
 		},
 		"SkeletalMeshReduction": 
 		{
@@ -10981,51 +12023,6 @@
 			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\MovieScene\\MovieRenderPipeline\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\MovieRenderPipelineEditor",
 			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
 		},
-		"EditorScriptingUtilities": 
-		{
-			"Name": "EditorScriptingUtilities",
-			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\EditorScriptingUtilities\\Source\\EditorScriptingUtilities",
-			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\EditorScriptingUtilities\\Source\\EditorScriptingUtilities\\EditorScriptingUtilities.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PublicDependencyModules": [
-				"AssetRegistry",
-				"Core",
-				"CoreUObject",
-				"Engine"
-			],
-			"PrivateDependencyModules": [
-				"AssetTools",
-				"EditorStyle",
-				"MainFrame",
-				"MeshDescription",
-				"RawMesh",
-				"Slate",
-				"SlateCore",
-				"StaticMeshDescription",
-				"UnrealEd",
-				"SkeletalMeshUtilitiesCommon",
-				"LevelEditor"
-			],
-			"PublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\EditorScriptingUtilities\\Source",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\EditorScriptingUtilities\\Source\\EditorScriptingUtilities\\Public"
-			],
-			"LegacyPublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\EditorScriptingUtilities\\Source\\EditorScriptingUtilities"
-			],
-			"PrivateIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\EditorScriptingUtilities\\Source\\EditorScriptingUtilities\\Private"
-			],
-			"PublicDelayLoadDLLs": [
-				"d3d12.dll"
-			],
-			"ApiDefinitions": [
-				"EDITORSCRIPTINGUTILITIES_API="
-			],
-			"ShouldAddLegacyPublicIncludePaths": false,
-			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\EditorScriptingUtilities\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\EditorScriptingUtilities",
-			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
-		},
 		"NetcodeUnitTest": 
 		{
 			"Name": "NetcodeUnitTest",
@@ -12888,7 +13885,8 @@
 				"InputCore"
 			],
 			"PrivateDependencyModules": [
-				"Engine"
+				"Engine",
+				"AIModule"
 			],
 			"PublicIncludePaths": [
 				"C:\\Users\\janca\\Documents\\Unreal Projects\\AGILA_GIT_2\\AGILA\\Source"
@@ -26592,34 +27590,6 @@
 			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\UnrealEd",
 			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Private\\UnrealEdPrivatePCH.h"
 		},
-		"FreeImage": 
-		{
-			"Name": "FreeImage",
-			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\FreeImage",
-			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\FreeImage\\FreeImage.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PublicSystemIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\FreeImage\\Source"
-			],
-			"PublicAdditionalLibraries": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\FreeImage\\lib\\Win64\\FreeImage.lib"
-			],
-			"PublicDelayLoadDLLs": [
-				"FreeImage.dll",
-				"d3d12.dll"
-			],
-			"PublicDefinitions": [
-				"WITH_FREEIMAGE_LIB=1",
-				"FREEIMAGE_LIB_FILENAME=\"FreeImage.dll\""
-			],
-			"ShouldAddLegacyPublicIncludePaths": false,
-			"RuntimeDependencies": [
-				{
-					"Path": "../Binaries/ThirdParty/FreeImage\\Win64\\FreeImage.dll",
-					"Type": "NonUFS"
-				}
-			]
-		},
 		"EditorWidgets": 
 		{
 			"Name": "EditorWidgets",
@@ -28663,38 +29633,42 @@
 			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\TextureCompressor",
 			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Engine\\Public\\EngineSharedPCH.h"
 		},
-		"TreeMap": 
+		"DatasmithCore": 
 		{
-			"Name": "TreeMap",
-			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Developer\\TreeMap",
-			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Developer\\TreeMap\\TreeMap.Build.cs",
+			"Name": "DatasmithCore",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Datasmith\\DatasmithCore",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Datasmith\\DatasmithCore\\DatasmithCore.Build.cs",
 			"PCHUsage": "UseExplicitOrSharedPCHs",
 			"PublicDependencyModules": [
 				"Core",
 				"CoreUObject",
-				"SlateCore"
+				"RawMesh",
+				"MeshDescription",
+				"StaticMeshDescription"
 			],
 			"PrivateDependencyModules": [
-				"Slate",
-				"InputCore",
+				"Json",
 				"XmlParser"
 			],
 			"PublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Developer",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Developer\\TreeMap\\Public"
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Datasmith",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Datasmith\\DatasmithCore\\Public"
 			],
 			"LegacyPublicIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Developer\\TreeMap"
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Datasmith\\DatasmithCore"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Datasmith\\DatasmithCore\\Private"
 			],
 			"PublicDelayLoadDLLs": [
 				"d3d12.dll"
 			],
 			"ApiDefinitions": [
-				"TREEMAP_API="
+				"DATASMITHCORE_API="
 			],
 			"ShouldAddLegacyPublicIncludePaths": false,
-			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\TreeMap",
-			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Slate\\Public\\SlateSharedPCH.h"
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\DatasmithCore",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\CoreUObject\\Public\\CoreUObjectSharedPCH.h"
 		},
 		"ChaosSolverEngine": 
 		{
@@ -28895,6 +29869,39 @@
 			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\QuadricMeshReduction",
 			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Engine\\Public\\EngineSharedPCH.h"
 		},
+		"TreeMap": 
+		{
+			"Name": "TreeMap",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Developer\\TreeMap",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Developer\\TreeMap\\TreeMap.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"SlateCore"
+			],
+			"PrivateDependencyModules": [
+				"Slate",
+				"InputCore",
+				"XmlParser"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Developer",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Developer\\TreeMap\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Developer\\TreeMap"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"TREEMAP_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\TreeMap",
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Runtime\\Slate\\Public\\SlateSharedPCH.h"
+		},
 		"InputDevice": 
 		{
 			"Name": "InputDevice",
@@ -29077,6 +30084,221 @@
 	},
 	"Plugins": 
 	{
+		"DatasmithGLTFImporter": 
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithGLTFImporter\\DatasmithGLTFImporter.uplugin",
+			"Type": "Engine",
+			"Dependencies": [
+				"DatasmithImporter",
+				"DatasmithContent",
+				"VariantManagerContent",
+				"EditorScriptingUtilities",
+				"DataprepEditor",
+				"VariantManager",
+				"StaticMeshEditorExtension",
+				"EditableMesh",
+				"MeshEditor",
+				"BlastPlugin",
+				"GeometryCollectionPlugin",
+				"ProceduralMeshComponent",
+				"ChaosSolverPlugin",
+				"ProxyLODPlugin",
+				"GLTFImporter"
+			],
+			"Modules": [
+				"DatasmithGLTFTranslator"
+			]
+		},
+		"DatasmithImporter": 
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithImporter\\DatasmithImporter.uplugin",
+			"Type": "Engine",
+			"Dependencies": [
+				"DatasmithContent",
+				"VariantManagerContent",
+				"EditorScriptingUtilities",
+				"DataprepEditor",
+				"VariantManager",
+				"StaticMeshEditorExtension",
+				"EditableMesh",
+				"MeshEditor",
+				"BlastPlugin",
+				"GeometryCollectionPlugin",
+				"ProceduralMeshComponent",
+				"ChaosSolverPlugin",
+				"ProxyLODPlugin"
+			],
+			"Modules": [
+				"DatasmithImporter",
+				"DatasmithTranslator",
+				"DatasmithNativeTranslator"
+			]
+		},
+		"DatasmithContent": 
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\DatasmithContent.uplugin",
+			"Type": "Engine",
+			"Dependencies": [
+				"VariantManagerContent"
+			],
+			"Modules": [
+				"DatasmithContent",
+				"DatasmithContentEditor"
+			]
+		},
+		"VariantManagerContent": 
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\VariantManagerContent.uplugin",
+			"Type": "Engine",
+			"Modules": [
+				"VariantManagerContent",
+				"VariantManagerContentEditor"
+			]
+		},
+		"EditorScriptingUtilities": 
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\EditorScriptingUtilities\\EditorScriptingUtilities.uplugin",
+			"Type": "Engine",
+			"Modules": [
+				"EditorScriptingUtilities"
+			]
+		},
+		"DataprepEditor": 
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DataprepEditor\\DataprepEditor.uplugin",
+			"Type": "Engine",
+			"Dependencies": [
+				"DatasmithContent",
+				"VariantManagerContent",
+				"EditorScriptingUtilities"
+			],
+			"Modules": [
+				"DataprepEditor",
+				"DataprepCore",
+				"DataprepLibraries",
+				"DataprepEditorScriptingUtilities"
+			]
+		},
+		"VariantManager": 
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManager\\VariantManager.uplugin",
+			"Type": "Engine",
+			"Dependencies": [
+				"VariantManagerContent"
+			],
+			"Modules": [
+				"VariantManager"
+			]
+		},
+		"StaticMeshEditorExtension": 
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\StaticMeshEditorExtension\\StaticMeshEditorExtension.uplugin",
+			"Type": "Engine",
+			"Dependencies": [
+				"EditableMesh",
+				"MeshEditor",
+				"BlastPlugin",
+				"GeometryCollectionPlugin",
+				"ProceduralMeshComponent",
+				"ChaosSolverPlugin",
+				"ProxyLODPlugin",
+				"DataprepEditor",
+				"DatasmithContent",
+				"VariantManagerContent",
+				"EditorScriptingUtilities"
+			],
+			"Modules": [
+				"StaticMeshEditorExtension",
+				"MeshProcessingLibrary"
+			]
+		},
+		"EditableMesh": 
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\EditableMesh\\EditableMesh.uplugin",
+			"Type": "Engine",
+			"Modules": [
+				"EditableMesh"
+			]
+		},
+		"MeshEditor": 
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\MeshEditor\\MeshEditor.uplugin",
+			"Type": "Engine",
+			"Dependencies": [
+				"EditableMesh",
+				"BlastPlugin",
+				"GeometryCollectionPlugin",
+				"ProceduralMeshComponent",
+				"ChaosSolverPlugin"
+			],
+			"Modules": [
+				"MeshEditor",
+				"PolygonModeling"
+			]
+		},
+		"BlastPlugin": 
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\BlastPlugin\\BlastPlugin.uplugin",
+			"Type": "Engine",
+			"Dependencies": [
+				"EditableMesh",
+				"GeometryCollectionPlugin",
+				"ProceduralMeshComponent",
+				"ChaosSolverPlugin"
+			],
+			"Modules": [
+				"BlastAuthoring",
+				"BlastCore"
+			]
+		},
+		"GeometryCollectionPlugin": 
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\GeometryCollectionPlugin.uplugin",
+			"Type": "Engine",
+			"Dependencies": [
+				"ProceduralMeshComponent",
+				"ChaosSolverPlugin"
+			],
+			"Modules": [
+				"GeometryCollectionEditor",
+				"GeometryCollectionTracks",
+				"GeometryCollectionSequencer"
+			]
+		},
+		"ProceduralMeshComponent": 
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\ProceduralMeshComponent.uplugin",
+			"Type": "Engine",
+			"Modules": [
+				"ProceduralMeshComponent",
+				"ProceduralMeshComponentEditor"
+			]
+		},
+		"ChaosSolverPlugin": 
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ChaosSolverPlugin\\ChaosSolverPlugin.uplugin",
+			"Type": "Engine",
+			"Modules": [
+				"ChaosSolverEditor"
+			]
+		},
+		"ProxyLODPlugin": 
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\ProxyLODPlugin.uplugin",
+			"Type": "Engine",
+			"Modules": [
+				"ProxyLODMeshReduction"
+			]
+		},
+		"GLTFImporter": 
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\GLTFImporter\\GLTFImporter.uplugin",
+			"Type": "Engine",
+			"Modules": [
+				"GLTFCore",
+				"GLTFImporter"
+			]
+		},
 		"Paper2D": 
 		{
 			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\2D\\Paper2D\\Paper2D.uplugin",
@@ -29335,27 +30557,6 @@
 				"SpeedTreeImporter"
 			]
 		},
-		"DatasmithContent": 
-		{
-			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\DatasmithContent\\DatasmithContent.uplugin",
-			"Type": "Engine",
-			"Dependencies": [
-				"VariantManagerContent"
-			],
-			"Modules": [
-				"DatasmithContent",
-				"DatasmithContentEditor"
-			]
-		},
-		"VariantManagerContent": 
-		{
-			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Enterprise\\VariantManagerContent\\VariantManagerContent.uplugin",
-			"Type": "Engine",
-			"Modules": [
-				"VariantManagerContent",
-				"VariantManagerContentEditor"
-			]
-		},
 		"AlembicImporter": 
 		{
 			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\AlembicImporter\\AlembicImporter.uplugin",
@@ -29465,45 +30666,6 @@
 				"MeshSolverUtilities"
 			]
 		},
-		"EditableMesh": 
-		{
-			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\EditableMesh\\EditableMesh.uplugin",
-			"Type": "Engine",
-			"Modules": [
-				"EditableMesh"
-			]
-		},
-		"GeometryCollectionPlugin": 
-		{
-			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\GeometryCollectionPlugin\\GeometryCollectionPlugin.uplugin",
-			"Type": "Engine",
-			"Dependencies": [
-				"ProceduralMeshComponent",
-				"ChaosSolverPlugin"
-			],
-			"Modules": [
-				"GeometryCollectionEditor",
-				"GeometryCollectionTracks",
-				"GeometryCollectionSequencer"
-			]
-		},
-		"ProceduralMeshComponent": 
-		{
-			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ProceduralMeshComponent\\ProceduralMeshComponent.uplugin",
-			"Type": "Engine",
-			"Modules": [
-				"ProceduralMeshComponent",
-				"ProceduralMeshComponentEditor"
-			]
-		},
-		"ChaosSolverPlugin": 
-		{
-			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ChaosSolverPlugin\\ChaosSolverPlugin.uplugin",
-			"Type": "Engine",
-			"Modules": [
-				"ChaosSolverEditor"
-			]
-		},
 		"ChaosNiagara": 
 		{
 			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ChaosNiagara\\ChaosNiagara.uplugin",
@@ -29546,14 +30708,6 @@
 				"PlatformCrypto",
 				"PlatformCryptoTypes",
 				"PlatformCryptoOpenSSL"
-			]
-		},
-		"ProxyLODPlugin": 
-		{
-			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Experimental\\ProxyLODPlugin\\ProxyLODPlugin.uplugin",
-			"Type": "Engine",
-			"Modules": [
-				"ProxyLODMeshReduction"
 			]
 		},
 		"SkeletalReduction": 
@@ -29773,14 +30927,6 @@
 				"MovieRenderPipelineSettings",
 				"MovieRenderPipelineRenderPasses",
 				"MovieRenderPipelineEditor"
-			]
-		},
-		"EditorScriptingUtilities": 
-		{
-			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\EditorScriptingUtilities\\EditorScriptingUtilities.uplugin",
-			"Type": "Engine",
-			"Modules": [
-				"EditorScriptingUtilities"
 			]
 		},
 		"NetcodeUnitTest": 
