@@ -3,12 +3,12 @@
 
 #include "AI_controller_Huntable.h"
 
-void AI_controller_Huntable::BeginPlay()
+void AAI_controller_Huntable::BeginPlay()
 {
 	
 }
 
-void AI_controller_Huntable::Tick(float deltaTime )
+void AAI_controller_Huntable::Tick(float deltaTime )
 {
 	Super::Tick(deltaTime);
 }

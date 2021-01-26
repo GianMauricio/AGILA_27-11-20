@@ -58,7 +58,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC_HuntablePawn); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AC_HuntablePawn)
 
 
-#define AGILA_Source_AGILA_C_HuntablePawn_h_12_PRIVATE_PROPERTY_OFFSET
+#define AGILA_Source_AGILA_C_HuntablePawn_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__HuntableBody() { return STRUCT_OFFSET(AC_HuntablePawn, HuntableBody); }
+
+
 #define AGILA_Source_AGILA_C_HuntablePawn_h_9_PROLOG
 #define AGILA_Source_AGILA_C_HuntablePawn_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

@@ -14,11 +14,12 @@ class AGILA_API AC_HuntablePawn : public APawn
 public:
 	// Sets default values for this pawn's properties
 	AC_HuntablePawn();
-
+	void Move(float Speed);
+	//void destroyHealthOnZero();
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-	UProperty(BlueprintReadWrite) UStaticMeshComponent* HuntableBody;
+	UPROPERTY(BlueprintReadWrite) UStaticMeshComponent* HuntableBody;
 
 public:	
 	// Called every frame
@@ -27,4 +28,7 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+private:
+	const int Huntable_health = 1;
+	
 };
