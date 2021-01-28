@@ -1,0 +1,12 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Work\IEPROJ\AgilaUnrealRepo\LandscapeHO).
+  Building AGILAEditor...
+  Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 12 processes...
+    [1/4] i_am_a_fuckin_camera_PAWN.cpp
+    [2/4] UE4Editor-AGILA-0003.lib
+       Creating library D:\Work\IEPROJ\AgilaUnrealRepo\LandscapeHO\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\UE4Editor-AGILA-0003.lib and object D:\Work\IEPROJ\AgilaUnrealRepo\LandscapeHO\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\UE4Editor-AGILA-0003.exp
+    [3/4] UE4Editor-AGILA-0003.dll
+       Creating library D:\Work\IEPROJ\AgilaUnrealRepo\LandscapeHO\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\UE4Editor-AGILA-0003.suppressed.lib and object D:\Work\IEPROJ\AgilaUnrealRepo\LandscapeHO\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\UE4Editor-AGILA-0003.suppressed.exp
+    [4/4] AGILAEditor.target
+  Total time in Parallel executor: 11.30 seconds
+  Total execution time: 11.98 seconds

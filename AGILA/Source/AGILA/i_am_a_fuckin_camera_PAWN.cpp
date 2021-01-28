@@ -263,7 +263,7 @@ int Ai_am_a_fuckin_camera_PAWN::getHealth()
 void Ai_am_a_fuckin_camera_PAWN::takeDamage(int damage)
 {
 	health -= damage;
-	if(health <=0)
+	if(health <= 1)
 	{
 		onDeath();
 	}
