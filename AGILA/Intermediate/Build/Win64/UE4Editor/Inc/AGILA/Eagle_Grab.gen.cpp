@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeEagle_Grab() {}
 	AGILA_API UClass* Z_Construct_UClass_UEagle_Grab();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_AGILA();
+	NIAGARA_API UClass* Z_Construct_UClass_UNiagaraSystem_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 // End Cross Module References
@@ -33,6 +34,10 @@ void EmptyLinkFunctionForGeneratedCodeEagle_Grab() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_systemToSpawn_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_systemToSpawn;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpringArm_MetaData[];
 #endif
@@ -58,6 +63,13 @@ void EmptyLinkFunctionForGeneratedCodeEagle_Grab() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UEagle_Grab_Statics::NewProp_systemToSpawn_MetaData[] = {
+		{ "Category", "Eagle_Grab" },
+		{ "ModuleRelativePath", "Eagle_Grab.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UEagle_Grab_Statics::NewProp_systemToSpawn = { "systemToSpawn", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UEagle_Grab, systemToSpawn), Z_Construct_UClass_UNiagaraSystem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UEagle_Grab_Statics::NewProp_systemToSpawn_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UEagle_Grab_Statics::NewProp_systemToSpawn_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UEagle_Grab_Statics::NewProp_SpringArm_MetaData[] = {
 		{ "Category", "Eagle_Grab" },
 		{ "EditInline", "true" },
@@ -74,6 +86,7 @@ void EmptyLinkFunctionForGeneratedCodeEagle_Grab() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UEagle_Grab_Statics::NewProp_camera = { "camera", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UEagle_Grab, camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UEagle_Grab_Statics::NewProp_camera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UEagle_Grab_Statics::NewProp_camera_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UEagle_Grab_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEagle_Grab_Statics::NewProp_systemToSpawn,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEagle_Grab_Statics::NewProp_SpringArm,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEagle_Grab_Statics::NewProp_camera,
 	};
@@ -104,7 +117,7 @@ void EmptyLinkFunctionForGeneratedCodeEagle_Grab() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UEagle_Grab, 2100030477);
+	IMPLEMENT_CLASS(UEagle_Grab, 2423022214);
 	template<> AGILA_API UClass* StaticClass<UEagle_Grab>()
 	{
 		return UEagle_Grab::StaticClass();

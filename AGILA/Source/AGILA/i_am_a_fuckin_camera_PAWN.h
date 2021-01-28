@@ -10,6 +10,7 @@
 #include "Math/UnrealMathUtility.h"
 #include "PhysicsEngine/PhysicsHandleComponent.h"
 
+#include "Eagle_Grab.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
 #include "i_am_a_fuckin_camera_PAWN.generated.h"
@@ -23,19 +24,25 @@ class AGILA_API Ai_am_a_fuckin_camera_PAWN : public APawn
 
 //For the variables
 public:
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(BlueprintReadWrite,EditAnywhere)
 		USpringArmComponent* springArm;
+	
 	UCameraComponent* camera;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		UArrowComponent* arrowLocation;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		UStaticMeshComponent* mesh;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		float mouseSensitivity = 1;
 
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		UEagle_Grab* grabComponent;
+
+	
+	
 	UPhysicsHandleComponent* phandle = nullptr;
 
 	//Pass the values from the mouse pitch and yaw input
@@ -49,6 +56,10 @@ public:
 	
 	UPROPERTY(EditAnywhere)
 		float speedMultiplyer = 1;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int health = 10;
+	const int MAX_HEALTH = 10;
 	
 	FVector previousPosition;
 	FVector nowPosition;
@@ -77,5 +88,10 @@ public:
 	void addBrakes();
 	void removeBrakes();
 
-
+	//health
+	int getHealth();
+	void takeDamage(int damage);
+	void onDeath();
+	UFUNCTION(BlueprintCallable)
+		void increaseHealth(int increase);
 };

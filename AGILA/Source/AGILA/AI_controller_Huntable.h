@@ -9,13 +9,13 @@
 
 
 /**
- * 
+ *
  */
 UCLASS()
 class AGILA_API AAI_controller_Huntable : public AAIController
 {
 	GENERATED_BODY()
-	
+
 protected:
 	UPROPERTY(BlueprintReadWrite) AActor* actorCopy; //might be used for drops not too sure
 private:

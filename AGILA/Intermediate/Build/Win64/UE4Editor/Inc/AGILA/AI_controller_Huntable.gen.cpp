@@ -46,7 +46,7 @@ void EmptyLinkFunctionForGeneratedCodeAI_controller_Huntable() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAI_controller_Huntable_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
+		{ "Comment", "/**\n *\n */" },
 		{ "HideCategories", "Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "AI_controller_Huntable.h" },
 		{ "ModuleRelativePath", "AI_controller_Huntable.h" },
@@ -89,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeAI_controller_Huntable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAI_controller_Huntable, 1896178471);
+	IMPLEMENT_CLASS(AAI_controller_Huntable, 3778159305);
 	template<> AGILA_API UClass* StaticClass<AAI_controller_Huntable>()
 	{
 		return AAI_controller_Huntable::StaticClass();

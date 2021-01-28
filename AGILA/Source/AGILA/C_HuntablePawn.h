@@ -20,9 +20,9 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	UPROPERTY(BlueprintReadWrite)  UPrimitiveComponent* HuntableBody;
-	
 
-public:	
+
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -31,5 +31,5 @@ public:
 
 private:
 	const int Huntable_health = 1;
-	
+
 };

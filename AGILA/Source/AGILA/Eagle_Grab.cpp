@@ -4,7 +4,8 @@
 #include "GameFramework/Actor.h"
 #include "Engine/World.h"
 #include "DrawDebugHelpers.h"
-
+#include "Misc/OutputDeviceNull.h"
+#include "i_am_a_fuckin_camera_PAWN.h"
 
 // Sets default values for this component's properties
 UEagle_Grab::UEagle_Grab()
@@ -14,6 +15,8 @@ UEagle_Grab::UEagle_Grab()
 	PrimaryComponentTick.bCanEverTick = true;
 
 	// ...
+	
+
 }
 
 
@@ -122,7 +125,7 @@ void UEagle_Grab::grabObject()
 	FRotator offset = FRotator(-off - 10, 0, 0);
 	rotation = camera->GetComponentRotation() + offset;
 	distance = initial_distance / FMath::Cos(off);
-	FVector line = location + rotation.Vector() * (distance + 100);
+	FVector line = location + rotation.Vector() * (distance + 500);
 	DrawDebugLine(GetWorld(), location, line, FColor::Red, false, 10, 0, 3.f);
 
 	FHitResult hitResult;
@@ -131,6 +134,14 @@ void UEagle_Grab::grabObject()
 	GetWorld()->LineTraceSingleByObjectType(hitResult, location, line, objectParam, traceParam);
 
 	grabbedActor = hitResult.GetActor();
+	if (grabbedActor != nullptr && grabbedActor->ActorHasTag(FName("HuntablePawn"))) {
+		//ignore
+		hunt();
+		releaseObject();
+		return;
+		
+	}
+
 	if(grabbedActor != nullptr)
 	{
 		isGrab = true;
@@ -169,3 +180,39 @@ void UEagle_Grab::releaseObject()
 		phandle->ReleaseComponent();
 	}
 }
+
+void UEagle_Grab::hunt()
+{
+	
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("HUNTING!"));
+
+	if (systemToSpawn == nullptr)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("null niagara system at eagle grab component"));
+		return;
+	}
+	
+	if (grabbedActor == nullptr)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("null actor at eagle grab component"));
+		return;
+	}
+	FVector spawnLocation = grabbedActor->GetActorLocation();
+	FRotator spawnRotation = FRotator::ZeroRotator;
+	this->GetWorld()->DestroyActor(grabbedActor);
+	
+	UNiagaraComponent* effect = UNiagaraFunctionLibrary::SpawnSystemAtLocation(this, systemToSpawn, spawnLocation, spawnRotation);
+	
+	//add some upgrade here like when u get hp or something
+	FOutputDeviceNull ar;
+	this->GetOwner()->CallFunctionByNameWithArguments(TEXT("increaseHealth"), ar, nullptr, false);
+
+	
+	Ai_am_a_fuckin_camera_PAWN* owner = Cast<Ai_am_a_fuckin_camera_PAWN>(this->GetOwner());
+	if(owner != nullptr)
+	{
+		owner->increaseHealth(1);
+	}
+	
+}
+
