@@ -107,10 +107,11 @@ void Ai_am_a_fuckin_camera_PAWN::Tick(float DeltaTime)
 		mesh->SetWorldRotation(finalOffset);
 	}
 	//error correction
-	else if (cur.Roll != 0 && !mouseInput.X)
+	else if (!mouseInput.X)//cur.Roll != 0 && 
 	{
 		cur.Roll = FMath::FInterpTo(cur.Roll, 0, DeltaTime, 5);
 		mesh->SetWorldRotation(cur);//FString velocityString = FString::SanitizeFloat(currentVelocity);
+		//mesh->SetAllPhysicsRotation(cur);
 		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, velocityString);
 
 	}
@@ -131,13 +132,14 @@ void Ai_am_a_fuckin_camera_PAWN::Tick(float DeltaTime)
 		FVector deltaPosition = nowPosition - previousPosition;
 		deltaPosition.Normalize();
 		FVector deltaVelocity = deltaPosition / DeltaTime;
+		FString velocityString = deltaVelocity.ToString();
 		previousPosition = nowPosition;
 
-		
-		//FString someString = FString::SanitizeFloat(currentVelocity);
+	
+		//FString someString = velocityString;
 		//FString someString = deltaPosition.ToString();
 		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, someString);
-		
+		//if(speed < 50 && deltaPosition)
 
 		if(moveForward)
 		{
@@ -161,10 +163,17 @@ void Ai_am_a_fuckin_camera_PAWN::Tick(float DeltaTime)
 				mesh->SetAllPhysicsLinearVelocity(mesh->GetForwardVector() * currentVelocity * speedMultiplyer);
 			}
 			
+			if (didHit)
+			{
+				currentVelocity = 0;
+				mesh->SetAllPhysicsLinearVelocity(mesh->GetForwardVector() * currentVelocity * speedMultiplyer);
+				didHit = false;
+			}
 			
 		}
 		else if (!moveForward)
 		{
+			
 			if(deltaPosition.Z < -0.5)
 			{
 				currentVelocity = FMath::FInterpTo(currentVelocity, 3000, DeltaTime, 0.4f);
@@ -176,14 +185,24 @@ void Ai_am_a_fuckin_camera_PAWN::Tick(float DeltaTime)
 			else{
 				currentVelocity = FMath::FInterpTo(currentVelocity, 0, DeltaTime, 0.2f);
 			}
+			
 			mesh->SetAllPhysicsLinearVelocity(mesh->GetForwardVector() * currentVelocity * speedMultiplyer);
 		}
 		if(brakes)
 		{
-			currentVelocity = FMath::FInterpTo(currentVelocity, 0, DeltaTime, 5.f);
+			currentVelocity = FMath::FInterpTo(currentVelocity, 0, DeltaTime, 10.f);
+			
+			mesh->SetAllPhysicsLinearVelocity(mesh->GetForwardVector() * currentVelocity * speedMultiplyer);
 		}
 
 
+
+		if(didHit)
+		{
+			currentVelocity = 0;
+			mesh->SetAllPhysicsLinearVelocity(mesh->GetForwardVector() * currentVelocity * speedMultiplyer);
+			didHit = false;
+		}
 		nowPosition = mesh->GetComponentLocation();
 	}
 	
