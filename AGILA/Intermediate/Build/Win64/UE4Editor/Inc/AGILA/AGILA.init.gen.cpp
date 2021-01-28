@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeAGILA_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xC20C6E35,
+				0x22F97183,
 				0x1D603006,
 				METADATA_PARAMS(nullptr, 0)
 			};

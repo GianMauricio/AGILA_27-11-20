@@ -52,14 +52,24 @@ public:
 	bool moveForward;
 	bool moveNothing;
 	bool brakes;
-	float currentVelocity = 0;
+	
 	
 	UPROPERTY(EditAnywhere)
 		float speedMultiplyer = 1;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		int health = 10;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)  int MAX_HEALTH = 10;
+	const int MAX_HEALTH = 10;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float speed = 0;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float currentVelocity = 0;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool didHit = false;
+
 	
 	FVector previousPosition;
 	FVector nowPosition;
