@@ -2,8 +2,8 @@
 	"Name": "AGILAEditor",
 	"Configuration": "Development",
 	"Platform": "Win64",
-	"TargetFile": "D:\\Work\\IEPROJ\\AgilaUnrealRepo\\LandscapeHO\\AGILA\\Source\\AGILAEditor.Target.cs",
-	"ProjectFile": "D:\\Work\\IEPROJ\\AgilaUnrealRepo\\LandscapeHO\\AGILA\\AGILA.uproject",
+	"TargetFile": "C:\\Users\\monet\\Documents\\GitHub\\AGILA_27-11-20\\AGILA\\Source\\AGILAEditor.Target.cs",
+	"ProjectFile": "C:\\Users\\monet\\Documents\\GitHub\\AGILA_27-11-20\\AGILA\\AGILA.uproject",
 	"ToolchainInfo": 
 	{
 		"CppStandard": "Default",
@@ -26,7 +26,7 @@
 	},
 	"EnvironmentIncludePaths": [
 		"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source",
-		"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.27.29110\\INCLUDE",
+		"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\INCLUDE",
 		"C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\include\\um",
 		"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\ucrt",
 		"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\shared",
@@ -1469,7 +1469,7 @@
 			]
 		},
 		{
-			"File": "D:\\Work\\IEPROJ\\AgilaUnrealRepo\\LandscapeHO\\AGILA\\Binaries\\Win64\\UE4Editor-AGILA.dll",
+			"File": "C:\\Users\\monet\\Documents\\GitHub\\AGILA_27-11-20\\AGILA\\Binaries\\Win64\\UE4Editor-AGILA.dll",
 			"Type": "DynamicLinkLibrary",
 			"Modules": [
 				"AGILA"
@@ -16028,7 +16028,7 @@
 			"ShouldAddLegacyPublicIncludePaths": false,
 			"RuntimeDependencies": [
 				{
-					"Path": "D:\\Work\\IEPROJ\\AgilaUnrealRepo\\LandscapeHO\\AGILA/Config/SteamVRBindings/...",
+					"Path": "C:\\Users\\monet\\Documents\\GitHub\\AGILA_27-11-20\\AGILA/Config/SteamVRBindings/...",
 					"Type": "NonUFS"
 				}
 			],
@@ -16619,8 +16619,8 @@
 		"AGILA": 
 		{
 			"Name": "AGILA",
-			"Directory": "D:\\Work\\IEPROJ\\AgilaUnrealRepo\\LandscapeHO\\AGILA\\Source\\AGILA",
-			"Rules": "D:\\Work\\IEPROJ\\AgilaUnrealRepo\\LandscapeHO\\AGILA\\Source\\AGILA\\AGILA.Build.cs",
+			"Directory": "C:\\Users\\monet\\Documents\\GitHub\\AGILA_27-11-20\\AGILA\\Source\\AGILA",
+			"Rules": "C:\\Users\\monet\\Documents\\GitHub\\AGILA_27-11-20\\AGILA\\Source\\AGILA\\AGILA.Build.cs",
 			"PCHUsage": "UseExplicitOrSharedPCHs",
 			"PublicDependencyModules": [
 				"Core",
@@ -16634,10 +16634,10 @@
 				"AIModule"
 			],
 			"PublicIncludePaths": [
-				"D:\\Work\\IEPROJ\\AgilaUnrealRepo\\LandscapeHO\\AGILA\\Source"
+				"C:\\Users\\monet\\Documents\\GitHub\\AGILA_27-11-20\\AGILA\\Source"
 			],
 			"LegacyPublicIncludePaths": [
-				"D:\\Work\\IEPROJ\\AgilaUnrealRepo\\LandscapeHO\\AGILA\\Source\\AGILA"
+				"C:\\Users\\monet\\Documents\\GitHub\\AGILA_27-11-20\\AGILA\\Source\\AGILA"
 			],
 			"PublicDelayLoadDLLs": [
 				"d3d12.dll"
@@ -16650,7 +16650,7 @@
 				"AGILA_API="
 			],
 			"ShouldAddLegacyPublicIncludePaths": false,
-			"GeneratedCodeDirectory": "D:\\Work\\IEPROJ\\AgilaUnrealRepo\\LandscapeHO\\AGILA\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\AGILA",
+			"GeneratedCodeDirectory": "C:\\Users\\monet\\Documents\\GitHub\\AGILA_27-11-20\\AGILA\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\AGILA",
 			"ToolchainInfo": 
 			{
 				"bIsBuildingDLL": true,
@@ -17188,11 +17188,11 @@
 					"Type": "DebugNonUFS"
 				},
 				{
-					"Path": "D:\\Work\\IEPROJ\\AgilaUnrealRepo\\LandscapeHO\\AGILA/Content/Slate/...",
+					"Path": "C:\\Users\\monet\\Documents\\GitHub\\AGILA_27-11-20\\AGILA/Content/Slate/...",
 					"Type": "UFS"
 				},
 				{
-					"Path": "D:\\Work\\IEPROJ\\AgilaUnrealRepo\\LandscapeHO\\AGILA/Content/SlateDebug/...",
+					"Path": "C:\\Users\\monet\\Documents\\GitHub\\AGILA_27-11-20\\AGILA/Content/SlateDebug/...",
 					"Type": "DebugNonUFS"
 				}
 			],
