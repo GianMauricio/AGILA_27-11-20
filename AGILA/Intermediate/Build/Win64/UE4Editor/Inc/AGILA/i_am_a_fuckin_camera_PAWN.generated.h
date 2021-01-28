@@ -16,12 +16,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_SPARSE_DATA
 #define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execincreaseHealth);
+	DECLARE_FUNCTION(execincreaseHealth); \
+	DECLARE_FUNCTION(execonDeath); \
+	DECLARE_FUNCTION(exectakeDamage); \
+	DECLARE_FUNCTION(execgetHealth);
 
 
 #define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execincreaseHealth);
+	DECLARE_FUNCTION(execincreaseHealth); \
+	DECLARE_FUNCTION(execonDeath); \
+	DECLARE_FUNCTION(exectakeDamage); \
+	DECLARE_FUNCTION(execgetHealth);
 
 
 #define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_INCLASS_NO_PURE_DECLS \

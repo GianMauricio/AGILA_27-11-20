@@ -89,9 +89,12 @@ public:
 	void removeBrakes();
 
 	//health
-	int getHealth();
-	void takeDamage(int damage);
-	void onDeath();
+	UFUNCTION(BlueprintCallable)
+		int getHealth();
+	UFUNCTION(BlueprintCallable)
+		void takeDamage(int damage);
+	UFUNCTION(BlueprintCallable)
+		void onDeath();
 	UFUNCTION(BlueprintCallable)
 		void increaseHealth(int increase);
 };

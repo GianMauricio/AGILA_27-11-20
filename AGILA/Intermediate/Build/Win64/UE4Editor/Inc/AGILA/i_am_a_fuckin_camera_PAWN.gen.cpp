@@ -30,13 +30,72 @@ void EmptyLinkFunctionForGeneratedCodei_am_a_fuckin_camera_PAWN() {}
 		P_THIS->increaseHealth(Z_Param_increase);
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(Ai_am_a_fuckin_camera_PAWN::execonDeath)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->onDeath();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(Ai_am_a_fuckin_camera_PAWN::exectakeDamage)
+	{
+		P_GET_PROPERTY(FIntProperty,Z_Param_damage);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->takeDamage(Z_Param_damage);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(Ai_am_a_fuckin_camera_PAWN::execgetHealth)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(int32*)Z_Param__Result=P_THIS->getHealth();
+		P_NATIVE_END;
+	}
 	void Ai_am_a_fuckin_camera_PAWN::StaticRegisterNativesAi_am_a_fuckin_camera_PAWN()
 	{
 		UClass* Class = Ai_am_a_fuckin_camera_PAWN::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "getHealth", &Ai_am_a_fuckin_camera_PAWN::execgetHealth },
 			{ "increaseHealth", &Ai_am_a_fuckin_camera_PAWN::execincreaseHealth },
+			{ "onDeath", &Ai_am_a_fuckin_camera_PAWN::execonDeath },
+			{ "takeDamage", &Ai_am_a_fuckin_camera_PAWN::exectakeDamage },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_getHealth_Statics
+	{
+		struct i_am_a_fuckin_camera_PAWN_eventgetHealth_Parms
+		{
+			int32 ReturnValue;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_getHealth_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(i_am_a_fuckin_camera_PAWN_eventgetHealth_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_getHealth_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_getHealth_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_getHealth_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//health\n" },
+		{ "ModuleRelativePath", "i_am_a_fuckin_camera_PAWN.h" },
+		{ "ToolTip", "health" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_getHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN, nullptr, "getHealth", nullptr, nullptr, sizeof(i_am_a_fuckin_camera_PAWN_eventgetHealth_Parms), Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_getHealth_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_getHealth_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_getHealth_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_getHealth_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_getHealth()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_getHealth_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_increaseHealth_Statics
 	{
@@ -67,6 +126,60 @@ void EmptyLinkFunctionForGeneratedCodei_am_a_fuckin_camera_PAWN() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_increaseHealth_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_onDeath_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_onDeath_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "i_am_a_fuckin_camera_PAWN.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_onDeath_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN, nullptr, "onDeath", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_onDeath_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_onDeath_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_onDeath()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_onDeath_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_takeDamage_Statics
+	{
+		struct i_am_a_fuckin_camera_PAWN_eventtakeDamage_Parms
+		{
+			int32 damage;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_damage;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_takeDamage_Statics::NewProp_damage = { "damage", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(i_am_a_fuckin_camera_PAWN_eventtakeDamage_Parms, damage), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_takeDamage_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_takeDamage_Statics::NewProp_damage,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_takeDamage_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "i_am_a_fuckin_camera_PAWN.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_takeDamage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN, nullptr, "takeDamage", nullptr, nullptr, sizeof(i_am_a_fuckin_camera_PAWN_eventtakeDamage_Parms), Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_takeDamage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_takeDamage_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_takeDamage_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_takeDamage_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_takeDamage()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_takeDamage_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -118,7 +231,10 @@ void EmptyLinkFunctionForGeneratedCodei_am_a_fuckin_camera_PAWN() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_AGILA,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_getHealth, "getHealth" }, // 2025160489
 		{ &Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_increaseHealth, "increaseHealth" }, // 3982229731
+		{ &Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_onDeath, "onDeath" }, // 2113603981
+		{ &Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_takeDamage, "takeDamage" }, // 2539644860
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN_Statics::Class_MetaDataParams[] = {
@@ -216,7 +332,7 @@ void EmptyLinkFunctionForGeneratedCodei_am_a_fuckin_camera_PAWN() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(Ai_am_a_fuckin_camera_PAWN, 341411397);
+	IMPLEMENT_CLASS(Ai_am_a_fuckin_camera_PAWN, 2974096312);
 	template<> AGILA_API UClass* StaticClass<Ai_am_a_fuckin_camera_PAWN>()
 	{
 		return Ai_am_a_fuckin_camera_PAWN::StaticClass();
