@@ -59,7 +59,7 @@ public:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		int health = 10;
-	const int MAX_HEALTH = 10;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)  int MAX_HEALTH = 10;
 	
 	FVector previousPosition;
 	FVector nowPosition;
