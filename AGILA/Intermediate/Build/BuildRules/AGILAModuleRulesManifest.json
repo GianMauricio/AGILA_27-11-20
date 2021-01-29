@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\Work\\IEPROJ\\AgilaUnrealRepo\\LandscapeHO\\AGILA\\Source\\AGILA\\AGILA.Build.cs",
-		"D:\\Work\\IEPROJ\\AgilaUnrealRepo\\LandscapeHO\\AGILA\\Source\\AGILA.Target.cs",
-		"D:\\Work\\IEPROJ\\AgilaUnrealRepo\\LandscapeHO\\AGILA\\Source\\AGILAEditor.Target.cs"
+		"C:\\Users\\monet\\Documents\\GitHub\\AGILA_27-11-20\\AGILA\\Source\\AGILA\\AGILA.Build.cs",
+		"C:\\Users\\monet\\Documents\\GitHub\\AGILA_27-11-20\\AGILA\\Source\\AGILA.Target.cs",
+		"C:\\Users\\monet\\Documents\\GitHub\\AGILA_27-11-20\\AGILA\\Source\\AGILAEditor.Target.cs"
 	],
 	"EngineVersion": "4.25.4"
 }
