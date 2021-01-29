@@ -125,7 +125,7 @@ void UEagle_Grab::grabObject()
 	FRotator offset = FRotator(-off - 10, 0, 0);
 	rotation = camera->GetComponentRotation() + offset;
 	distance = initial_distance / FMath::Cos(off);
-	FVector line = location + rotation.Vector() * (distance + 500);
+	FVector line = location + rotation.Vector() * (distance + 240);
 	DrawDebugLine(GetWorld(), location, line, FColor::Red, false, 10, 0, 3.f);
 
 	FHitResult hitResult;
@@ -199,7 +199,21 @@ void UEagle_Grab::hunt()
 	}
 	FVector spawnLocation = grabbedActor->GetActorLocation();
 	FRotator spawnRotation = FRotator::ZeroRotator;
+	
+
+	//call spawning of the drops
+	Ai_am_a_fuckin_camera_PAWN* parent = Cast<Ai_am_a_fuckin_camera_PAWN>(this->GetOwner());
+	if(parent != nullptr)
+	{
+		//call the function from the parent
+//		parent->spawnDrops();
+//		parent->spawnTransform = grabbedActor->GetActorTransform();
+		
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("TIME TO SPAWN SOM BAKs"));
+	}
+	//destroy the bunny
 	this->GetWorld()->DestroyActor(grabbedActor);
+
 	
 	UNiagaraComponent* effect = UNiagaraFunctionLibrary::SpawnSystemAtLocation(this, systemToSpawn, spawnLocation, spawnRotation);
 	

@@ -47,4 +47,8 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	class UNiagaraSystem* systemToSpawn;
+
+	
+
+		
 };
