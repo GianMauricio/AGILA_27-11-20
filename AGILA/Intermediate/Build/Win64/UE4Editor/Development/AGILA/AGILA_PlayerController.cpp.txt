@@ -11,6 +11,8 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMeshActor.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/PhysicsHandleComponent.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PhysicsHandleComponent.generated.h
+C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Source\AGILA\C_ItemClass.h
+C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Inc\AGILA\C_ItemClass.generated.h
 C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Source\AGILA\Eagle_Grab.h
 C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Source\AGILA\C_HuntablePawn.h
 C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Inc\AGILA\C_HuntablePawn.generated.h

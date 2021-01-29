@@ -10,6 +10,7 @@
 #include "Math/UnrealMathUtility.h"
 #include "PhysicsEngine/PhysicsHandleComponent.h"
 
+#include "C_ItemClass.h"
 #include "Eagle_Grab.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
@@ -70,6 +71,18 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool didHit = false;
 
+	UFUNCTION(BlueprintImplementableEvent)
+		void spawnDrops();
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		FTransform spawnTransform;
+
+	UPROPERTY(BlueprintReadWrite)
+		AActor* meatInventory;
+	
+
+	UFUNCTION(BlueprintImplementableEvent)
+		void spawnItems();
 	
 	FVector previousPosition;
 	FVector nowPosition;

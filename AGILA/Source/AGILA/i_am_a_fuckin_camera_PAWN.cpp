@@ -3,7 +3,7 @@
 
 
 #include "i_am_a_fuckin_camera_PAWN.h"
-
+#include "Misc/OutputDeviceNull.h"
 #include <string>
 
 
@@ -39,6 +39,7 @@ Ai_am_a_fuckin_camera_PAWN::Ai_am_a_fuckin_camera_PAWN()
 
 	//enable this pawn to receive player inputs from player controller 0
 	//AutoPossessPlayer = EAutoReceiveInput::Player0;
+
 	
 }
 
@@ -46,9 +47,8 @@ Ai_am_a_fuckin_camera_PAWN::Ai_am_a_fuckin_camera_PAWN()
 void Ai_am_a_fuckin_camera_PAWN::BeginPlay()
 {
 	Super::BeginPlay();
-
+	
 	UE_LOG(LogTemp, Warning, TEXT("HEllo"));
-
 	/*
 	nowPosition = actorReference->GetActorLocation();
 	previousPosition = actorReference->GetActorLocation();
@@ -300,6 +300,13 @@ void Ai_am_a_fuckin_camera_PAWN::increaseHealth(int increase)
 	{
 		health = MAX_HEALTH;
 	}
+
+	FOutputDeviceNull ar;
+	if (meatInventory->CallFunctionByNameWithArguments(TEXT("AddToInventoryfromItem"), ar, nullptr, true))//AddToInventory_fromItem
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("added meat!!!"));
+	}
+
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString("got health!"));
 }
 

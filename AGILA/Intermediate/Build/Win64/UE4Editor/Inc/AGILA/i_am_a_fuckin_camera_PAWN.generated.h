@@ -13,8 +13,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define AGILA_i_am_a_fuckin_camera_PAWN_generated_h
 
-#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_SPARSE_DATA
-#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_RPC_WRAPPERS \
+#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_SPARSE_DATA
+#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execincreaseHealth); \
 	DECLARE_FUNCTION(execonDeath); \
@@ -22,7 +22,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execgetHealth);
 
 
-#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execincreaseHealth); \
 	DECLARE_FUNCTION(execonDeath); \
@@ -30,7 +30,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execgetHealth);
 
 
-#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_INCLASS_NO_PURE_DECLS \
+#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_EVENT_PARMS
+#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_CALLBACK_WRAPPERS
+#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAi_am_a_fuckin_camera_PAWN(); \
 	friend struct Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN_Statics; \
@@ -39,7 +41,7 @@ public: \
 	DECLARE_SERIALIZER(Ai_am_a_fuckin_camera_PAWN)
 
 
-#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_INCLASS \
+#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_INCLASS \
 private: \
 	static void StaticRegisterNativesAi_am_a_fuckin_camera_PAWN(); \
 	friend struct Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN_Statics; \
@@ -48,7 +50,7 @@ public: \
 	DECLARE_SERIALIZER(Ai_am_a_fuckin_camera_PAWN)
 
 
-#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_STANDARD_CONSTRUCTORS \
+#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API Ai_am_a_fuckin_camera_PAWN(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(Ai_am_a_fuckin_camera_PAWN) \
@@ -61,7 +63,7 @@ private: \
 public:
 
 
-#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_ENHANCED_CONSTRUCTORS \
+#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API Ai_am_a_fuckin_camera_PAWN(Ai_am_a_fuckin_camera_PAWN&&); \
@@ -72,28 +74,33 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(Ai_am_a_fuckin_camera_PAWN); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(Ai_am_a_fuckin_camera_PAWN)
 
 
-#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_PRIVATE_PROPERTY_OFFSET
-#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_20_PROLOG
-#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_GENERATED_BODY_LEGACY \
+#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_PRIVATE_PROPERTY_OFFSET
+#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_21_PROLOG \
+	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_EVENT_PARMS
+
+
+#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_PRIVATE_PROPERTY_OFFSET \
-	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_SPARSE_DATA \
-	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_RPC_WRAPPERS \
-	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_INCLASS \
-	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_STANDARD_CONSTRUCTORS \
+	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_PRIVATE_PROPERTY_OFFSET \
+	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_SPARSE_DATA \
+	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_RPC_WRAPPERS \
+	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_CALLBACK_WRAPPERS \
+	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_INCLASS \
+	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_GENERATED_BODY \
+#define AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_PRIVATE_PROPERTY_OFFSET \
-	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_SPARSE_DATA \
-	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
-	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_INCLASS_NO_PURE_DECLS \
-	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_23_ENHANCED_CONSTRUCTORS \
+	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_PRIVATE_PROPERTY_OFFSET \
+	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_SPARSE_DATA \
+	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_CALLBACK_WRAPPERS \
+	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_INCLASS_NO_PURE_DECLS \
+	AGILA_Source_AGILA_i_am_a_fuckin_camera_PAWN_h_24_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodei_am_a_fuckin_camera_PAWN() {}
 	AGILA_API UClass* Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_AGILA();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FTransform();
 	AGILA_API UClass* Z_Construct_UClass_UEagle_Grab_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UArrowComponent_NoRegister();
@@ -51,6 +53,16 @@ void EmptyLinkFunctionForGeneratedCodei_am_a_fuckin_camera_PAWN() {}
 		P_NATIVE_BEGIN;
 		*(int32*)Z_Param__Result=P_THIS->getHealth();
 		P_NATIVE_END;
+	}
+	static FName NAME_Ai_am_a_fuckin_camera_PAWN_spawnDrops = FName(TEXT("spawnDrops"));
+	void Ai_am_a_fuckin_camera_PAWN::spawnDrops()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_Ai_am_a_fuckin_camera_PAWN_spawnDrops),NULL);
+	}
+	static FName NAME_Ai_am_a_fuckin_camera_PAWN_spawnItems = FName(TEXT("spawnItems"));
+	void Ai_am_a_fuckin_camera_PAWN::spawnItems()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_Ai_am_a_fuckin_camera_PAWN_spawnItems),NULL);
 	}
 	void Ai_am_a_fuckin_camera_PAWN::StaticRegisterNativesAi_am_a_fuckin_camera_PAWN()
 	{
@@ -151,6 +163,50 @@ void EmptyLinkFunctionForGeneratedCodei_am_a_fuckin_camera_PAWN() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_spawnDrops_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_spawnDrops_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "i_am_a_fuckin_camera_PAWN.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_spawnDrops_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN, nullptr, "spawnDrops", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_spawnDrops_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_spawnDrops_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_spawnDrops()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_spawnDrops_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_spawnItems_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_spawnItems_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "i_am_a_fuckin_camera_PAWN.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_spawnItems_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN, nullptr, "spawnItems", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_spawnItems_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_spawnItems_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_spawnItems()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_spawnItems_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_takeDamage_Statics
 	{
 		struct i_am_a_fuckin_camera_PAWN_eventtakeDamage_Parms
@@ -194,6 +250,14 @@ void EmptyLinkFunctionForGeneratedCodei_am_a_fuckin_camera_PAWN() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_meatInventory_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_meatInventory;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_spawnTransform_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_spawnTransform;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_didHit_MetaData[];
 #endif
@@ -247,6 +311,8 @@ void EmptyLinkFunctionForGeneratedCodei_am_a_fuckin_camera_PAWN() {}
 		{ &Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_getHealth, "getHealth" }, // 2025160489
 		{ &Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_increaseHealth, "increaseHealth" }, // 3982229731
 		{ &Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_onDeath, "onDeath" }, // 2113603981
+		{ &Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_spawnDrops, "spawnDrops" }, // 476999761
+		{ &Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_spawnItems, "spawnItems" }, // 1292087969
 		{ &Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_takeDamage, "takeDamage" }, // 2539644860
 	};
 #if WITH_METADATA
@@ -256,6 +322,20 @@ void EmptyLinkFunctionForGeneratedCodei_am_a_fuckin_camera_PAWN() {}
 		{ "ModuleRelativePath", "i_am_a_fuckin_camera_PAWN.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN_Statics::NewProp_meatInventory_MetaData[] = {
+		{ "Category", "i_am_a_fuckin_camera_PAWN" },
+		{ "ModuleRelativePath", "i_am_a_fuckin_camera_PAWN.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN_Statics::NewProp_meatInventory = { "meatInventory", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Ai_am_a_fuckin_camera_PAWN, meatInventory), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN_Statics::NewProp_meatInventory_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN_Statics::NewProp_meatInventory_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN_Statics::NewProp_spawnTransform_MetaData[] = {
+		{ "Category", "i_am_a_fuckin_camera_PAWN" },
+		{ "ModuleRelativePath", "i_am_a_fuckin_camera_PAWN.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN_Statics::NewProp_spawnTransform = { "spawnTransform", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Ai_am_a_fuckin_camera_PAWN, spawnTransform), Z_Construct_UScriptStruct_FTransform, METADATA_PARAMS(Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN_Statics::NewProp_spawnTransform_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN_Statics::NewProp_spawnTransform_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN_Statics::NewProp_didHit_MetaData[] = {
 		{ "Category", "i_am_a_fuckin_camera_PAWN" },
@@ -335,6 +415,8 @@ void EmptyLinkFunctionForGeneratedCodei_am_a_fuckin_camera_PAWN() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN_Statics::NewProp_springArm = { "springArm", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Ai_am_a_fuckin_camera_PAWN, springArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN_Statics::NewProp_springArm_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN_Statics::NewProp_springArm_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN_Statics::NewProp_meatInventory,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN_Statics::NewProp_spawnTransform,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN_Statics::NewProp_didHit,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN_Statics::NewProp_currentVelocity,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Ai_am_a_fuckin_camera_PAWN_Statics::NewProp_speed,
@@ -373,7 +455,7 @@ void EmptyLinkFunctionForGeneratedCodei_am_a_fuckin_camera_PAWN() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(Ai_am_a_fuckin_camera_PAWN, 221135237);
+	IMPLEMENT_CLASS(Ai_am_a_fuckin_camera_PAWN, 323535974);
 	template<> AGILA_API UClass* StaticClass<Ai_am_a_fuckin_camera_PAWN>()
 	{
 		return Ai_am_a_fuckin_camera_PAWN::StaticClass();

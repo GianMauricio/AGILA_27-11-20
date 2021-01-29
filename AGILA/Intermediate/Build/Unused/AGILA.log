@@ -3,10 +3,10 @@
   Using Visual Studio 2019 14.28.29336 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 4 processes...
     [1/4] i_am_a_fuckin_camera_PAWN.cpp
-    [2/4] UE4Editor-AGILA-0022.lib
-       Creating library C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\UE4Editor-AGILA-0022.lib and object C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\UE4Editor-AGILA-0022.exp
-    [3/4] UE4Editor-AGILA-0022.dll
-       Creating library C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\UE4Editor-AGILA-0022.suppressed.lib and object C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\UE4Editor-AGILA-0022.suppressed.exp
+    [2/4] UE4Editor-AGILA-0024.lib
+       Creating library C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\UE4Editor-AGILA-0024.lib and object C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\UE4Editor-AGILA-0024.exp
+    [3/4] UE4Editor-AGILA-0024.dll
+       Creating library C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\UE4Editor-AGILA-0024.suppressed.lib and object C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\UE4Editor-AGILA-0024.suppressed.exp
     [4/4] AGILAEditor.target
-  Total time in Parallel executor: 3.51 seconds
-  Total execution time: 4.68 seconds
+  Total time in Parallel executor: 2.30 seconds
+  Total execution time: 3.33 seconds

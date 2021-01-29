@@ -28,4 +28,6 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Compone
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ArrowComponent.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/StaticMeshActor.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMeshActor.generated.h
+C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Source\AGILA\C_ItemClass.h
+C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Inc\AGILA\C_ItemClass.generated.h
 C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Inc\AGILA\i_am_a_fuckin_camera_PAWN.generated.h
