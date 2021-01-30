@@ -45,7 +45,7 @@ void UEagle_Grab::BeginPlay()
 	}
 	else
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("NULL SPRING ARM COMPONENT"));
+		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("NULL SPRING ARM COMPONENT"));
 	}
 
 	camera = this->GetOwner()->FindComponentByClass<UCameraComponent>();
@@ -99,7 +99,7 @@ void UEagle_Grab::TickComponent(float DeltaTime, ELevelTick TickType, FActorComp
 void UEagle_Grab::grabObject()
 {
 	isGrab = true;
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("GRABBED"));
+	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("GRABBED"));
 
 	/*
 	FVector location = FVector::ZeroVector;
@@ -126,7 +126,7 @@ void UEagle_Grab::grabObject()
 	rotation = camera->GetComponentRotation() + offset;
 	distance = initial_distance / FMath::Cos(off);
 	FVector line = location + rotation.Vector() * (distance + 240);
-	DrawDebugLine(GetWorld(), location, line, FColor::Red, false, 10, 0, 3.f);
+	//DrawDebugLine(GetWorld(), location, line, FColor::Red, false, 10, 0, 3.f);
 
 	FHitResult hitResult;
 	FCollisionQueryParams traceParam(FName("traceParams"), false, this->GetOwner());
@@ -147,7 +147,7 @@ void UEagle_Grab::grabObject()
 		isGrab = true;
 		actorprim = hitResult.GetComponent();
 		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("grabbed: %s"), *actorprim->GetName());
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("grabbed object"));
+		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("grabbed object"));
 
 		phandle = grabbedActor->FindComponentByClass<UPhysicsHandleComponent>();
 		if (phandle != nullptr)
@@ -159,7 +159,7 @@ void UEagle_Grab::grabObject()
 	}
 	else
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("null object"));
+		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("null object"));
 
 	}
 }
@@ -167,7 +167,7 @@ void UEagle_Grab::grabObject()
 void UEagle_Grab::releaseObject()
 {
 	isGrab = false;
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Released"));
+	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Released"));
 	if(grabbedActor != nullptr)
 	{
 		grabbedActor->SetActorEnableCollision(true);
@@ -184,17 +184,17 @@ void UEagle_Grab::releaseObject()
 void UEagle_Grab::hunt()
 {
 	
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("HUNTING!"));
+	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("HUNTING!"));
 
 	if (systemToSpawn == nullptr)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("null niagara system at eagle grab component"));
+		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("null niagara system at eagle grab component"));
 		return;
 	}
 	
 	if (grabbedActor == nullptr)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("null actor at eagle grab component"));
+		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("null actor at eagle grab component"));
 		return;
 	}
 	FVector spawnLocation = grabbedActor->GetActorLocation();
@@ -209,7 +209,7 @@ void UEagle_Grab::hunt()
 //		parent->spawnDrops();
 //		parent->spawnTransform = grabbedActor->GetActorTransform();
 		
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("TIME TO SPAWN SOM BAKs"));
+		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("TIME TO SPAWN SOM BAKs"));
 	}
 	//destroy the bunny
 	this->GetWorld()->DestroyActor(grabbedActor);

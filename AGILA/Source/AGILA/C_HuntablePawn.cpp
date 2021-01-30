@@ -43,6 +43,6 @@ void AC_HuntablePawn::Move(float Speed) {
 	this->HuntableBody->AddImpulseAtLocation(forceVector, bodyloc);
 	//UE_LOG(LogTemp, Display, TEXT("Text, %d %f %s"), intVar, floatVar, *fstringVar);
 	UE_LOG(LogTemp, Display, TEXT("Moving with vector %s, Speed of %f"), *forceVector.ToString(), (Speed));
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Jump"));
+	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Jump"));
 
 }

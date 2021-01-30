@@ -290,7 +290,7 @@ void Ai_am_a_fuckin_camera_PAWN::takeDamage(int damage)
 
 void Ai_am_a_fuckin_camera_PAWN::onDeath()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString("ded bird"));
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString("ded bird"));
 }
 
 void Ai_am_a_fuckin_camera_PAWN::increaseHealth(int increase)
@@ -304,9 +304,9 @@ void Ai_am_a_fuckin_camera_PAWN::increaseHealth(int increase)
 	FOutputDeviceNull ar;
 	if (meatInventory->CallFunctionByNameWithArguments(TEXT("AddToInventoryfromItem"), ar, nullptr, true))//AddToInventory_fromItem
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("added meat!!!"));
+		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("added meat!!!"));
 	}
 
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString("got health!"));
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString("got health!"));
 }
 

@@ -27,7 +27,7 @@ void AAI_controller_Huntable::Tick(float deltaTime)
 		this->move_INTERVAL = FMath::FRandRange(2.0f, 4.0f);
 		this->moveTicks = 0.0f;
 		this->OnMove(moveSpeed);
-		UE_LOG(LogTemp, Warning, TEXT("I should be Moving"));
+		//UE_LOG(LogTemp, Warning, TEXT("I should be Moving"));
 
 	}
 

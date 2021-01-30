@@ -22,7 +22,7 @@ void UTriggerComponent::BeginPlay()
 	// ...
 	if(triggerReference == nullptr)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("NULL TRIGGER REFERENCE! CHECK ACTORxTRIGGER CLASS!"));
+		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("NULL TRIGGER REFERENCE! CHECK ACTORxTRIGGER CLASS!"));
 	}
 	
 	
@@ -63,7 +63,7 @@ void UTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 
 				if (actors[i]->CallFunctionByNameWithArguments(TEXT("AddToInventoryfromItem"), ar, nullptr, true))//AddToInventory_fromItem
 				{
-					GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("LETSGOOOO"));
+					//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("LETSGOOOO"));
 					this->GetWorld()->DestroyActor(actors[i]);
 				}
 				
