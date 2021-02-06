@@ -1,7 +1,7 @@
-D:\Work\IEPROJ\AgilaUnrealRepo\LandscapeHO\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\Definitions.AGILA.h
-D:\Work\IEPROJ\AgilaUnrealRepo\LandscapeHO\AGILA\Source\AGILA\AGILAGameModeBase.h
+C:\Users\monet\Documents\GitHub\AGILA_27-11-20\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\Definitions.AGILA.h
+C:\Users\monet\Documents\GitHub\AGILA_27-11-20\AGILA\Source\AGILA\AGILAGameModeBase.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-D:\Work\IEPROJ\AgilaUnrealRepo\LandscapeHO\AGILA\Intermediate\Build\Win64\UE4Editor\Inc\AGILA\AGILAGameModeBase.generated.h
+C:\Users\monet\Documents\GitHub\AGILA_27-11-20\AGILA\Intermediate\Build\Win64\UE4Editor\Inc\AGILA\AGILAGameModeBase.generated.h
