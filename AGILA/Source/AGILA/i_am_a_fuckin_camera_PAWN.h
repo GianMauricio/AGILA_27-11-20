@@ -77,9 +77,14 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		FTransform spawnTransform;
 
+
+	//inventory to get
 	UPROPERTY(BlueprintReadWrite)
 		AActor* meatInventory;
-	
+	UPROPERTY(BlueprintReadWrite)
+		AActor* rockInventory;
+	UPROPERTY(BlueprintReadWrite)
+		AActor* woodInventory;
 
 	UFUNCTION(BlueprintImplementableEvent)
 		void spawnItems();
@@ -110,6 +115,9 @@ public:
 	void doNothing();
 	void addBrakes();
 	void removeBrakes();
+
+	UFUNCTION(BlueprintCallable)
+		void getLoot();
 
 	//health
 	UFUNCTION(BlueprintCallable)

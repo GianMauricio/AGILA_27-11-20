@@ -8,7 +8,7 @@ public class AGILA : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "Niagara"});//, "Niagara" , "NiagaraCore"
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "Niagara", "ApexDestruction"});//, "Niagara" , "NiagaraCore"
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
