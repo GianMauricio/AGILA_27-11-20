@@ -359,7 +359,7 @@ void Ai_am_a_fuckin_camera_PAWN::increaseMaxHealth(int increase)
 
 }
 
-void Ai_am_a_fuckin_camera_PAWN::increaseSpeed(int newSpeed)
+void Ai_am_a_fuckin_camera_PAWN::increaseSpeed(float newSpeed)
 {
 	if(speedMultiplyer < 1.5)
 	{

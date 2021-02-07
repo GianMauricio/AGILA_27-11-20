@@ -131,5 +131,5 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void increaseMaxHealth(int increase);
 	UFUNCTION(BlueprintCallable)
-		void increaseSpeed(int increaseSpeed);
+		void increaseSpeed(float increaseSpeed);
 };

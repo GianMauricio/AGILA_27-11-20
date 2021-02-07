@@ -26,7 +26,7 @@ void EmptyLinkFunctionForGeneratedCodei_am_a_fuckin_camera_PAWN() {}
 // End Cross Module References
 	DEFINE_FUNCTION(Ai_am_a_fuckin_camera_PAWN::execincreaseSpeed)
 	{
-		P_GET_PROPERTY(FIntProperty,Z_Param_increaseSpeed);
+		P_GET_PROPERTY(FFloatProperty,Z_Param_increaseSpeed);
 		P_FINISH;
 		P_NATIVE_BEGIN;
 		P_THIS->increaseSpeed(Z_Param_increaseSpeed);
@@ -225,16 +225,16 @@ void EmptyLinkFunctionForGeneratedCodei_am_a_fuckin_camera_PAWN() {}
 	{
 		struct i_am_a_fuckin_camera_PAWN_eventincreaseSpeed_Parms
 		{
-			int32 increaseSpeed;
+			float increaseSpeed;
 		};
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_increaseSpeed;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_increaseSpeed;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_increaseSpeed_Statics::NewProp_increaseSpeed = { "increaseSpeed", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(i_am_a_fuckin_camera_PAWN_eventincreaseSpeed_Parms, increaseSpeed), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_increaseSpeed_Statics::NewProp_increaseSpeed = { "increaseSpeed", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(i_am_a_fuckin_camera_PAWN_eventincreaseSpeed_Parms, increaseSpeed), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_increaseSpeed_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_increaseSpeed_Statics::NewProp_increaseSpeed,
 	};
@@ -432,7 +432,7 @@ void EmptyLinkFunctionForGeneratedCodei_am_a_fuckin_camera_PAWN() {}
 		{ &Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_getLoot, "getLoot" }, // 2770536136
 		{ &Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_increaseHealth, "increaseHealth" }, // 3982229731
 		{ &Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_increaseMaxHealth, "increaseMaxHealth" }, // 4090841278
-		{ &Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_increaseSpeed, "increaseSpeed" }, // 1218097819
+		{ &Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_increaseSpeed, "increaseSpeed" }, // 2838535215
 		{ &Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_onDeath, "onDeath" }, // 2113603981
 		{ &Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_spawnDrops, "spawnDrops" }, // 476999761
 		{ &Z_Construct_UFunction_Ai_am_a_fuckin_camera_PAWN_spawnItems, "spawnItems" }, // 1292087969
@@ -596,7 +596,7 @@ void EmptyLinkFunctionForGeneratedCodei_am_a_fuckin_camera_PAWN() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(Ai_am_a_fuckin_camera_PAWN, 2985228337);
+	IMPLEMENT_CLASS(Ai_am_a_fuckin_camera_PAWN, 1855467936);
 	template<> AGILA_API UClass* StaticClass<Ai_am_a_fuckin_camera_PAWN>()
 	{
 		return Ai_am_a_fuckin_camera_PAWN::StaticClass();
