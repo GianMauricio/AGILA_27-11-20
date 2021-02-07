@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\AGILA.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{078F0C25-932E-41D7-9C3E-15CA788B9B41}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AGILA.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\AGILAEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{5BD098A9-C294-431D-8695-E23331B3AB0A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\AGILA">
+      <UniqueIdentifier>{86E1914F-2F68-4BC1-9B46-A62E8D4B07F6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AGILA\AGILA.Build.cs">
+      <Filter>Source\AGILA</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\AGILA\AGILA.cpp">
+      <Filter>Source\AGILA</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AGILA\AGILA.h">
+      <Filter>Source\AGILA</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AGILA\AGILAGameModeBase.cpp">
+      <Filter>Source\AGILA</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AGILA\AGILAGameModeBase.h">
+      <Filter>Source\AGILA</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AGILA\AGILA_PlayerController.cpp">
+      <Filter>Source\AGILA</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AGILA\AGILA_PlayerController.h">
+      <Filter>Source\AGILA</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AGILA\AI_controller_Huntable.cpp">
+      <Filter>Source\AGILA</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AGILA\AI_controller_Huntable.h">
+      <Filter>Source\AGILA</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AGILA\Bird.cpp">
+      <Filter>Source\AGILA</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AGILA\Bird.h">
+      <Filter>Source\AGILA</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AGILA\C_HuntablePawn.cpp">
+      <Filter>Source\AGILA</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AGILA\C_HuntablePawn.h">
+      <Filter>Source\AGILA</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AGILA\C_ItemClass.cpp">
+      <Filter>Source\AGILA</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AGILA\C_ItemClass.h">
+      <Filter>Source\AGILA</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AGILA\Eagle_Grab.cpp">
+      <Filter>Source\AGILA</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AGILA\Eagle_Grab.h">
+      <Filter>Source\AGILA</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AGILA\i_am_a_fuckin_camera_PAWN.cpp">
+      <Filter>Source\AGILA</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AGILA\i_am_a_fuckin_camera_PAWN.h">
+      <Filter>Source\AGILA</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AGILA\TriggerComponent.cpp">
+      <Filter>Source\AGILA</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AGILA\TriggerComponent.h">
+      <Filter>Source\AGILA</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
