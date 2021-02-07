@@ -1,2 +1,2 @@
-C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\Definitions.AGILA.h
-C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Source\AGILA\AGILA.h
+D:\Work\IEPROJ\AgilaUnrealRepo\LandscapeHO\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\Definitions.AGILA.h
+D:\Work\IEPROJ\AgilaUnrealRepo\LandscapeHO\AGILA\Source\AGILA\AGILA.h

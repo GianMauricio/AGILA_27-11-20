@@ -1,4 +1,4 @@
- // Fill out your copyright notice in the Description page of Project Settings.
+// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
@@ -60,7 +60,7 @@ public:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		int health = 10;
-	const int MAX_HEALTH = 10;
+		int MAX_HEALTH = 10;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float speed = 0;

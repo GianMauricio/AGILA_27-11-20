@@ -17,6 +17,7 @@ Ai_am_a_fuckin_camera_PAWN::Ai_am_a_fuckin_camera_PAWN()
 	springArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
 	camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	arrowLocation = CreateDefaultSubobject<UArrowComponent>(TEXT("Arrow"));
+	
 	//Debug purposes lang
 	mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	mesh->SetSimulatePhysics(true);
@@ -355,9 +356,10 @@ void Ai_am_a_fuckin_camera_PAWN::increaseMaxHealth(int increase)
 	{
 		MAX_HEALTH += increase;
 	}
+
 }
 
-void Ai_am_a_fuckin_camera_PAWN::increaseSpeed(int increase)
+void Ai_am_a_fuckin_camera_PAWN::increaseSpeed(int newSpeed)
 {
 	if(speedMultiplyer < 1.5)
 	{
