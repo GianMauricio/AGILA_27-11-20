@@ -274,6 +274,43 @@ void Ai_am_a_fuckin_camera_PAWN::removeBrakes()
 	brakes = false;
 }
 
+void Ai_am_a_fuckin_camera_PAWN::getLoot()
+{
+	int randomItem = rand() % 3 + 1; //1 to 3
+
+	
+	FOutputDeviceNull ar;
+	switch (randomItem){
+	case 1:
+		
+		if (meatInventory != nullptr)//meat
+		{
+			meatInventory->CallFunctionByNameWithArguments(TEXT("AddToInventoryfromItem"), ar, nullptr, true);
+		}
+		break;
+
+	case 2:
+
+		if (woodInventory != nullptr)//meat
+		{
+			woodInventory->CallFunctionByNameWithArguments(TEXT("AddToInventoryfromItem"), ar, nullptr, true);
+		}
+		break;
+
+	case 3:
+
+		if (rockInventory != nullptr)//meat
+		{
+			rockInventory->CallFunctionByNameWithArguments(TEXT("AddToInventoryfromItem"), ar, nullptr, true);
+		}
+		break;	
+		default:
+			break;
+		
+	}
+	
+}
+
 int Ai_am_a_fuckin_camera_PAWN::getHealth()
 {
 	return health;
