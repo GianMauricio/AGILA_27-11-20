@@ -230,6 +230,23 @@
 /I Runtime\Experimental\GeometryCollectionSimulationCore\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
+/I "C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Inc\AGILA"
+/I "C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Source"
+/I ..\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4Editor\Inc\Niagara
+/I ..\Plugins\FX\Niagara\Source
+/I ..\Plugins\FX\Niagara\Source\Niagara\Classes
+/I ..\Plugins\FX\Niagara\Source\Niagara\Public
+/I ..\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4Editor\Inc\NiagaraCore
+/I ..\Plugins\FX\Niagara\Source\NiagaraCore\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\VectorVM
+/I Runtime\VectorVM\Public
+/I ..\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4Editor\Inc\NiagaraShader
+/I ..\Plugins\FX\Niagara\Source\NiagaraShader\Public
+/I Developer\DerivedDataCache\Public
+/I Developer\DesktopPlatform\Public
+/I Runtime\Portal
+/I Runtime\Portal\LauncherPlatform\Public
+/I ..\Plugins\FX\Niagara\Source\NiagaraVertexFactories\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -259,11 +276,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/I "C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\AGILAEditor\Development\Engine"
-/Yc"C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\AGILAEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\AGILAEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\AGILAEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
 /Fp"C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\AGILAEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\AGILAEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
-/Fo"C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\AGILAEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Source\AGILA\C_ItemClass.cpp"
+/FI"C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\Definitions.AGILA.h"
+/Fo"C:\Users\janca\Documents\Unreal Projects\AGILA_GIT_2\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\C_ItemClass.cpp.obj"
 /TP
 /GR-
 /W4
