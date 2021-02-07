@@ -310,3 +310,20 @@ void Ai_am_a_fuckin_camera_PAWN::increaseHealth(int increase)
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString("got health!"));
 }
 
+void Ai_am_a_fuckin_camera_PAWN::increaseMaxHealth(int increase)
+{
+	//Player does not heal when getting a health upgrade to show that the players max health increased
+
+	if (MAX_HEALTH < 16) 
+	{
+		MAX_HEALTH += increase;
+	}
+}
+
+void Ai_am_a_fuckin_camera_PAWN::increaseSpeed(int increase)
+{
+	if(speedMultiplyer < 1.5)
+	{
+		speedMultiplyer = newSpeed;
+	}
+}

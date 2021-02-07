@@ -120,4 +120,8 @@ public:
 		void onDeath();
 	UFUNCTION(BlueprintCallable)
 		void increaseHealth(int increase);
+	UFUNCTION(BlueprintCallable)
+		void increaseMaxHealth(int increase);
+	UFUNCTION(BlueprintCallable)
+		void increaseSpeed(int increaseSpeed);
 };
