@@ -61,7 +61,7 @@ void UTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 					this->GetWorld()->DestroyActor(actors[i]);
 				}*/
 
-				if (actors[i]->CallFunctionByNameWithArguments(TEXT("AddToInventoryfromItem"), ar, nullptr, true))//AddToInventory_fromItem
+				if (actors[i]->CallFunctionByNameWithArguments(TEXT("Additem"), ar, nullptr, true))//AddToInventory_fromItem
 				{
 					//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("LETSGOOOO"));
 					this->GetWorld()->DestroyActor(actors[i]);
