@@ -35,6 +35,7 @@ void AC_LootActor::Destroy()
 		return;
 	}
 
+	//this->DestructibleComponent->SetCollisionProfileName(TEXT("NoCollision"));
 	DestructibleComponent->SetSimulatePhysics(true);
 	
 }
