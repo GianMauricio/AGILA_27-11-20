@@ -1,4 +1,4 @@
- // Fill out your copyright notice in the Description page of Project Settings.
+// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
@@ -60,7 +60,7 @@ public:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		int health = 10;
-	const int MAX_HEALTH = 10;
+		int MAX_HEALTH = 10;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float speed = 0;
@@ -77,9 +77,14 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		FTransform spawnTransform;
 
+
+	//inventory to get
 	UPROPERTY(BlueprintReadWrite)
 		AActor* meatInventory;
-	
+	UPROPERTY(BlueprintReadWrite)
+		AActor* rockInventory;
+	UPROPERTY(BlueprintReadWrite)
+		AActor* woodInventory;
 
 	UFUNCTION(BlueprintImplementableEvent)
 		void spawnItems();
@@ -111,6 +116,9 @@ public:
 	void addBrakes();
 	void removeBrakes();
 
+	UFUNCTION(BlueprintCallable)
+		void getLoot();
+
 	//health
 	UFUNCTION(BlueprintCallable)
 		int getHealth();
@@ -120,4 +128,8 @@ public:
 		void onDeath();
 	UFUNCTION(BlueprintCallable)
 		void increaseHealth(int increase);
+	UFUNCTION(BlueprintCallable)
+		void increaseMaxHealth(int increase);
+	UFUNCTION(BlueprintCallable)
+		void increaseSpeed(float increaseSpeed);
 };

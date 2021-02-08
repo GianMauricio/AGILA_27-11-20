@@ -305,6 +305,28 @@
 			]
 		},
 		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ApexDestruction\\Binaries\\Win64\\UE4Editor-ApexDestruction.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"ApexDestruction",
+				"PhysX",
+				"APEX",
+				"ApexDestructionLib",
+				"NvCloth"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ApexDestruction\\Binaries\\Win64\\UE4Editor-ApexDestructionEditor.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"ApexDestructionEditor",
+				"PhysX",
+				"APEX",
+				"ApexDestructionLib",
+				"NvCloth"
+			]
+		},
+		{
 			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\2D\\Paper2D\\Binaries\\Win64\\UE4Editor-Paper2D.dll",
 			"Type": "DynamicLinkLibrary",
 			"Modules": [
@@ -4292,6 +4314,28 @@
 			]
 		},
 		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ApexDestruction\\Binaries\\Win64\\UE4Editor-ApexDestruction.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"ApexDestruction",
+				"PhysX",
+				"APEX",
+				"ApexDestructionLib",
+				"NvCloth"
+			]
+		},
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ApexDestruction\\Binaries\\Win64\\UE4Editor-ApexDestructionEditor.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"ApexDestructionEditor",
+				"PhysX",
+				"APEX",
+				"ApexDestructionLib",
+				"NvCloth"
+			]
+		},
+		{
 			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\2D\\Paper2D\\Binaries\\Win64\\UE4Editor-Paper2D.dll",
 			"Type": "DynamicLinkLibrary",
 			"Modules": [
@@ -7288,6 +7332,377 @@
 			],
 			"ShouldAddLegacyPublicIncludePaths": false,
 			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Editor\\GLTFImporter\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\GLTFImporter",
+			"ToolchainInfo": 
+			{
+				"bIsBuildingDLL": true,
+				"bOptimizeCode": true,
+				"bUseUnity": true,
+				"PrecompiledHeaderAction": "Include"
+			},
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"ApexDestruction": 
+		{
+			"Name": "ApexDestruction",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ApexDestruction\\Source\\ApexDestruction",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ApexDestruction\\Source\\ApexDestruction\\ApexDestruction.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"PhysicsCore",
+				"Chaos",
+				"FieldSystemCore"
+			],
+			"PublicIncludePathModules": [
+				"PhysicsCore",
+				"Chaos",
+				"FieldSystemCore"
+			],
+			"PrivateDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"Engine",
+				"PhysX",
+				"APEX",
+				"RHI",
+				"RenderCore",
+				"ApexDestructionLib",
+				"NavigationSystem",
+				"UnrealEd",
+				"NvCloth"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ApexDestruction\\Source",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ApexDestruction\\Source\\ApexDestruction\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ApexDestruction\\Source\\ApexDestruction"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ApexDestruction\\Source\\ApexDestruction\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"PublicDefinitions": [
+				"INCLUDE_CHAOS=0",
+				"WITH_PHYSX=1",
+				"WITH_CHAOS=0",
+				"WITH_CHAOS_CLOTHING=0",
+				"WITH_CHAOS_NEEDS_TO_BE_FIXED=0",
+				"PHYSICS_INTERFACE_PHYSX=1",
+				"WITH_APEX=1",
+				"WITH_APEX_CLOTHING=1",
+				"WITH_CLOTH_COLLISION_DETECTION=1",
+				"WITH_PHYSX_COOKING=1",
+				"WITH_NVCLOTH=1",
+				"WITH_CUSTOM_SQ_STRUCTURE=0",
+				"WITH_IMMEDIATE_PHYSX=0"
+			],
+			"ApiDefinitions": [
+				"APEXDESTRUCTION_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ApexDestruction\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\ApexDestruction",
+			"ToolchainInfo": 
+			{
+				"bIsBuildingDLL": true,
+				"bOptimizeCode": true,
+				"bUseUnity": true,
+				"PrecompiledHeaderAction": "Include"
+			},
+			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"PhysX": 
+		{
+			"Name": "PhysX",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PhysX.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicSystemIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\include",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\include\\cudamanager",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\include\\filebuf",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\include\\foundation",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\include\\pvd",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\include\\task",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PhysX_3.4\\Include",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PhysX_3.4\\Include\\cooking",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PhysX_3.4\\Include\\common",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PhysX_3.4\\Include\\extensions",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PhysX_3.4\\Include\\geometry"
+			],
+			"PublicAdditionalLibraries": [
+				"ThirdParty/PhysX3\\Lib\\Win64\\VS2015\\PhysX3PROFILE_x64.lib",
+				"ThirdParty/PhysX3\\Lib\\Win64\\VS2015\\PhysX3ExtensionsPROFILE_x64.lib",
+				"ThirdParty/PhysX3\\Lib\\Win64\\VS2015\\PhysX3CookingPROFILE_x64.lib",
+				"ThirdParty/PhysX3\\Lib\\Win64\\VS2015\\PhysX3CommonPROFILE_x64.lib",
+				"ThirdParty/PhysX3\\Lib\\Win64\\VS2015\\PsFastXmlPROFILE_x64.lib",
+				"ThirdParty/PhysX3\\Lib\\Win64\\VS2015\\PxFoundationPROFILE_x64.lib",
+				"ThirdParty/PhysX3\\Lib\\Win64\\VS2015\\PxPvdSDKPROFILE_x64.lib",
+				"ThirdParty/PhysX3\\Lib\\Win64\\VS2015\\PxTaskPROFILE_x64.lib"
+			],
+			"PublicDelayLoadDLLs": [
+				"PxFoundationPROFILE_x64.dll",
+				"PxPvdSDKPROFILE_x64.dll",
+				"PhysX3PROFILE_x64.dll",
+				"PhysX3CookingPROFILE_x64.dll",
+				"PhysX3CommonPROFILE_x64.dll",
+				"d3d12.dll"
+			],
+			"PublicDefinitions": [
+				"WITH_PHYSX_RELEASE=0",
+				"UE_PHYSX_SUFFIX=PROFILE"
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"RuntimeDependencies": [
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PxFoundationPROFILE_x64.dll",
+					"Type": "NonUFS"
+				},
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PxFoundationPROFILE_x64.pdb",
+					"Type": "DebugNonUFS"
+				},
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PxPvdSDKPROFILE_x64.dll",
+					"Type": "NonUFS"
+				},
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PxPvdSDKPROFILE_x64.pdb",
+					"Type": "DebugNonUFS"
+				},
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PhysX3PROFILE_x64.dll",
+					"Type": "NonUFS"
+				},
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PhysX3PROFILE_x64.pdb",
+					"Type": "DebugNonUFS"
+				},
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PhysX3CookingPROFILE_x64.dll",
+					"Type": "NonUFS"
+				},
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PhysX3CookingPROFILE_x64.pdb",
+					"Type": "DebugNonUFS"
+				},
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PhysX3CommonPROFILE_x64.dll",
+					"Type": "NonUFS"
+				},
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PhysX3CommonPROFILE_x64.pdb",
+					"Type": "DebugNonUFS"
+				},
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PxFoundationPROFILE_x64.dll",
+					"Type": "NonUFS"
+				},
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PxPvdSDKPROFILE_x64.dll",
+					"Type": "NonUFS"
+				}
+			]
+		},
+		"APEX": 
+		{
+			"Name": "APEX",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicSystemIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\include",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\include\\clothing",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\include\\nvparameterized",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\include\\legacy",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\include\\PhysX3",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\common\\include",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\common\\include\\autogen",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\framework\\include",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\framework\\include\\autogen",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\shared\\general\\RenderDebug\\public",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\shared\\general\\PairFilter\\include",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\shared\\internal\\include"
+			],
+			"PublicAdditionalLibraries": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\Lib\\Win64\\VS2015\\APEXFrameworkPROFILE_x64.lib"
+			],
+			"PublicDelayLoadDLLs": [
+				"APEXFrameworkPROFILE_x64.dll",
+				"d3d12.dll"
+			],
+			"PublicDefinitions": [
+				"UE_APEX_SUFFIX=PROFILE",
+				"APEX_UE4=1",
+				"APEX_STATICALLY_LINKED=0",
+				"WITH_APEX_LEGACY=1"
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"RuntimeDependencies": [
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.dll",
+					"Type": "NonUFS"
+				},
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.pdb",
+					"Type": "DebugNonUFS"
+				},
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.dll",
+					"Type": "NonUFS"
+				},
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.pdb",
+					"Type": "DebugNonUFS"
+				},
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/ApexFrameworkPROFILE_x64.dll",
+					"Type": "NonUFS"
+				},
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/ApexFrameworkPROFILE_x64.pdb",
+					"Type": "DebugNonUFS"
+				}
+			]
+		},
+		"ApexDestructionLib": 
+		{
+			"Name": "ApexDestructionLib",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ApexDestruction\\Source\\ThirdParty\\PhysX",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ApexDestruction\\Source\\ThirdParty\\PhysX\\ApexDestructionLib.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicSystemIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\include\\destructible"
+			],
+			"PublicAdditionalLibraries": [
+				"ThirdParty/PhysX3\\Lib\\Win64\\VS2015\\APEXFrameworkPROFILE_x64.lib"
+			],
+			"PublicDelayLoadDLLs": [
+				"APEXFrameworkPROFILE_x64.dll",
+				"d3d12.dll"
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"RuntimeDependencies": [
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_DestructiblePROFILE_x64.dll",
+					"Type": "NonUFS"
+				},
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_DestructiblePROFILE_x64.pdb",
+					"Type": "DebugNonUFS"
+				}
+			]
+		},
+		"NvCloth": 
+		{
+			"Name": "NvCloth",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\NvCloth.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicSystemIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\NvCloth\\include",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\NvCloth\\extensions\\include",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\include",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\include\\filebuf",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\include\\foundation",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\include\\pvd",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\include\\task",
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\src\\foundation\\include"
+			],
+			"PublicAdditionalLibraries": [
+				"ThirdParty/PhysX3\\Lib\\Win64\\VS2015\\NvClothPROFILE_x64.lib"
+			],
+			"PublicDelayLoadDLLs": [
+				"NvClothPROFILE_x64.dll",
+				"d3d12.dll"
+			],
+			"PublicDefinitions": [
+				"WITH_NVCLOTH=1",
+				"UE_NVCLOTH_SUFFIX=PROFILE"
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"RuntimeDependencies": [
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\NvClothPROFILE_x64.dll",
+					"Type": "NonUFS"
+				},
+				{
+					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\NvClothPROFILE_x64.pdb",
+					"Type": "DebugNonUFS"
+				}
+			]
+		},
+		"ApexDestructionEditor": 
+		{
+			"Name": "ApexDestructionEditor",
+			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ApexDestruction\\Source\\ApexDestructionEditor",
+			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ApexDestruction\\Source\\ApexDestructionEditor\\ApexDestructionEditor.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"PhysicsCore",
+				"Chaos",
+				"FieldSystemCore"
+			],
+			"PublicIncludePathModules": [
+				"PhysicsCore",
+				"Chaos",
+				"FieldSystemCore"
+			],
+			"PrivateDependencyModules": [
+				"Core",
+				"CoreUObject",
+				"Engine",
+				"ApexDestruction",
+				"AssetTools",
+				"PhysX",
+				"APEX",
+				"InputCore",
+				"RenderCore",
+				"RHI",
+				"Slate",
+				"SlateCore",
+				"EditorStyle",
+				"UnrealEd",
+				"DesktopPlatform",
+				"AssetRegistry",
+				"ContentBrowser",
+				"Projects",
+				"ApexDestructionLib",
+				"NvCloth"
+			],
+			"PublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ApexDestruction\\Source"
+			],
+			"LegacyPublicIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ApexDestruction\\Source\\ApexDestructionEditor"
+			],
+			"PrivateIncludePaths": [
+				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ApexDestruction\\Source\\ApexDestructionEditor\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"PublicDefinitions": [
+				"INCLUDE_CHAOS=0",
+				"WITH_PHYSX=1",
+				"WITH_CHAOS=0",
+				"WITH_CHAOS_CLOTHING=0",
+				"WITH_CHAOS_NEEDS_TO_BE_FIXED=0",
+				"PHYSICS_INTERFACE_PHYSX=1",
+				"WITH_APEX=1",
+				"WITH_APEX_CLOTHING=1",
+				"WITH_CLOTH_COLLISION_DETECTION=1",
+				"WITH_PHYSX_COOKING=1",
+				"WITH_NVCLOTH=1",
+				"WITH_CUSTOM_SQ_STRUCTURE=0",
+				"WITH_IMMEDIATE_PHYSX=0"
+			],
+			"ApiDefinitions": [
+				"APEXDESTRUCTIONEDITOR_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ApexDestruction\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\ApexDestructionEditor",
 			"ToolchainInfo": 
 			{
 				"bIsBuildingDLL": true,
@@ -10856,199 +11271,6 @@
 				"PrecompiledHeaderAction": "Include"
 			},
 			"SharedPCHFilePath": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
-		},
-		"PhysX": 
-		{
-			"Name": "PhysX",
-			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3",
-			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PhysX.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PublicSystemIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\include",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\include\\cudamanager",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\include\\filebuf",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\include\\foundation",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\include\\pvd",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\include\\task",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PhysX_3.4\\Include",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PhysX_3.4\\Include\\cooking",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PhysX_3.4\\Include\\common",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PhysX_3.4\\Include\\extensions",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PhysX_3.4\\Include\\geometry"
-			],
-			"PublicAdditionalLibraries": [
-				"ThirdParty/PhysX3\\Lib\\Win64\\VS2015\\PhysX3PROFILE_x64.lib",
-				"ThirdParty/PhysX3\\Lib\\Win64\\VS2015\\PhysX3ExtensionsPROFILE_x64.lib",
-				"ThirdParty/PhysX3\\Lib\\Win64\\VS2015\\PhysX3CookingPROFILE_x64.lib",
-				"ThirdParty/PhysX3\\Lib\\Win64\\VS2015\\PhysX3CommonPROFILE_x64.lib",
-				"ThirdParty/PhysX3\\Lib\\Win64\\VS2015\\PsFastXmlPROFILE_x64.lib",
-				"ThirdParty/PhysX3\\Lib\\Win64\\VS2015\\PxFoundationPROFILE_x64.lib",
-				"ThirdParty/PhysX3\\Lib\\Win64\\VS2015\\PxPvdSDKPROFILE_x64.lib",
-				"ThirdParty/PhysX3\\Lib\\Win64\\VS2015\\PxTaskPROFILE_x64.lib"
-			],
-			"PublicDelayLoadDLLs": [
-				"PxFoundationPROFILE_x64.dll",
-				"PxPvdSDKPROFILE_x64.dll",
-				"PhysX3PROFILE_x64.dll",
-				"PhysX3CookingPROFILE_x64.dll",
-				"PhysX3CommonPROFILE_x64.dll",
-				"d3d12.dll"
-			],
-			"PublicDefinitions": [
-				"WITH_PHYSX_RELEASE=0",
-				"UE_PHYSX_SUFFIX=PROFILE"
-			],
-			"ShouldAddLegacyPublicIncludePaths": false,
-			"RuntimeDependencies": [
-				{
-					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PxFoundationPROFILE_x64.dll",
-					"Type": "NonUFS"
-				},
-				{
-					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PxFoundationPROFILE_x64.pdb",
-					"Type": "DebugNonUFS"
-				},
-				{
-					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PxPvdSDKPROFILE_x64.dll",
-					"Type": "NonUFS"
-				},
-				{
-					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PxPvdSDKPROFILE_x64.pdb",
-					"Type": "DebugNonUFS"
-				},
-				{
-					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PhysX3PROFILE_x64.dll",
-					"Type": "NonUFS"
-				},
-				{
-					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PhysX3PROFILE_x64.pdb",
-					"Type": "DebugNonUFS"
-				},
-				{
-					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PhysX3CookingPROFILE_x64.dll",
-					"Type": "NonUFS"
-				},
-				{
-					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PhysX3CookingPROFILE_x64.pdb",
-					"Type": "DebugNonUFS"
-				},
-				{
-					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PhysX3CommonPROFILE_x64.dll",
-					"Type": "NonUFS"
-				},
-				{
-					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PhysX3CommonPROFILE_x64.pdb",
-					"Type": "DebugNonUFS"
-				},
-				{
-					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PxFoundationPROFILE_x64.dll",
-					"Type": "NonUFS"
-				},
-				{
-					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\PxPvdSDKPROFILE_x64.dll",
-					"Type": "NonUFS"
-				}
-			]
-		},
-		"APEX": 
-		{
-			"Name": "APEX",
-			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3",
-			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PublicSystemIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\include",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\include\\clothing",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\include\\nvparameterized",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\include\\legacy",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\include\\PhysX3",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\common\\include",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\common\\include\\autogen",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\framework\\include",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\framework\\include\\autogen",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\shared\\general\\RenderDebug\\public",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\shared\\general\\PairFilter\\include",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\APEX_1.4\\shared\\internal\\include"
-			],
-			"PublicAdditionalLibraries": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\Lib\\Win64\\VS2015\\APEXFrameworkPROFILE_x64.lib"
-			],
-			"PublicDelayLoadDLLs": [
-				"APEXFrameworkPROFILE_x64.dll",
-				"d3d12.dll"
-			],
-			"PublicDefinitions": [
-				"UE_APEX_SUFFIX=PROFILE",
-				"APEX_UE4=1",
-				"APEX_STATICALLY_LINKED=0",
-				"WITH_APEX_LEGACY=1"
-			],
-			"ShouldAddLegacyPublicIncludePaths": false,
-			"RuntimeDependencies": [
-				{
-					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.dll",
-					"Type": "NonUFS"
-				},
-				{
-					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.pdb",
-					"Type": "DebugNonUFS"
-				},
-				{
-					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.dll",
-					"Type": "NonUFS"
-				},
-				{
-					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.pdb",
-					"Type": "DebugNonUFS"
-				},
-				{
-					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/ApexFrameworkPROFILE_x64.dll",
-					"Type": "NonUFS"
-				},
-				{
-					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/ApexFrameworkPROFILE_x64.pdb",
-					"Type": "DebugNonUFS"
-				}
-			]
-		},
-		"NvCloth": 
-		{
-			"Name": "NvCloth",
-			"Directory": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3",
-			"Rules": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\NvCloth.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PublicSystemIncludePaths": [
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\NvCloth\\include",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\NvCloth\\extensions\\include",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\include",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\include\\filebuf",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\include\\foundation",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\include\\pvd",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\include\\task",
-				"C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Source\\ThirdParty\\PhysX3\\PxShared\\src\\foundation\\include"
-			],
-			"PublicAdditionalLibraries": [
-				"ThirdParty/PhysX3\\Lib\\Win64\\VS2015\\NvClothPROFILE_x64.lib"
-			],
-			"PublicDelayLoadDLLs": [
-				"NvClothPROFILE_x64.dll",
-				"d3d12.dll"
-			],
-			"PublicDefinitions": [
-				"WITH_NVCLOTH=1",
-				"UE_NVCLOTH_SUFFIX=PROFILE"
-			],
-			"ShouldAddLegacyPublicIncludePaths": false,
-			"RuntimeDependencies": [
-				{
-					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\NvClothPROFILE_x64.dll",
-					"Type": "NonUFS"
-				},
-				{
-					"Path": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\ThirdParty\\PhysX3\\Win64\\VS2015\\NvClothPROFILE_x64.pdb",
-					"Type": "DebugNonUFS"
-				}
-			]
 		},
 		"ChaosCloth": 
 		{
@@ -16627,7 +16849,8 @@
 				"CoreUObject",
 				"Engine",
 				"InputCore",
-				"Niagara"
+				"Niagara",
+				"ApexDestruction"
 			],
 			"PrivateDependencyModules": [
 				"Engine",
@@ -35588,6 +35811,15 @@
 			"Modules": [
 				"GLTFCore",
 				"GLTFImporter"
+			]
+		},
+		"ApexDestruction": 
+		{
+			"File": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Plugins\\Runtime\\ApexDestruction\\ApexDestruction.uplugin",
+			"Type": "Engine",
+			"Modules": [
+				"ApexDestruction",
+				"ApexDestructionEditor"
 			]
 		},
 		"Paper2D": 

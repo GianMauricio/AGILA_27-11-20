@@ -8,6 +8,7 @@
 #include "Camera/CameraComponent.h"
 #include "Components/ActorComponent.h"
 #include "C_HuntablePawn.h"
+#include "C_LootActor.h"
 #include "C:\Program Files\Epic Games\UE_4.25\Engine\Plugins\FX\Niagara\Source\Niagara\Public\NiagaraFunctionLibrary.h"
 #include "Eagle_Grab.generated.h"
 
@@ -24,6 +25,7 @@ public:
 	void grabObject();
 	void releaseObject();
 	void hunt();
+	void loot();
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;

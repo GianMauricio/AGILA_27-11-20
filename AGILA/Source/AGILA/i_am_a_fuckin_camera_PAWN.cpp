@@ -17,6 +17,7 @@ Ai_am_a_fuckin_camera_PAWN::Ai_am_a_fuckin_camera_PAWN()
 	springArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
 	camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	arrowLocation = CreateDefaultSubobject<UArrowComponent>(TEXT("Arrow"));
+	
 	//Debug purposes lang
 	mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	mesh->SetSimulatePhysics(true);
@@ -274,6 +275,43 @@ void Ai_am_a_fuckin_camera_PAWN::removeBrakes()
 	brakes = false;
 }
 
+void Ai_am_a_fuckin_camera_PAWN::getLoot()
+{
+	int randomItem = rand() % 3 + 1; //1 to 3
+
+	
+	FOutputDeviceNull ar;
+	switch (randomItem){
+	case 1:
+		
+		if (meatInventory != nullptr)//meat
+		{
+			meatInventory->CallFunctionByNameWithArguments(TEXT("AddToInventoryfromItem"), ar, nullptr, true);
+		}
+		break;
+
+	case 2:
+
+		if (woodInventory != nullptr)//meat
+		{
+			woodInventory->CallFunctionByNameWithArguments(TEXT("AddToInventoryfromItem"), ar, nullptr, true);
+		}
+		break;
+
+	case 3:
+
+		if (rockInventory != nullptr)//meat
+		{
+			rockInventory->CallFunctionByNameWithArguments(TEXT("AddToInventoryfromItem"), ar, nullptr, true);
+		}
+		break;	
+		default:
+			break;
+		
+	}
+	
+}
+
 int Ai_am_a_fuckin_camera_PAWN::getHealth()
 {
 	return health;
@@ -310,3 +348,21 @@ void Ai_am_a_fuckin_camera_PAWN::increaseHealth(int increase)
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString("got health!"));
 }
 
+void Ai_am_a_fuckin_camera_PAWN::increaseMaxHealth(int increase)
+{
+	//Player does not heal when getting a health upgrade to show that the players max health increased
+
+	if (MAX_HEALTH < 16) 
+	{
+		MAX_HEALTH += increase;
+	}
+
+}
+
+void Ai_am_a_fuckin_camera_PAWN::increaseSpeed(float newSpeed)
+{
+	if(speedMultiplyer < 1.5)
+	{
+		speedMultiplyer = newSpeed;
+	}
+}

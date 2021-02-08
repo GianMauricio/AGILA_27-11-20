@@ -99,7 +99,7 @@ void UEagle_Grab::TickComponent(float DeltaTime, ELevelTick TickType, FActorComp
 void UEagle_Grab::grabObject()
 {
 	isGrab = true;
-	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("GRABBED"));
+	
 
 	/*
 	FVector location = FVector::ZeroVector;
@@ -130,10 +130,14 @@ void UEagle_Grab::grabObject()
 
 	FHitResult hitResult;
 	FCollisionQueryParams traceParam(FName("traceParams"), false, this->GetOwner());
-	FCollisionObjectQueryParams objectParam(ECollisionChannel::ECC_PhysicsBody);
+	FCollisionObjectQueryParams objectParam(ECollisionChannel::ECC_PhysicsBody);//ecc_physics
 	GetWorld()->LineTraceSingleByObjectType(hitResult, location, line, objectParam, traceParam);
 
+	//GetWorld()->LineTraceSingleByChannel(hitResult, location, line, ECollisionChannel::ECC_Destructible);
+
 	grabbedActor = hitResult.GetActor();
+
+	//Check if the grabbed object is a rabbit
 	if (grabbedActor != nullptr && grabbedActor->ActorHasTag(FName("HuntablePawn"))) {
 		//ignore
 		hunt();
@@ -141,8 +145,8 @@ void UEagle_Grab::grabObject()
 		return;
 		
 	}
-
-	if(grabbedActor != nullptr)
+	
+	if(grabbedActor != nullptr && grabbedActor->ActorHasTag(FName("Item")))
 	{
 		isGrab = true;
 		actorprim = hitResult.GetComponent();
@@ -162,6 +166,27 @@ void UEagle_Grab::grabObject()
 		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("null object"));
 
 	}
+
+
+
+	//check again for a destructable
+	FHitResult HitResult2;
+	FCollisionObjectQueryParams objectParam2(ECollisionChannel::ECC_Destructible);//ecc_physics
+	GetWorld()->LineTraceSingleByObjectType(HitResult2, location, line, objectParam2, traceParam);
+	grabbedActor = HitResult2.GetActor();
+
+	//check if grabbed object is the abandoned nest
+	if (grabbedActor != nullptr && grabbedActor->ActorHasTag(FName("Loot"))) {
+		//ignore
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("grabbed object"));
+		loot();
+		releaseObject();
+		return;
+
+	}
+
+
+	
 }
 
 void UEagle_Grab::releaseObject()
@@ -226,6 +251,44 @@ void UEagle_Grab::hunt()
 	if(owner != nullptr)
 	{
 		owner->increaseHealth(1);
+	}
+	
+}
+
+void UEagle_Grab::loot()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("LOOTING!"));
+
+	if (grabbedActor == nullptr)
+	{
+		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("null actor at eagle grab component"));
+		return;
+	}
+	
+	//enable physics on the tree
+	AC_LootActor* abandonedNest = Cast<AC_LootActor>(this->grabbedActor);
+
+	if(abandonedNest == nullptr)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("null actor at grabbing tree unable to cast i think"));
+		return;
+	}
+
+	//call the function at the tree
+	abandonedNest->Destroy();
+	UDestructibleComponent* dComponent = abandonedNest->FindComponentByClass<UDestructibleComponent>();
+	dComponent->ApplyDamage(1.f, dComponent->GetComponentLocation(), FVector::ZeroVector, 1.f);
+
+
+	//add some upgrade here like when u get hp or something
+//	FOutputDeviceNull ar;
+//	this->GetOwner()->CallFunctionByNameWithArguments(TEXT("increaseHealth"), ar, nullptr, false);
+
+
+	Ai_am_a_fuckin_camera_PAWN* owner = Cast<Ai_am_a_fuckin_camera_PAWN>(this->GetOwner());
+	if (owner != nullptr)
+	{
+		owner->getLoot();
 	}
 	
 }

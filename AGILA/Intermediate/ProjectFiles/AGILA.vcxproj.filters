@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AGILA.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{078F0C25-932E-41D7-9C3E-15CA788B9B41}</UniqueIdentifier>
+      <UniqueIdentifier>{CCBC4599-88B5-4D4E-8E3B-8698B64255BF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AGILA.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5BD098A9-C294-431D-8695-E23331B3AB0A}</UniqueIdentifier>
+      <UniqueIdentifier>{A55818F8-EAA8-4C5E-B401-0B99E6D14528}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\AGILA">
-      <UniqueIdentifier>{86E1914F-2F68-4BC1-9B46-A62E8D4B07F6}</UniqueIdentifier>
+      <UniqueIdentifier>{13A3983E-EFFA-4C70-9F35-5DB2495A6324}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AGILA\AGILA.Build.cs">
       <Filter>Source\AGILA</Filter>
@@ -72,6 +72,12 @@
       <Filter>Source\AGILA</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\AGILA\C_ItemClass.h">
+      <Filter>Source\AGILA</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AGILA\C_LootActor.cpp">
+      <Filter>Source\AGILA</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AGILA\C_LootActor.h">
       <Filter>Source\AGILA</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\AGILA\Eagle_Grab.cpp">
