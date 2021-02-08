@@ -277,7 +277,7 @@ void Ai_am_a_fuckin_camera_PAWN::removeBrakes()
 
 void Ai_am_a_fuckin_camera_PAWN::getLoot()
 {
-	int randomItem = rand() % 3 + 1; //1 to 3
+	int randomItem = rand() % 5 + 1; //1 to 3
 
 	
 	FOutputDeviceNull ar;
@@ -286,7 +286,7 @@ void Ai_am_a_fuckin_camera_PAWN::getLoot()
 		
 		if (meatInventory != nullptr)//meat
 		{
-			meatInventory->CallFunctionByNameWithArguments(TEXT("AddItem"), ar, nullptr, true);
+			meatInventory->CallFunctionByNameWithArguments(TEXT("Additem"), ar, nullptr, true);
 		}
 		break;
 
@@ -294,7 +294,7 @@ void Ai_am_a_fuckin_camera_PAWN::getLoot()
 
 		if (woodInventory != nullptr)//meat
 		{
-			woodInventory->CallFunctionByNameWithArguments(TEXT("AddItem"), ar, nullptr, true);
+			woodInventory->CallFunctionByNameWithArguments(TEXT("Additem"), ar, nullptr, true);
 		}
 		break;
 
@@ -302,9 +302,27 @@ void Ai_am_a_fuckin_camera_PAWN::getLoot()
 
 		if (rockInventory != nullptr)//meat
 		{
-			rockInventory->CallFunctionByNameWithArguments(TEXT("AddItem"), ar, nullptr, true);
+			rockInventory->CallFunctionByNameWithArguments(TEXT("Additem"), ar, nullptr, true);
 		}
-		break;	
+		break;
+
+	case 4:
+
+		if (bushInventory != nullptr)//meat
+		{
+			bushInventory->CallFunctionByNameWithArguments(TEXT("Additem"), ar, nullptr, true);
+		}
+		break;
+
+	case 5:
+
+		if (metalInventory != nullptr)//meat
+		{
+			metalInventory->CallFunctionByNameWithArguments(TEXT("Additem"), ar, nullptr, true);
+		}
+		break;
+
+
 		default:
 			break;
 		
@@ -340,7 +358,7 @@ void Ai_am_a_fuckin_camera_PAWN::increaseHealth(int increase)
 	}
 
 	FOutputDeviceNull ar;
-	if (meatInventory->CallFunctionByNameWithArguments(TEXT("AddItem"), ar, nullptr, true))//AddToInventory_fromItem
+	if (meatInventory->CallFunctionByNameWithArguments(TEXT("Additem"), ar, nullptr, true))//AddToInventory_fromItem
 	{
 		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("added meat!!!"));
 	}
@@ -352,9 +370,10 @@ void Ai_am_a_fuckin_camera_PAWN::increaseMaxHealth(int increase)
 {
 	//Player does not heal when getting a health upgrade to show that the players max health increased
 
-	if (MAX_HEALTH < 16) 
+	if (MAX_HEALTH < 20) //16
 	{
 		MAX_HEALTH += increase;
+
 	}
 
 }

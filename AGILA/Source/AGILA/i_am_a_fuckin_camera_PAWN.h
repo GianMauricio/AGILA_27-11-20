@@ -85,7 +85,12 @@ public:
 		AActor* rockInventory;
 	UPROPERTY(BlueprintReadWrite)
 		AActor* woodInventory;
+	UPROPERTY(BlueprintReadWrite)
+		AActor* bushInventory;
+	UPROPERTY(BlueprintReadWrite)
+		AActor* metalInventory;
 
+	
 	UFUNCTION(BlueprintImplementableEvent)
 		void spawnItems();
 	
