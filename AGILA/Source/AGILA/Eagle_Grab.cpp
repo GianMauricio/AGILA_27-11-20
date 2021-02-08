@@ -130,24 +130,35 @@ void UEagle_Grab::grabObject()
 
 	FHitResult hitResult;
 	FCollisionQueryParams traceParam(FName("traceParams"), false, this->GetOwner());
-	FCollisionObjectQueryParams objectParam(ECollisionChannel::ECC_PhysicsBody);//ecc_physics
+	FCollisionObjectQueryParams objectParam(ECollisionChannel::ECC_OverlapAll_Deprecated);//ecc_physics
 	GetWorld()->LineTraceSingleByObjectType(hitResult, location, line, objectParam, traceParam);
-
+	DrawDebugLine(this->GetWorld(), location, line, FColor::Red, false, 5);
 	//GetWorld()->LineTraceSingleByChannel(hitResult, location, line, ECollisionChannel::ECC_Destructible);
 
 	grabbedActor = hitResult.GetActor();
 
 	//Check if the grabbed object is a rabbit
 	if (grabbedActor != nullptr && grabbedActor->ActorHasTag(FName("HuntablePawn"))) {
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue, TEXT("grabbed bunny"));
 		//ignore
 		hunt();
 		releaseObject();
 		return;
 		
 	}
+
+	if (grabbedActor != nullptr && grabbedActor->ActorHasTag(FName("Loot"))) {
+		//ignore
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue, TEXT("grabbed tree"));
+		loot();
+		releaseObject();
+		return;
+
+	}
 	
 	if(grabbedActor != nullptr && grabbedActor->ActorHasTag(FName("Item")))
 	{
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue, TEXT("grabbed item"));
 		isGrab = true;
 		actorprim = hitResult.GetComponent();
 		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("grabbed: %s"), *actorprim->GetName());
@@ -161,14 +172,11 @@ void UEagle_Grab::grabObject()
 
 		grabbedActor->SetActorEnableCollision(false);
 	}
-	else
-	{
-		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("null object"));
-
-	}
+	
+	
 
 
-
+	/*
 	//check again for a destructable
 	FHitResult HitResult2;
 	FCollisionObjectQueryParams objectParam2(ECollisionChannel::ECC_Destructible);//ecc_physics
@@ -185,6 +193,8 @@ void UEagle_Grab::grabObject()
 
 	}
 
+
+*/
 
 	
 }

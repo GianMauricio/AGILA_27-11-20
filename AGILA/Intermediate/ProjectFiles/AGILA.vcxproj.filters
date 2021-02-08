@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AGILA.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{CCBC4599-88B5-4D4E-8E3B-8698B64255BF}</UniqueIdentifier>
+      <UniqueIdentifier>{7FE0B3D3-0D94-4301-A699-E663302047CD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AGILA.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A55818F8-EAA8-4C5E-B401-0B99E6D14528}</UniqueIdentifier>
+      <UniqueIdentifier>{3596349E-DC56-45A5-BFF1-4FF1A29310B1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\AGILA">
-      <UniqueIdentifier>{13A3983E-EFFA-4C70-9F35-5DB2495A6324}</UniqueIdentifier>
+      <UniqueIdentifier>{2FCC6CF6-23B0-4A56-96B8-5317464E1BF2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AGILA\AGILA.Build.cs">
       <Filter>Source\AGILA</Filter>
