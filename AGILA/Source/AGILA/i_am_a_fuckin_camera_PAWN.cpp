@@ -286,7 +286,7 @@ void Ai_am_a_fuckin_camera_PAWN::getLoot()
 		
 		if (meatInventory != nullptr)//meat
 		{
-			meatInventory->CallFunctionByNameWithArguments(TEXT("AddToInventoryfromItem"), ar, nullptr, true);
+			meatInventory->CallFunctionByNameWithArguments(TEXT("AddItem"), ar, nullptr, true);
 		}
 		break;
 
@@ -294,7 +294,7 @@ void Ai_am_a_fuckin_camera_PAWN::getLoot()
 
 		if (woodInventory != nullptr)//meat
 		{
-			woodInventory->CallFunctionByNameWithArguments(TEXT("AddToInventoryfromItem"), ar, nullptr, true);
+			woodInventory->CallFunctionByNameWithArguments(TEXT("AddItem"), ar, nullptr, true);
 		}
 		break;
 
@@ -302,7 +302,7 @@ void Ai_am_a_fuckin_camera_PAWN::getLoot()
 
 		if (rockInventory != nullptr)//meat
 		{
-			rockInventory->CallFunctionByNameWithArguments(TEXT("AddToInventoryfromItem"), ar, nullptr, true);
+			rockInventory->CallFunctionByNameWithArguments(TEXT("AddItem"), ar, nullptr, true);
 		}
 		break;	
 		default:
@@ -340,7 +340,7 @@ void Ai_am_a_fuckin_camera_PAWN::increaseHealth(int increase)
 	}
 
 	FOutputDeviceNull ar;
-	if (meatInventory->CallFunctionByNameWithArguments(TEXT("AddToInventoryfromItem"), ar, nullptr, true))//AddToInventory_fromItem
+	if (meatInventory->CallFunctionByNameWithArguments(TEXT("AddItem"), ar, nullptr, true))//AddToInventory_fromItem
 	{
 		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("added meat!!!"));
 	}
