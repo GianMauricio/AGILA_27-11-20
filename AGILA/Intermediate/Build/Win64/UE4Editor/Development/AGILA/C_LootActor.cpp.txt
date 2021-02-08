@@ -1,9 +1,9 @@
-C:\Users\monet\Documents\GitHub\AGILA_27-11-20\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\Definitions.AGILA.h
-C:\Users\monet\Documents\GitHub\AGILA_27-11-20\AGILA\Source\AGILA\C_LootActor.h
+D:\Work\IEPROJ\AgilaUnrealRepo\LandscapeHO\AGILA\Intermediate\Build\Win64\UE4Editor\Development\AGILA\Definitions.AGILA.h
+D:\Work\IEPROJ\AgilaUnrealRepo\LandscapeHO\AGILA\Source\AGILA\C_LootActor.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\ApexDestruction\Source\ApexDestruction\Public\DestructibleComponent.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\ApexDestruction\Source\ApexDestruction\Public\ApexDestructionCustomPayload.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\CustomPhysXPayload.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\DestructibleInterface.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DestructibleInterface.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Plugins\Runtime\ApexDestruction\Intermediate\Build\Win64\UE4Editor\Inc\ApexDestruction\DestructibleComponent.generated.h
-C:\Users\monet\Documents\GitHub\AGILA_27-11-20\AGILA\Intermediate\Build\Win64\UE4Editor\Inc\AGILA\C_LootActor.generated.h
+D:\Work\IEPROJ\AgilaUnrealRepo\LandscapeHO\AGILA\Intermediate\Build\Win64\UE4Editor\Inc\AGILA\C_LootActor.generated.h
