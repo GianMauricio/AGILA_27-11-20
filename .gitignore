@@ -44,6 +44,7 @@
 # Precompiled Assets
 SourceArt/**/*.png
 SourceArt/**/*.tga
+AGILA/Content/FINAL.umap
 
 # Binary Files
 Binaries/*
@@ -76,3 +77,4 @@ DerivedDataCache/*
 #Stuff that needs to stay local
 AGILA/Content/Imported
 AGILA/Saved
+AGILA/Content/FINAL.umap

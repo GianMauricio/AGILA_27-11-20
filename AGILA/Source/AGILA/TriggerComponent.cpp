@@ -47,7 +47,7 @@ void UTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 			//testing only. add to inventory function here.
 			if(actors[i]->ActorHasTag(FName("Item")))
 			{
-				//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("FOUND OBJECT"));
+				GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("FOUND OBJECT"));
 				
 
 				//get inventory component of this actor

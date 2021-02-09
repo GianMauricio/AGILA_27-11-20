@@ -358,6 +358,11 @@ void Ai_am_a_fuckin_camera_PAWN::increaseHealth(int increase)
 	}
 
 	FOutputDeviceNull ar;
+
+	if(meatInventory == nullptr)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Meat inventory null! at camera pawn cpp!"));
+	}
 	if (meatInventory->CallFunctionByNameWithArguments(TEXT("Additem"), ar, nullptr, true))//AddToInventory_fromItem
 	{
 		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("added meat!!!"));
